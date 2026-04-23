@@ -66,9 +66,9 @@ export default function ProgramDescription({ program }: ProgramDescriptionProps)
           style={{ transitionDelay: "600ms" }}
         >
           <p className="text-dark-navy italic text-lg font-medium">
-            "Education is the most powerful tool which can be used to change the world."
+            "Your Support helps to transform lives. From education to health care, every contribution moves us one step closer"
           </p>
-          <p className="text-gray-500 mt-2 text-sm">— Nelson Mandela</p>
+          <p className="text-gray-500 mt-2 text-sm">— protect and love, care and support vulnerable people</p>
         </div>
       </div>
     </section>

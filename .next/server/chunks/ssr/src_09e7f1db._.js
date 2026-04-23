@@ -20,6 +20,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/dollar-sign.js [app-ssr] (ecmascript) <export default as DollarSign>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/utensils.js [app-ssr] (ecmascript) <export default as Utensils>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$droplets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Droplets$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/droplets.js [app-ssr] (ecmascript) <export default as Droplets>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2d$handshake$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__HeartHandshake$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/heart-handshake.js [app-ssr] (ecmascript) <export default as HeartHandshake>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/award.js [app-ssr] (ecmascript) <export default as Award>");
 ;
 ;
 function slugify(text) {
@@ -394,6 +396,129 @@ We also help fish farmers access markets where they can sell their produce. Whet
         },
         color: "bg-cyan-600",
         secondaryColor: "text-cyan-600"
+    },
+    {
+        id: "sporting-artistic",
+        slug: slugify("Sporting and Artistic"),
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {
+            className: "w-8 h-8"
+        }, void 0, false, {
+            fileName: "[project]/src/lib/programs.tsx",
+            lineNumber: 352,
+            columnNumber: 11
+        }, this),
+        image: "https://ext.same-assets.com/922964245/3246824778.jpeg",
+        gallery: [
+            "https://ext.same-assets.com/922964245/3246824778.jpeg",
+            "https://ext.same-assets.com/922964245/3347159728.jpeg",
+            "https://ext.same-assets.com/922964245/3893045342.jpeg",
+            "https://ext.same-assets.com/922964245/4234630857.jpeg"
+        ],
+        title: "Sporting and Artistic",
+        shortDescription: "Promoting physical activity, sports, and creative expression for community well-being.",
+        fullDescription: `Our Sporting and Artistic program recognizes the vital role that physical activity and creative expression play in fostering community well-being, social cohesion, and personal development.
+
+We organize regular sports activities including football, volleyball, netball, and athletics that bring together refugees and host community members. These activities promote physical health, teamwork, and cross-cultural understanding.
+
+Our artistic initiatives include visual arts, music, dance, and drama workshops that provide creative outlets for self-expression and cultural exchange. We believe that art has the power to heal, unite, and inspire communities.
+
+Through tournaments, exhibitions, and cultural events, we create platforms for talent showcase and community celebration. These events strengthen social bonds and create opportunities for recognition and appreciation of diverse talents and cultures.`,
+        objectives: [
+            "Organize regular sports activities and tournaments",
+            "Provide arts and crafts workshops for creative expression",
+            "Host cultural events and talent showcases",
+            "Promote physical fitness and mental well-being through sports"
+        ],
+        impact: {
+            peopleHelped: "200+",
+            beneficiaries: "400+",
+            projects: "6",
+            communities: "10+"
+        },
+        color: "bg-rose-600",
+        secondaryColor: "text-rose-600"
+    },
+    {
+        id: "mental-health-disability",
+        slug: slugify("Mental Health and Disability Support"),
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2d$handshake$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__HeartHandshake$3e$__["HeartHandshake"], {
+            className: "w-8 h-8"
+        }, void 0, false, {
+            fileName: "[project]/src/lib/programs.tsx",
+            lineNumber: 387,
+            columnNumber: 11
+        }, this),
+        image: "https://ext.same-assets.com/922964245/294679151.jpeg",
+        gallery: [
+            "https://ext.same-assets.com/922964245/294679151.jpeg",
+            "https://ext.same-assets.com/922964245/3893045342.jpeg",
+            "https://ext.same-assets.com/922964245/2606823118.jpeg",
+            "https://ext.same-assets.com/922964245/496075394.jpeg"
+        ],
+        title: "Mental Health and Disability Support",
+        shortDescription: "Providing psychosocial support and promoting inclusion for persons with disabilities.",
+        fullDescription: `Our Mental Health and Disability Support program addresses the critical need for psychosocial support services and disability inclusion in refugee and host communities.
+
+We provide safe spaces for individuals to share their experiences, process trauma, and support one another. Our trained counselors and community volunteers facilitate support groups that foster healing, resilience, and hope.
+
+For persons with disabilities, we promote inclusion through accessibility assessments, assistive device provision, and skills training tailored to individual capabilities. We work to break down barriers and create opportunities for full participation in community life.
+
+Our awareness campaigns challenge stigma and discrimination, promoting a more inclusive society where everyone is valued and respected. We advocate for the rights of persons with disabilities and ensure their voices are heard in community decision-making.`,
+        objectives: [
+            "Provide psychosocial support and counseling services",
+            "Promote disability inclusion and accessibility",
+            "Supply assistive devices and mobility aids",
+            "Conduct awareness campaigns against stigma and discrimination"
+        ],
+        impact: {
+            peopleHelped: "300+",
+            beneficiaries: "500+",
+            projects: "7",
+            communities: "12+"
+        },
+        color: "bg-pink-600",
+        secondaryColor: "text-pink-600"
+    },
+    {
+        id: "culinary-art",
+        slug: slugify("Culinary Art"),
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__["Utensils"], {
+            className: "w-8 h-8"
+        }, void 0, false, {
+            fileName: "[project]/src/lib/programs.tsx",
+            lineNumber: 422,
+            columnNumber: 11
+        }, this),
+        image: "https://ext.same-assets.com/922964245/3980788437.jpeg",
+        gallery: [
+            "https://ext.same-assets.com/922964245/3980788437.jpeg",
+            "https://ext.same-assets.com/922964245/3347159728.jpeg",
+            "https://ext.same-assets.com/922964245/3246824778.jpeg",
+            "https://ext.same-assets.com/922964245/3893045342.jpeg"
+        ],
+        title: "Culinary Art",
+        shortDescription: "Celebrating culinary creativity and preserving cultural food heritage.",
+        fullDescription: `Our Culinary Art program celebrates the rich diversity of culinary traditions within refugee and host communities while providing practical skills for the food industry.
+
+We offer training in diverse cooking techniques, from traditional African cuisine to international culinary arts. Participants learn about nutrition, food safety, menu planning, and presentation skills that prepare them for employment in the hospitality sector.
+
+Our program also focuses on preserving cultural food heritage, helping participants document and share traditional recipes from their home countries. Through community cooking events and food festivals, we celebrate cultural diversity and foster cross-cultural understanding.
+
+For aspiring entrepreneurs, we provide business development support for starting catering services, food trucks, or restaurants. We help participants transform their culinary passion into sustainable livelihoods that contribute to the local economy.`,
+        objectives: [
+            "Provide comprehensive culinary training and nutrition education",
+            "Preserve and celebrate cultural food heritage",
+            "Offer food safety certification and hospitality skills",
+            "Support culinary entrepreneurship and business development"
+        ],
+        impact: {
+            peopleHelped: "100+",
+            beneficiaries: "150+",
+            projects: "4",
+            communities: "8+"
+        },
+        color: "bg-yellow-600",
+        secondaryColor: "text-yellow-600"
     }
 ];
 function getProgramBySlug(slug) {

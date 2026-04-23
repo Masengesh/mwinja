@@ -59,7 +59,7 @@ export default function ProgramsSection() {
             Our Programs
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            We transform lives by promoting education, empowering vulnerable individuals, and strengthening communities through inclusive development initiatives.
+            works to transform lives by promoting consling growth, empowering vulnerable individuals, and strengthening communities through inclusive development initiatives. Through community outreach, awareness campaigns, and collaborative partnerships, the foundation strives to cultivate harmony, peace, and lasting hope among disadvantaged populations across Uganda.
           </p>
         </div>
 

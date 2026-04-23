@@ -38,13 +38,20 @@ const values = [
   { icon: <Users className="w-6 h-6" />, title: "Empowerment", description: "Enabling individuals to take control of their own futures" },
   { icon: <Eye className="w-6 h-6" />, title: "Inclusivity", description: "Creating welcoming spaces for all, regardless of background" },
   { icon: <Target className="w-6 h-6" />, title: "Sustainability", description: "Focusing on long-term solutions that benefit future generations" },
+  { icon: <Eye className="w-6 h-6" />, title: "Respect & Dignity", description: "Honoring the inherent worth of every person regardless of status" },
+  { icon: <Eye className="w-6 h-6" />, title: "Collaboration", description: "Working together with communities and partners for shared goals" },
+  { icon: <Eye className="w-6 h-6" />, title: "Advocacy", description: "Championing the rights and needs of refugees and marginalized groups" },
+  { icon: <Eye className="w-6 h-6" />, title: "Cultural Sensitivity", description: "Respecting and integrating diverse cultural backgrounds" },
 ];
 
 const team = [
-  { name: "Miriam Akello", role: "Executive Director", image: "https://ext.same-assets.com/922964245/3893045342.jpeg", bio: "Founded MDHF after her own refugee journey, dedicated to empowering displaced communities." },
-  { name: "James Opondo", role: "Program Manager", image: "https://ext.same-assets.com/922964245/3893045342.jpeg", bio: "15+ years experience in community development and humanitarian work." },
-  { name: "Sarah Nakato", role: "Education Lead", image: "https://ext.same-assets.com/922964245/3893045342.jpeg", bio: "Passionate about education access for refugee children and youth." },
-  { name: "David Okello", role: "Livelihoods Coordinator", image: "https://ext.same-assets.com/922964245/3893045342.jpeg", bio: "Expert in vocational training and small business development." },
+  { name: "Okovunimali Mwinja Vasco", role: "Executive Director", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776962851/ceo-mwinja_nfvco9.jpg", bio: "Founded MDHF after her own refugee journey, dedicated to empowering displaced communities." },
+  { name: "Emile Amisi", role: "Program Manager", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880421/WhatsApp_Image_2026-04-18_at_13.42.31_zt86hj.jpg", bio: " experience in community development and humanitarian work." },
+  { name: "Gracia Rutebuka", role: "Education Lead", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880419/2_v0ipvn.jpg", bio: "Passionate about education access for refugee children and youth." },
+  { name: "Ombeni nyarugeta", role: "Livelihoods Coordinator", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880424/WhatsApp_Image_2026-04-18_at_18.16.22_rnwfvy.jpg", bio: "Expert in vocational training and small business development." },
+  { name: "xxxxxxxxxx", role: "xxxxxxxxx", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880423/WhatsApp_Image_2026-04-18_at_15.51.08_stysxd.jpg" },
+  { name: "xxxxxxxxxx", role: "xxxxxxxxx", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776560304/WhatsApp_Image_2026-04-18_at_18.25.28_nosore.jpg" },
+
 ];
 
 export default function AboutPage() {
@@ -110,8 +117,8 @@ export default function AboutPage() {
                   <p className="text-gray-600 text-sm">Beneficiaries</p>
                 </div>
                 <div>
-                  <p className="text-3xl md:text-4xl font-bold text-primary-blue">12</p>
-                  <p className="text-gray-600 text-sm">Projects</p>
+                  <p className="text-3xl md:text-4xl font-bold text-primary-blue">15</p>
+                   <p className="text-gray-600 text-sm">Projects</p>
                 </div>
                 <div>
                   <p className="text-3xl md:text-4xl font-bold text-primary-blue">25+</p>
@@ -202,7 +209,7 @@ export default function AboutPage() {
                 Our Vision
               </h3>
               <p className="text-white/80 text-lg leading-relaxed">
-                A world where refugees and low-income host communities are socially and economically empowered, actively participating in community development and living with dignity.
+                To create a world where refugees and low-income host communities are socially and economically empowered and actively participate in community development.
               </p>
             </div>
             <div className="bg-primary-blue text-white p-8 rounded-2xl">
@@ -211,7 +218,16 @@ export default function AboutPage() {
                 Our Mission
               </h3>
               <p className="text-white/90 text-lg leading-relaxed">
-                To promote psychosocial well-being, provide education access, create economic opportunities, and foster community cohesion for vulnerable refugees and host communities in Uganda.
+                1. Promote emotional healing and mental well-being by creating safe and supportive spaces for individuals experiencing trauma and depression, encouraging reflection, exploring diverse paths to healing, and fostering personal growth, resilience, and hope.
+              </p>
+              <p className="text-white/90 text-lg leading-relaxed">
+                2. Educate and guide vulnerable people to access humanitarian services for their psychosocial, legal and judicial wellbeing.
+              </p>
+              <p className="text-white/90 text-lg leading-relaxed">
+                3. Bring vulnerable individuals together and encourage them to engage socially and participle in community initiatives.
+              </p>
+              <p className="text-white/90 text-lg leading-relaxed">
+                4. Create a world where every individual can cultivate harmony, peace and love, especially toward vulnerable person.
               </p>
             </div>
           </div>
@@ -241,7 +257,7 @@ export default function AboutPage() {
                     src={member.image}
                     alt={member.name}
                     fill
-                    className="object-cover"
+                    className="object-contain"
                   />
                 </div>
                 <div className="p-5">
