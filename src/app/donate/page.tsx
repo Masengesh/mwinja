@@ -49,7 +49,7 @@ export default function DonatePage() {
             Registered with Uganda NGO Bureau | Refugee-Led Organization
           </p>
           <p className="text-accent-gold italic mt-4 text-sm">
-            Data Sources: UNHCR, OPM Uganda, UNICEF, WHO, Peer-Reviewed Research (2024-2025)
+            
           </p>
         </div>
       </section>
@@ -160,58 +160,25 @@ export default function DonatePage() {
                       <div className="flex flex-col gap-6 min-w-full">
                         <div className="flex items-center justify-center gap-4">
                           <div className="w-20 h-12 bg-gray-300 rounded flex items-center justify-center text-gray-600 text-xs font-medium grayscale hover:grayscale-0 transition-all">
-                            UNHCR
+                            <img src=""/>
                           </div>
                           <div className="w-20 h-12 bg-gray-300 rounded flex items-center justify-center text-gray-600 text-xs font-medium grayscale hover:grayscale-0 transition-all">
-                            UNICEF
+                            <img src=""/>
                           </div>
                           <div className="w-20 h-12 bg-gray-300 rounded flex items-center justify-center text-gray-600 text-xs font-medium grayscale hover:grayscale-0 transition-all">
-                            WHO
+                            <img src=""/>
                           </div>
                         </div>
-                        <div className="flex items-center justify-center gap-4">
-                          <div className="w-20 h-12 bg-gray-300 rounded flex items-center justify-center text-gray-600 text-xs font-medium grayscale hover:grayscale-0 transition-all">
-                            OPM
-                          </div>
-                          <div className="w-20 h-12 bg-gray-300 rounded flex items-center justify-center text-gray-600 text-xs font-medium grayscale hover:grayscale-0 transition-all">
-                            Red Cross
-                          </div>
-                          <div className="w-20 h-12 bg-gray-300 rounded flex items-center justify-center text-gray-600 text-xs font-medium grayscale hover:grayscale-0 transition-all">
-                            USAID
-                          </div>
-                        </div>
+                        
                       </div>
                       
                       {/* Duplicate for infinite scroll */}
-                      <div className="flex flex-col gap-6 min-w-full">
-                        <div className="flex items-center justify-center gap-4">
-                          <div className="w-20 h-12 bg-gray-300 rounded flex items-center justify-center text-gray-600 text-xs font-medium grayscale hover:grayscale-0 transition-all">
-                            UNHCR
-                          </div>
-                          <div className="w-20 h-12 bg-gray-300 rounded flex items-center justify-center text-gray-600 text-xs font-medium grayscale hover:grayscale-0 transition-all">
-                            UNICEF
-                          </div>
-                          <div className="w-20 h-12 bg-gray-300 rounded flex items-center justify-center text-gray-600 text-xs font-medium grayscale hover:grayscale-0 transition-all">
-                            WHO
-                          </div>
-                        </div>
-                        <div className="flex items-center justify-center gap-4">
-                          <div className="w-20 h-12 bg-gray-300 rounded flex items-center justify-center text-gray-600 text-xs font-medium grayscale hover:grayscale-0 transition-all">
-                            OPM
-                          </div>
-                          <div className="w-20 h-12 bg-gray-300 rounded flex items-center justify-center text-gray-600 text-xs font-medium grayscale hover:grayscale-0 transition-all">
-                            Red Cross
-                          </div>
-                          <div className="w-20 h-12 bg-gray-300 rounded flex items-center justify-center text-gray-600 text-xs font-medium grayscale hover:grayscale-0 transition-all">
-                            USAID
-                          </div>
-                        </div>
-                      </div>
+                      
                     </div>
                   </div>
                   
                   <p className="text-center text-gray-500 text-sm mt-4">
-                    Partner organizations & recognitions
+                    Partner organizations & Network
                   </p>
                 </div>
               </div>

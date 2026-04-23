@@ -19,7 +19,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/graduation-cap.js [app-ssr] (ecmascript) <export default as GraduationCap>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/dollar-sign.js [app-ssr] (ecmascript) <export default as DollarSign>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/utensils.js [app-ssr] (ecmascript) <export default as Utensils>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$droplets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Droplets$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/droplets.js [app-ssr] (ecmascript) <export default as Droplets>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2d$handshake$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__HeartHandshake$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/heart-handshake.js [app-ssr] (ecmascript) <export default as HeartHandshake>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/award.js [app-ssr] (ecmascript) <export default as Award>");
 ;
@@ -35,7 +34,7 @@ const programs = [
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 37,
+            lineNumber: 45,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/84962539.jpeg",
@@ -60,6 +59,32 @@ We also invest in teacher training and school infrastructure improvements, recog
             "Offer after-school tutoring and mentorship programs",
             "Support teacher training and school infrastructure improvements"
         ],
+        activities: [
+            {
+                icon: "BookOpenCheck",
+                title: "Learning Support Sessions",
+                description: "After-school tutoring and homework assistance",
+                frequency: "Daily"
+            },
+            {
+                icon: "GraduationCap",
+                title: "School Readiness Programs",
+                description: "Preparation classes for school entry",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Users",
+                title: "Peer Mentorship Circles",
+                description: "Student-led study groups and mentoring",
+                frequency: "Bi-weekly"
+            },
+            {
+                icon: "Sparkles",
+                title: "STEM Workshops",
+                description: "Science, technology, engineering, and math activities",
+                frequency: "Monthly"
+            }
+        ],
         impact: {
             peopleHelped: "1,500+",
             beneficiaries: "2,500+",
@@ -76,7 +101,7 @@ We also invest in teacher training and school infrastructure improvements, recog
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 72,
+            lineNumber: 86,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/2606823118.jpeg",
@@ -101,6 +126,32 @@ Our approach recognizes that economic empowerment requires more than just financ
             "Promote financial literacy and money management",
             "Create employment opportunities through business incubation"
         ],
+        activities: [
+            {
+                icon: "Briefcase",
+                title: "Business Planning Workshops",
+                description: "Training on business plan development",
+                frequency: "Weekly"
+            },
+            {
+                icon: "PiggyBank",
+                title: "Savings Clubs",
+                description: "Group savings and lending circles",
+                frequency: "Weekly"
+            },
+            {
+                icon: "TrendingUp",
+                title: "Market Research Sessions",
+                description: "Identifying viable business opportunities",
+                frequency: "Monthly"
+            },
+            {
+                icon: "HandHeart",
+                title: "Mentorship Program",
+                description: "One-on-one business coaching",
+                frequency: "Bi-weekly"
+            }
+        ],
         impact: {
             peopleHelped: "500+",
             beneficiaries: "800+",
@@ -117,7 +168,7 @@ Our approach recognizes that economic empowerment requires more than just financ
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 107,
+            lineNumber: 127,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/496075394.jpeg",
@@ -142,6 +193,32 @@ Our program emphasizes community building and peer support, recognizing that ref
             "Support small business incubation and development",
             "Facilitate networking with local businesses and communities"
         ],
+        activities: [
+            {
+                icon: "Briefcase",
+                title: "Job Placement Drives",
+                description: "Connecting refugees with employers",
+                frequency: "Monthly"
+            },
+            {
+                icon: "Users",
+                title: "Networking Events",
+                description: "Building professional connections",
+                frequency: "Monthly"
+            },
+            {
+                icon: "TrendingUp",
+                title: "Business Incubation",
+                description: "Supporting new business startups",
+                frequency: "Ongoing"
+            },
+            {
+                icon: "LandPlot",
+                title: "Urban Navigation Workshops",
+                description: "Learning city resources and services",
+                frequency: "Weekly"
+            }
+        ],
         impact: {
             peopleHelped: "300+",
             beneficiaries: "450+",
@@ -158,7 +235,7 @@ Our program emphasizes community building and peer support, recognizing that ref
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 142,
+            lineNumber: 168,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/3347159728.jpeg",
@@ -183,6 +260,32 @@ Our strong relationships with local employers mean that our graduates have excel
             "Supply tools and equipment to graduates",
             "Link graduates with employment opportunities"
         ],
+        activities: [
+            {
+                icon: "Scissors",
+                title: "Tailoring Classes",
+                description: "Garment making and fashion design",
+                frequency: "Daily"
+            },
+            {
+                icon: "Wrench",
+                title: "Hairdressing Training",
+                description: "Hair styling and beauty therapy",
+                frequency: "Daily"
+            },
+            {
+                icon: "Sparkles",
+                title: "Mobile Repair Workshops",
+                description: "Phone and electronics repair skills",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Briefcase",
+                title: "Tool Provision",
+                description: "Starter kits for graduates",
+                frequency: "Upon Graduation"
+            }
+        ],
         impact: {
             peopleHelped: "200+",
             beneficiaries: "300+",
@@ -199,7 +302,7 @@ Our strong relationships with local employers mean that our graduates have excel
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 177,
+            lineNumber: 209,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/4234630857.jpeg",
@@ -224,6 +327,32 @@ Through our cooperative models, we help community members pool resources and acc
             "Facilitate access to microcredit and loans",
             "Promote cooperative economics and collective enterprise"
         ],
+        activities: [
+            {
+                icon: "PiggyBank",
+                title: "VSLA Training",
+                description: "Village savings and loan associations",
+                frequency: "Weekly"
+            },
+            {
+                icon: "BookOpen",
+                title: "Financial Literacy Classes",
+                description: "Budgeting and money management",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Users",
+                title: "Cooperative Meetings",
+                description: "Group savings and decision making",
+                frequency: "Bi-weekly"
+            },
+            {
+                icon: "TrendingUp",
+                title: "Credit Access Workshops",
+                description: "Understanding loans and credit",
+                frequency: "Monthly"
+            }
+        ],
         impact: {
             peopleHelped: "50+",
             beneficiaries: "1,200+",
@@ -240,7 +369,7 @@ Through our cooperative models, we help community members pool resources and acc
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 212,
+            lineNumber: 250,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/294679151.jpeg",
@@ -265,6 +394,32 @@ Our advocacy work extends to policy engagement, where we advocate for refugee-fr
             "Engage in community advocacy and mobilization",
             "Participate in policy engagement and dialogue"
         ],
+        activities: [
+            {
+                icon: "Scale",
+                title: "Rights Awareness Workshops",
+                description: "Legal rights education sessions",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Users",
+                title: "Community Mobilization",
+                description: "Grassroots advocacy campaigns",
+                frequency: "Ongoing"
+            },
+            {
+                icon: "BookOpen",
+                title: "Legal Aid Referrals",
+                description: "Connecting with legal services",
+                frequency: "As Needed"
+            },
+            {
+                icon: "HandHeart",
+                title: "Policy Dialogues",
+                description: "Engaging with decision makers",
+                frequency: "Quarterly"
+            }
+        ],
         impact: {
             peopleHelped: "5,000+",
             beneficiaries: "7,500+",
@@ -281,7 +436,7 @@ Our advocacy work extends to policy engagement, where we advocate for refugee-fr
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 247,
+            lineNumber: 291,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/4290276478.jpeg",
@@ -306,6 +461,32 @@ Market linkage is another crucial component of our agriculture program. We help 
             "Implement community gardening projects",
             "Facilitate market access and linkages"
         ],
+        activities: [
+            {
+                icon: "Tractor",
+                title: "Farming Training",
+                description: "Modern agriculture techniques",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Trees",
+                title: "Community Gardens",
+                description: "Collective farming plots",
+                frequency: "Daily"
+            },
+            {
+                icon: "Droplets",
+                title: "Irrigation Workshops",
+                description: "Water management techniques",
+                frequency: "Monthly"
+            },
+            {
+                icon: "TrendingUp",
+                title: "Market Linkage",
+                description: "Connecting farmers to buyers",
+                frequency: "Ongoing"
+            }
+        ],
         impact: {
             peopleHelped: "150+",
             beneficiaries: "600+",
@@ -322,7 +503,7 @@ Market linkage is another crucial component of our agriculture program. We help 
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 282,
+            lineNumber: 332,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/3980788437.jpeg",
@@ -347,6 +528,32 @@ We provide job placement support, connecting our graduates with hotels, restaura
             "Support job placement in the hospitality sector",
             "Assist with enterprise development and startup"
         ],
+        activities: [
+            {
+                icon: "ChefHat",
+                title: "Bread Baking Classes",
+                description: "Artisan bread making techniques",
+                frequency: "Daily"
+            },
+            {
+                icon: "Salad",
+                title: "Pastry Workshops",
+                description: "Cakes, cookies, and confections",
+                frequency: "Weekly"
+            },
+            {
+                icon: "BookOpenCheck",
+                title: "Food Safety Certification",
+                description: "Health and safety training",
+                frequency: "Monthly"
+            },
+            {
+                icon: "Briefcase",
+                title: "Job Placement",
+                description: "Connecting graduates with hotels",
+                frequency: "Ongoing"
+            }
+        ],
         impact: {
             peopleHelped: "75+",
             beneficiaries: "100+",
@@ -357,54 +564,13 @@ We provide job placement support, connecting our graduates with hotels, restaura
         secondaryColor: "text-amber-600"
     },
     {
-        id: "aquaculture",
-        slug: slugify("Fish Farming"),
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$droplets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Droplets$3e$__["Droplets"], {
-            className: "w-8 h-8"
-        }, void 0, false, {
-            fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 317,
-            columnNumber: 11
-        }, this),
-        image: "https://ext.same-assets.com/922964245/3016221291.jpeg",
-        gallery: [
-            "https://ext.same-assets.com/922964245/3016221291.jpeg",
-            "https://ext.same-assets.com/922964245/4290276478.jpeg",
-            "https://ext.same-assets.com/922964245/3893045342.jpeg",
-            "https://ext.same-assets.com/922964245/2606823118.jpeg"
-        ],
-        title: "Fish Farming",
-        shortDescription: "Sustainable aquaculture for nutrition and income.",
-        fullDescription: `Our Fish Farming program promotes aquaculture as a sustainable source of protein and income for refugee and host community households. Fish farming is particularly well-suited to Uganda's climate and offers excellent nutritional and economic benefits.
-
-We provide comprehensive training in fish farming techniques, from pond construction and management to fish health and feeding practices. Our training is hands-on, allowing participants to learn by doing.
-
-We support program participants with pond construction and fingerling provision, giving them everything they need to start their fish farms. Our extension services provide ongoing support to help farmers overcome challenges and maximize their yields.
-
-We also help fish farmers access markets where they can sell their produce. Whether to local markets, restaurants, or individuals, we connect farmers with buyers who appreciate fresh, locally-grown fish.`,
-        objectives: [
-            "Provide fish farming training and technical support",
-            "Support pond construction and management",
-            "Supply fingerlings and fish feed",
-            "Facilitate market access for fish products"
-        ],
-        impact: {
-            peopleHelped: "25+",
-            beneficiaries: "125+",
-            projects: "4",
-            communities: "6+"
-        },
-        color: "bg-cyan-600",
-        secondaryColor: "text-cyan-600"
-    },
-    {
         id: "sporting-artistic",
         slug: slugify("Sporting and Artistic"),
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 352,
+            lineNumber: 373,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/3246824778.jpeg",
@@ -429,6 +595,32 @@ Through tournaments, exhibitions, and cultural events, we create platforms for t
             "Host cultural events and talent showcases",
             "Promote physical fitness and mental well-being through sports"
         ],
+        activities: [
+            {
+                icon: "Dumbbell",
+                title: "Football Matches",
+                description: "Regular team games and tournaments",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Music",
+                title: "Music & Dance Classes",
+                description: "Traditional and modern performance",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Palette",
+                title: "Art Workshops",
+                description: "Painting, drawing, and crafts",
+                frequency: "Bi-weekly"
+            },
+            {
+                icon: "Theater",
+                title: "Drama & Theater",
+                description: "Skits and cultural performances",
+                frequency: "Monthly"
+            }
+        ],
         impact: {
             peopleHelped: "200+",
             beneficiaries: "400+",
@@ -445,7 +637,7 @@ Through tournaments, exhibitions, and cultural events, we create platforms for t
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 387,
+            lineNumber: 414,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/294679151.jpeg",
@@ -470,6 +662,32 @@ Our awareness campaigns challenge stigma and discrimination, promoting a more in
             "Supply assistive devices and mobility aids",
             "Conduct awareness campaigns against stigma and discrimination"
         ],
+        activities: [
+            {
+                icon: "Brain",
+                title: "Counseling Sessions",
+                description: "Individual and group therapy",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Heart",
+                title: "Support Group Meetings",
+                description: "Safe spaces for sharing experiences",
+                frequency: "Bi-weekly"
+            },
+            {
+                icon: "Eye",
+                title: "Disability Assessments",
+                description: "Identifying needs and solutions",
+                frequency: "Monthly"
+            },
+            {
+                icon: "HandHeart",
+                title: "Stigma Awareness Campaigns",
+                description: "Community education programs",
+                frequency: "Quarterly"
+            }
+        ],
         impact: {
             peopleHelped: "300+",
             beneficiaries: "500+",
@@ -486,7 +704,7 @@ Our awareness campaigns challenge stigma and discrimination, promoting a more in
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 422,
+            lineNumber: 455,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/3980788437.jpeg",
@@ -510,6 +728,32 @@ For aspiring entrepreneurs, we provide business development support for starting
             "Preserve and celebrate cultural food heritage",
             "Offer food safety certification and hospitality skills",
             "Support culinary entrepreneurship and business development"
+        ],
+        activities: [
+            {
+                icon: "ChefHat",
+                title: "Cultural Cooking Classes",
+                description: "Traditional recipes from home countries",
+                frequency: "Weekly"
+            },
+            {
+                icon: "BookOpenCheck",
+                title: "Nutrition Workshops",
+                description: "Healthy meal planning and prep",
+                frequency: "Bi-weekly"
+            },
+            {
+                icon: "Users",
+                title: "Food Festivals",
+                description: "Community celebration events",
+                frequency: "Quarterly"
+            },
+            {
+                icon: "Briefcase",
+                title: "Catering Startup Support",
+                description: "Businesslaunch assistance",
+                frequency: "Ongoing"
+            }
         ],
         impact: {
             peopleHelped: "100+",
@@ -1987,7 +2231,7 @@ function AboutSection() {
                                         lineNumber: 76,
                                         columnNumber: 17
                                     }, this),
-                                    " founded in 2023 in Kampala, Uganda, dedicated to addressing the social, economic, and protection challenges faced by refugees and host communities."
+                                    " created in 2023 in Kampala, Uganda. It was founded in response to the increasing social, economic, and protection issues that refugees and host communities face. The organization works in areas where poverty, unemployment, juvenile delinquency, and inequality are prevalent, and vulnerable groups—particularly women and children—face increased risks of marginalization, violence, and financial difficulties."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
@@ -1996,10 +2240,26 @@ function AboutSection() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-gray-600 mb-8 leading-relaxed",
-                                children: "We are committed to improving living conditions by promoting access to education, health, art, culture, and local development. Our organization is guided by the principles of charity, compassion, and solidarity."
+                                children: "is committed to improving people’s living conditions by promoting access to education, health, art, culture and local development."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                lineNumber: 79,
+                                lineNumber: 81,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-gray-600 mb-8 leading-relaxed",
+                                children: [
+                                    "is a non-profit organization dedicated to humanitarian causes and social development. It is characterized by charity, compassion and solidarity.",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/src/components/AboutSection.tsx",
+                                        lineNumber: 86,
+                                        columnNumber: 159
+                                    }, this),
+                                    "The organization does not limit itself to social work but also includes socio-cultural, economic and financial aspects, as well as development activities."
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/AboutSection.tsx",
+                                lineNumber: 85,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2014,12 +2274,12 @@ function AboutSection() {
                                                     className: "w-5 h-5 text-primary-blue"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AboutSection.tsx",
-                                                    lineNumber: 86,
+                                                    lineNumber: 94,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                                lineNumber: 85,
+                                                lineNumber: 93,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2029,7 +2289,7 @@ function AboutSection() {
                                                         children: "Our Vision"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                                        lineNumber: 89,
+                                                        lineNumber: 97,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2037,19 +2297,19 @@ function AboutSection() {
                                                         children: "Socially and economically empowered communities"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                                        lineNumber: 90,
+                                                        lineNumber: 98,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                                lineNumber: 88,
+                                                lineNumber: 96,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                        lineNumber: 84,
+                                        lineNumber: 92,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2061,12 +2321,12 @@ function AboutSection() {
                                                     className: "w-5 h-5 text-primary-blue"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AboutSection.tsx",
-                                                    lineNumber: 95,
+                                                    lineNumber: 103,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                                lineNumber: 94,
+                                                lineNumber: 102,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2076,7 +2336,7 @@ function AboutSection() {
                                                         children: "Our Mission"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                                        lineNumber: 98,
+                                                        lineNumber: 106,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2084,25 +2344,25 @@ function AboutSection() {
                                                         children: "Sustainable livelihoods for all"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                                        lineNumber: 99,
+                                                        lineNumber: 107,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                                lineNumber: 97,
+                                                lineNumber: 105,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                        lineNumber: 93,
+                                        lineNumber: 101,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                lineNumber: 83,
+                                lineNumber: 91,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2114,13 +2374,13 @@ function AboutSection() {
                                         className: "w-5 h-5 group-hover:translate-x-1 transition-transform"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                        lineNumber: 109,
+                                        lineNumber: 117,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                lineNumber: 104,
+                                lineNumber: 112,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -2366,11 +2626,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/building.js [app-ssr] (ecmascript) <export default as Building>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$globe$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/globe.js [app-ssr] (ecmascript) <export default as Globe>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/award.js [app-ssr] (ecmascript) <export default as Award>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Map$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map.js [app-ssr] (ecmascript) <export default as Map>");
 "use client";
 ;
 ;
 ;
-function AnimatedCounter({ end, duration = 2500, suffix = "" }) {
+/* ---------------- COUNTER ---------------- */ function AnimatedCounter({ end, duration = 2500, suffix = "" }) {
     const [count, setCount] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
     const [hasAnimated, setHasAnimated] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
@@ -2384,18 +2645,14 @@ function AnimatedCounter({ end, duration = 2500, suffix = "" }) {
                     const progress = Math.min((timestamp - startTime) / duration, 1);
                     const easeOut = 1 - Math.pow(1 - progress, 3);
                     setCount(Math.floor(easeOut * end));
-                    if (progress < 1) {
-                        requestAnimationFrame(animate);
-                    }
+                    if (progress < 1) requestAnimationFrame(animate);
                 };
                 requestAnimationFrame(animate);
             }
         }, {
             threshold: 0.3
         });
-        if (ref.current) {
-            observer.observe(ref.current);
-        }
+        if (ref.current) observer.observe(ref.current);
         return ()=>observer.disconnect();
     }, [
         end,
@@ -2411,17 +2668,52 @@ function AnimatedCounter({ end, duration = 2500, suffix = "" }) {
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ImpactSection.tsx",
-        lineNumber: 46,
+        lineNumber: 39,
         columnNumber: 5
     }, this);
 }
-const impactStats = [
+/* ---------------- PROGRESS BAR ---------------- */ function AnimatedProgress({ value }) {
+    const [width, setWidth] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
+    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const observer = new IntersectionObserver((entries)=>{
+            if (entries[0].isIntersecting) {
+                setTimeout(()=>setWidth(value), 300);
+            }
+        }, {
+            threshold: 0.4
+        });
+        if (ref.current) observer.observe(ref.current);
+        return ()=>observer.disconnect();
+    }, [
+        value
+    ]);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: "w-full bg-white/20 rounded-full h-3 overflow-hidden",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "h-3 rounded-full bg-gradient-to-r from-white to-primary-blue transition-all duration-1000 ease-out",
+            style: {
+                width: `${width}%`
+            }
+        }, void 0, false, {
+            fileName: "[project]/src/components/ImpactSection.tsx",
+            lineNumber: 67,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/components/ImpactSection.tsx",
+        lineNumber: 66,
+        columnNumber: 5
+    }, this);
+}
+/* ---------------- DATA ---------------- */ const impactStats = [
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/components/ImpactSection.tsx",
-            lineNumber: 54,
+            lineNumber: 78,
             columnNumber: 11
         }, this),
         value: 5000,
@@ -2434,11 +2726,10 @@ const impactStats = [
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/components/ImpactSection.tsx",
-            lineNumber: 61,
+            lineNumber: 85,
             columnNumber: 11
         }, this),
         value: 12,
-        suffix: "",
         label: "Projects Completed",
         description: "Successful community initiatives"
     },
@@ -2447,7 +2738,7 @@ const impactStats = [
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/components/ImpactSection.tsx",
-            lineNumber: 68,
+            lineNumber: 91,
             columnNumber: 11
         }, this),
         value: 25,
@@ -2460,7 +2751,7 @@ const impactStats = [
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/components/ImpactSection.tsx",
-            lineNumber: 75,
+            lineNumber: 98,
             columnNumber: 11
         }, this),
         value: 150,
@@ -2480,95 +2771,92 @@ function ImpactSection() {
                         className: "absolute top-0 left-0 w-96 h-96 bg-primary-blue rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ImpactSection.tsx",
-                        lineNumber: 87,
+                        lineNumber: 113,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute bottom-0 right-0 w-96 h-96 bg-primary-blue rounded-full blur-3xl translate-x-1/2 translate-y-1/2"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ImpactSection.tsx",
-                        lineNumber: 88,
+                        lineNumber: 114,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ImpactSection.tsx",
-                lineNumber: 86,
+                lineNumber: 112,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-center mb-12 lg:mb-16",
+                        className: "text-center mb-16",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "inline-flex items-center gap-2 text-primary-blue font-semibold text-sm uppercase tracking-wider mb-4",
+                                className: "text-primary-blue font-semibold text-sm uppercase tracking-wider",
                                 children: "Measuring Impact"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ImpactSection.tsx",
-                                lineNumber: 93,
+                                lineNumber: 121,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "font-jost text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4",
+                                className: "font-jost text-4xl lg:text-5xl font-bold text-white mt-2 mb-4",
                                 children: "Our Impact"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ImpactSection.tsx",
-                                lineNumber: 96,
+                                lineNumber: 124,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-white/70 max-w-2xl mx-auto text-lg",
-                                children: "Every statistic represents a life changed, a family supported, and a community strengthened through our collective efforts."
+                                children: "Every statistic represents a life changed, a family supported, and a stronger community."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ImpactSection.tsx",
-                                lineNumber: 99,
+                                lineNumber: 127,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/ImpactSection.tsx",
-                        lineNumber: 92,
+                        lineNumber: 120,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8",
+                        className: "grid sm:grid-cols-2 lg:grid-cols-4 gap-6",
                         children: impactStats.map((stat, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 text-center hover:bg-white/10 transition-all duration-300 group",
-                                style: {
-                                    animationDelay: `${index * 100}ms`
-                                },
+                                className: "bg-white/5 border border-white/10 rounded-2xl p-8 text-center hover:bg-white/10 transition group",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-16 h-16 bg-primary-blue/20 rounded-2xl flex items-center justify-center mx-auto mb-6 text-primary-blue group-hover:scale-110 transition-transform",
+                                        className: "w-16 h-16 bg-primary-blue/20 rounded-xl flex items-center justify-center mx-auto mb-6 text-primary-blue group-hover:scale-110 transition",
                                         children: stat.icon
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ImpactSection.tsx",
-                                        lineNumber: 111,
+                                        lineNumber: 139,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "text-4xl lg:text-5xl font-bold text-white mb-2",
+                                        className: "text-4xl font-bold text-white mb-2",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedCounter, {
                                             end: stat.value,
                                             suffix: stat.suffix
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ImpactSection.tsx",
-                                            lineNumber: 115,
+                                            lineNumber: 144,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ImpactSection.tsx",
-                                        lineNumber: 114,
+                                        lineNumber: 143,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-lg font-semibold text-white mb-2",
+                                        className: "font-semibold text-white",
                                         children: stat.label
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ImpactSection.tsx",
-                                        lineNumber: 117,
+                                        lineNumber: 147,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2576,80 +2864,302 @@ function ImpactSection() {
                                         children: stat.description
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ImpactSection.tsx",
-                                        lineNumber: 118,
+                                        lineNumber: 148,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, stat.label, true, {
                                 fileName: "[project]/src/components/ImpactSection.tsx",
-                                lineNumber: 106,
+                                lineNumber: 135,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/ImpactSection.tsx",
-                        lineNumber: 104,
+                        lineNumber: 133,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-16 bg-gradient-to-r from-primary-blue/20 to-primary-blue/20 rounded-2xl p-8 lg:p-12 border border-white/10",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col lg:flex-row items-center justify-between gap-8",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "text-center lg:text-left",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "font-jost text-2xl lg:text-3xl font-bold text-white mb-2",
-                                            children: "Theory of Change"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/ImpactSection.tsx",
-                                            lineNumber: 126,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-white/80 max-w-xl",
-                                            children: "Refugees and vulnerable host communities can become self-sufficient if they have access to high-quality education and economic opportunities."
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/ImpactSection.tsx",
-                                            lineNumber: 129,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/ImpactSection.tsx",
-                                    lineNumber: 125,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "/about",
-                                    className: "bg-white text-primary-blue hover:bg-light-blue font-semibold px-8 py-4 rounded-full transition-colors whitespace-nowrap",
-                                    children: "Learn More"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/ImpactSection.tsx",
-                                    lineNumber: 133,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/ImpactSection.tsx",
-                            lineNumber: 124,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
+                        className: "mt-20 grid lg:grid-cols-2 gap-8",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "bg-white/5 border border-white/10 rounded-2xl p-8",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex items-center gap-3 mb-4 text-primary-blue",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Map$3e$__["Map"], {}, void 0, false, {
+                                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                                lineNumber: 159,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                className: "text-2xl font-bold text-white",
+                                                children: "The Uganda Context"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                                lineNumber: 160,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/ImpactSection.tsx",
+                                        lineNumber: 158,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-white/80 mb-4 leading-relaxed",
+                                        children: [
+                                            "Uganda hosts approximately ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-white font-semibold",
+                                                children: "1.96 million refugees and asylum seekers"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                                lineNumber: 164,
+                                                columnNumber: 42
+                                            }, this),
+                                            " as of October 2025—the largest refugee population in Africa."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/ImpactSection.tsx",
+                                        lineNumber: 163,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-white/80 mb-4 leading-relaxed",
+                                        children: [
+                                            "With ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-white font-semibold",
+                                                children: "55%"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                                lineNumber: 168,
+                                                columnNumber: 20
+                                            }, this),
+                                            " from South Sudan and ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-white font-semibold",
+                                                children: "31%"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                                lineNumber: 168,
+                                                columnNumber: 95
+                                            }, this),
+                                            " from the Democratic Republic of Congo, the country demonstrates remarkable hospitality through progressive refugee policies."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/ImpactSection.tsx",
+                                        lineNumber: 167,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-white/70 leading-relaxed",
+                                        children: "However, urban refugees in Kampala face overcrowding, limited livelihood opportunities, language barriers, and restricted healthcare access despite expectations for self-reliance."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ImpactSection.tsx",
+                                        lineNumber: 171,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                lineNumber: 157,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "bg-gradient-to-br from-primary-blue/20 to-transparent border border-white/10 rounded-2xl p-8 flex flex-col justify-between",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                className: "text-2xl font-bold text-white mb-4",
+                                                children: "Organization Snapshot"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                                lineNumber: 180,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "text-white/80 space-y-2",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "font-semibold text-white",
+                                                                children: "Founded:"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                                                lineNumber: 185,
+                                                                columnNumber: 20
+                                                            }, this),
+                                                            " 2023"
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/ImpactSection.tsx",
+                                                        lineNumber: 185,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "font-semibold text-white",
+                                                                children: "Registered:"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                                                lineNumber: 186,
+                                                                columnNumber: 20
+                                                            }, this),
+                                                            " 2025 (NGO Bureau)"
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/ImpactSection.tsx",
+                                                        lineNumber: 186,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "font-semibold text-white",
+                                                                children: "Type:"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                                                lineNumber: 187,
+                                                                columnNumber: 20
+                                                            }, this),
+                                                            " Refugee-Led Organization"
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/ImpactSection.tsx",
+                                                        lineNumber: 187,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "font-semibold text-white",
+                                                                children: "Location:"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                                                lineNumber: 188,
+                                                                columnNumber: 20
+                                                            }, this),
+                                                            " Rubaga Division, Kampala"
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/ImpactSection.tsx",
+                                                        lineNumber: 188,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "mt-4",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                className: "mb-2 font-semibold text-white",
+                                                                children: "Target Population"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                                                lineNumber: 192,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedProgress, {
+                                                                value: 70
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                                                lineNumber: 194,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "flex justify-between text-sm mt-1",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        children: "70% Refugees"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/components/ImpactSection.tsx",
+                                                                        lineNumber: 197,
+                                                                        columnNumber: 21
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        children: "30% Hosts"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/components/ImpactSection.tsx",
+                                                                        lineNumber: 198,
+                                                                        columnNumber: 21
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                                                lineNumber: 196,
+                                                                columnNumber: 19
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/ImpactSection.tsx",
+                                                        lineNumber: 191,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "mt-4",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "font-semibold text-white",
+                                                                children: "Focus Areas:"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                                                lineNumber: 203,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            " ",
+                                                            "Education, Health, Livelihoods, Advocacy and Capacity Building"
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/ImpactSection.tsx",
+                                                        lineNumber: 202,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                                lineNumber: 184,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/ImpactSection.tsx",
+                                        lineNumber: 179,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: "/get-involved",
+                                        className: "mt-6 inline-block text-center bg-white text-primary-blue hover:bg-light-blue font-semibold px-6 py-3 rounded-full transition",
+                                        children: "Get Involved"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ImpactSection.tsx",
+                                        lineNumber: 209,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/ImpactSection.tsx",
+                                lineNumber: 177,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/src/components/ImpactSection.tsx",
-                        lineNumber: 123,
+                        lineNumber: 154,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ImpactSection.tsx",
-                lineNumber: 91,
+                lineNumber: 117,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ImpactSection.tsx",
-        lineNumber: 85,
+        lineNumber: 109,
         columnNumber: 5
     }, this);
 }
@@ -3039,23 +3549,62 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 ;
-function DonationCTA() {
-    const [isVisible, setIsVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+/* ---------------- REVEAL ---------------- */ function useReveal() {
+    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const [visible, setVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const observer = new IntersectionObserver(([entry])=>{
+            if (entry.isIntersecting) setVisible(true);
+        }, {
+            threshold: 0.2
+        });
+        if (ref.current) observer.observe(ref.current);
+        return ()=>observer.disconnect();
+    }, []);
+    return {
+        ref,
+        visible
+    };
+}
+/* ---------------- PROGRESS ---------------- */ function AnimatedBar({ value }) {
+    const [width, setWidth] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
     const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const observer = new IntersectionObserver(([entry])=>{
             if (entry.isIntersecting) {
-                setIsVisible(true);
-                observer.disconnect();
+                setTimeout(()=>setWidth(value), 300);
             }
         }, {
             threshold: 0.3
         });
-        if (ref.current) {
-            observer.observe(ref.current);
-        }
+        if (ref.current) observer.observe(ref.current);
         return ()=>observer.disconnect();
-    }, []);
+    }, [
+        value
+    ]);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: "w-full bg-white/20 rounded-full h-2 overflow-hidden",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "h-2 bg-primary-blue transition-all duration-1000 ease-out",
+            style: {
+                width: `${width}%`
+            }
+        }, void 0, false, {
+            fileName: "[project]/src/components/DonationCTA.tsx",
+            lineNumber: 49,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/components/DonationCTA.tsx",
+        lineNumber: 48,
+        columnNumber: 5
+    }, this);
+}
+function DonationCTA() {
+    const goalReveal = useReveal();
+    const popReveal = useReveal();
+    const demoReveal = useReveal();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "relative py-24 lg:py-32 overflow-hidden",
         children: [
@@ -3069,229 +3618,517 @@ function DonationCTA() {
                         className: "object-cover"
                     }, void 0, false, {
                         fileName: "[project]/src/components/DonationCTA.tsx",
-                        lineNumber: 33,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 bg-gradient-to-r from-dark-navy/95 via-dark-navy/85 to-dark-navy/75"
+                        className: "absolute inset-0 bg-gradient-to-r from-dark-navy/95 via-dark-navy/85 to-dark-navy/80"
                     }, void 0, false, {
                         fileName: "[project]/src/components/DonationCTA.tsx",
-                        lineNumber: 39,
+                        lineNumber: 74,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/DonationCTA.tsx",
-                lineNumber: 32,
+                lineNumber: 67,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute top-0 left-0 w-full h-full opacity-20",
+                className: "absolute inset-0 opacity-20",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute top-20 left-20 w-64 h-64 bg-primary-blue rounded-full blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/src/components/DonationCTA.tsx",
-                        lineNumber: 43,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute bottom-20 right-20 w-96 h-96 bg-primary-blue rounded-full blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/src/components/DonationCTA.tsx",
-                        lineNumber: 44,
+                        lineNumber: 80,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/DonationCTA.tsx",
-                lineNumber: 42,
+                lineNumber: 78,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    ref: ref,
-                    className: `transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "w-20 h-20 bg-primary-blue/20 rounded-full flex items-center justify-center mx-auto mb-8",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
-                                className: "w-10 h-10 text-primary-blue animate-pulse"
+                className: "relative z-10 max-w-6xl mx-auto px-4",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        ref: goalReveal.ref,
+                        className: `text-center mb-16 transition-all duration-700 ${goalReveal.visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`,
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "text-4xl lg:text-5xl font-bold text-white mb-6",
+                                children: "Strategic  Goal"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                lineNumber: 53,
-                                columnNumber: 13
+                                lineNumber: 92,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-white/80 text-lg max-w-3xl mx-auto leading-relaxed",
+                                children: "To promote social and economic empowerment of refugees and low-income host communities through inclusive participation and sustainable livelihood initiatives."
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                lineNumber: 96,
+                                columnNumber: 11
                             }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/DonationCTA.tsx",
-                            lineNumber: 52,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "font-jost text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight",
-                            children: [
-                                "Your Support ",
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-primary-blue",
-                                    children: "Transforms Lives"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/DonationCTA.tsx",
+                        lineNumber: 86,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "grid lg:grid-cols-2 gap-8 mb-16",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                ref: popReveal.ref,
+                                className: `bg-white/5 border border-white/10 rounded-2xl p-8 transition-all duration-700 ${popReveal.visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`,
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "text-2xl font-bold text-white mb-4",
+                                        children: "Target Population"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                        lineNumber: 112,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-white/70 mb-4",
+                                        children: [
+                                            "We serve both refugee and host communities using a",
+                                            " ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "font-semibold text-white",
+                                                children: "70/30 approach"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                lineNumber: 118,
+                                                columnNumber: 15
+                                            }, this),
+                                            " to ensure inclusion and sustainability."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                        lineNumber: 116,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedBar, {
+                                        value: 70
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                        lineNumber: 122,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex justify-between text-sm text-white/70 mt-1 mb-6",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                children: "Refugees 70%"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                lineNumber: 124,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                children: "Hosts 30%"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                lineNumber: 125,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                        lineNumber: 123,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                        className: "text-white/80 space-y-2 text-sm",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "• Women & adolescent girls (economic empowerment)"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                lineNumber: 129,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "• Out-of-school youth (skills & livelihoods)"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                lineNumber: 130,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "• Adult learners (literacy, language, digital skills)"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                lineNumber: 131,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "• Vulnerable households (food security & protection)"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                lineNumber: 132,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                        lineNumber: 128,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                lineNumber: 106,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                ref: demoReveal.ref,
+                                className: `bg-white/5 border border-white/10 rounded-2xl p-8 transition-all duration-700 delay-200 ${demoReveal.visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`,
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "text-2xl font-bold text-white mb-4",
+                                        children: "Refugee Demographics in Uganda"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                        lineNumber: 143,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "space-y-4 text-white/80 text-sm",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex justify-between mb-1",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: "South Sudan"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                                lineNumber: 151,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: "55%"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                                lineNumber: 152,
+                                                                columnNumber: 19
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                                        lineNumber: 150,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedBar, {
+                                                        value: 55
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                                        lineNumber: 154,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                lineNumber: 149,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex justify-between mb-1",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: "DR Congo"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                                lineNumber: 159,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: "31%"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                                lineNumber: 160,
+                                                                columnNumber: 19
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                                        lineNumber: 158,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedBar, {
+                                                        value: 31
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                                        lineNumber: 162,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                lineNumber: 157,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex justify-between mb-1",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: "Somalia"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                                lineNumber: 167,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: "3%"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                                lineNumber: 168,
+                                                                columnNumber: 19
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                                        lineNumber: 166,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedBar, {
+                                                        value: 3
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                                        lineNumber: 170,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                lineNumber: 165,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex justify-between mb-1",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: "Burundi"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                                lineNumber: 175,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: "3%"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                                lineNumber: 176,
+                                                                columnNumber: 19
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                                        lineNumber: 174,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedBar, {
+                                                        value: 3
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                                        lineNumber: 178,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                lineNumber: 173,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex justify-between mb-1",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: "Others"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                                lineNumber: 183,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: "8%"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                                lineNumber: 184,
+                                                                columnNumber: 19
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                                        lineNumber: 182,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedBar, {
+                                                        value: 8
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                                        lineNumber: 186,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                lineNumber: 181,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                        lineNumber: 147,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-white/60 mt-6 text-sm",
+                                        children: "This approach promotes inclusion, cohesion, and aligns with Uganda’s CRRF framework."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                        lineNumber: 190,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                lineNumber: 137,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/DonationCTA.tsx",
+                        lineNumber: 103,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "text-center",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "w-20 h-20 bg-primary-blue/20 rounded-full flex items-center justify-center mx-auto mb-6",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
+                                    className: "w-10 h-10 text-primary-blue animate-pulse"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/DonationCTA.tsx",
-                                    lineNumber: 57,
-                                    columnNumber: 26
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/DonationCTA.tsx",
-                            lineNumber: 56,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed",
-                            children: "Every contribution helps us provide education, healthcare, and economic opportunities to those who need it most. Together, we can build a future where no one is left behind."
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/DonationCTA.tsx",
-                            lineNumber: 60,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col sm:flex-row gap-4 justify-center mb-12",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "/donate",
-                                    className: "inline-flex items-center justify-center gap-2 bg-primary-blue hover:bg-primary-blue-dark text-white font-bold text-lg px-10 py-5 rounded-full transition-all duration-300 transform hover:scale-105 shadow-xl shadow-primary-blue/30",
-                                    children: [
-                                        "Donate Now",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
-                                            className: "w-5 h-5"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/DonationCTA.tsx",
-                                            lineNumber: 70,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/DonationCTA.tsx",
-                                    lineNumber: 65,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "/get-involved",
-                                    className: "inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border-2 border-white/30 text-white font-semibold px-10 py-5 rounded-full transition-all duration-300",
-                                    children: [
-                                        "Other Ways to Help",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
-                                            className: "w-5 h-5"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/DonationCTA.tsx",
-                                            lineNumber: 77,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/DonationCTA.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 199,
                                     columnNumber: 13
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/DonationCTA.tsx",
-                            lineNumber: 64,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-wrap justify-center gap-8 text-white/60 text-sm",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center gap-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-2 h-2 bg-green-400 rounded-full"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/DonationCTA.tsx",
-                                            lineNumber: 83,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            children: "Secure Donation"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/DonationCTA.tsx",
-                                            lineNumber: 84,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/DonationCTA.tsx",
-                                    lineNumber: 82,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center gap-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-2 h-2 bg-green-400 rounded-full"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/DonationCTA.tsx",
-                                            lineNumber: 87,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            children: "Tax Deductible"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/DonationCTA.tsx",
-                                            lineNumber: 88,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/DonationCTA.tsx",
-                                    lineNumber: 86,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center gap-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-2 h-2 bg-green-400 rounded-full"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/DonationCTA.tsx",
-                                            lineNumber: 91,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            children: "100% to Programs"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/DonationCTA.tsx",
-                                            lineNumber: 92,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/DonationCTA.tsx",
-                                    lineNumber: 90,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/DonationCTA.tsx",
-                            lineNumber: 81,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/components/DonationCTA.tsx",
-                    lineNumber: 48,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                lineNumber: 198,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "text-3xl lg:text-4xl font-bold text-white mb-6",
+                                children: [
+                                    "Your Support ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-primary-blue",
+                                        children: "Transforms Lives"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                        lineNumber: 203,
+                                        columnNumber: 26
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                lineNumber: 202,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-white/80 max-w-2xl mx-auto mb-10",
+                                children: "Help us expand access to education, healthcare, and livelihoods."
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                lineNumber: 206,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-col sm:flex-row gap-4 justify-center",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/donate",
+                                        className: "bg-primary-blue hover:bg-primary-blue-dark text-white px-10 py-5 rounded-full font-bold flex items-center justify-center gap-2",
+                                        children: [
+                                            "Donate Now ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
+                                                className: "w-5 h-5"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                lineNumber: 215,
+                                                columnNumber: 26
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                        lineNumber: 211,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/get-involved",
+                                        className: "border border-white/30 text-white px-10 py-5 rounded-full flex items-center justify-center gap-2",
+                                        children: [
+                                            "Get Involved ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
+                                                className: "w-5 h-5"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                                lineNumber: 222,
+                                                columnNumber: 28
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/DonationCTA.tsx",
+                                        lineNumber: 218,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/DonationCTA.tsx",
+                                lineNumber: 210,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/DonationCTA.tsx",
+                        lineNumber: 197,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/components/DonationCTA.tsx",
-                lineNumber: 47,
+                lineNumber: 83,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/DonationCTA.tsx",
-        lineNumber: 31,
+        lineNumber: 64,
         columnNumber: 5
     }, this);
 }
@@ -3313,24 +4150,20 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const partners = [
     {
-        name: "UNHCR",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/UNHCR_logo.svg/1200px-UNHCR_logo.svg.png"
+        name: "HCP",
+        logo: "https://res.cloudinary.com/diisccxqg/image/upload/v1772350573/loogo_kls4ve.jpg"
     },
     {
-        name: "UNICEF",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/UNICEF_Logo.svg/1200px-UNICEF_Logo.svg.png"
+        name: "EL-Hai Ministries",
+        logo: "https://res.cloudinary.com/dtbzixyuy/image/upload/v1776262597/el-ai_fazz6w.jpg"
     },
     {
-        name: "WHO",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/World_Health_Organization_%28 logo%29.svg/1200px-World_Health_Organization_%28_logo%29.svg.png"
+        name: "Tuinuwane",
+        logo: "https://res.cloudinary.com/dtbzixyuy/image/upload/v1776262496/tuinuwane-project-logo_rbswbw.png"
     },
     {
-        name: "Uganda Government",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Uganda.svg/1200px-Flag_of_Uganda.svg.png"
-    },
-    {
-        name: "OPM Uganda",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Uganda.svg/1200px-Flag_of_Uganda.svg.png"
+        name: "Bomoko",
+        logo: "https://res.cloudinary.com/dtbzixyuy/image/upload/v1776256101/hcp-mail-on_bhiexa.jpg"
     }
 ];
 function PartnersSection() {
@@ -3345,9 +4178,7 @@ function PartnersSection() {
         }, {
             threshold: 0.2
         });
-        if (ref.current) {
-            observer.observe(ref.current);
-        }
+        if (ref.current) observer.observe(ref.current);
         return ()=>observer.disconnect();
     }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3356,86 +4187,76 @@ function PartnersSection() {
             className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "text-center mb-10",
+                    className: "text-center mb-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "inline-flex items-center gap-2 text-gray-500 font-semibold text-sm uppercase tracking-wider",
+                            className: "text-gray-500 font-semibold text-sm uppercase tracking-wider",
                             children: "Our Partners"
                         }, void 0, false, {
                             fileName: "[project]/src/components/PartnersSection.tsx",
-                            lineNumber: 40,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "font-jost text-2xl md:text-3xl font-bold text-dark-navy mt-2",
+                            className: "text-2xl md:text-3xl font-bold text-dark-navy mt-2",
                             children: "Trusted By Leading Organizations"
                         }, void 0, false, {
                             fileName: "[project]/src/components/PartnersSection.tsx",
-                            lineNumber: 43,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/PartnersSection.tsx",
-                    lineNumber: 39,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     ref: ref,
                     className: "flex flex-wrap justify-center items-center gap-8 lg:gap-12",
                     children: partners.map((partner, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: `flex flex-col items-center transition-all duration-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`,
+                            className: `transition-all duration-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
                             style: {
                                 transitionDelay: `${index * 100}ms`
                             },
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-24 h-16 md:w-28 md:h-20 flex items-center justify-center grayscale hover:grayscale-0 opacity-40 hover:opacity-100 transition-all duration-300",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        src: partner.logo,
-                                        alt: partner.name,
-                                        width: 100,
-                                        height: 60,
-                                        className: "object-contain",
-                                        unoptimized: true
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/PartnersSection.tsx",
-                                        lineNumber: 59,
-                                        columnNumber: 17
-                                    }, this)
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "bg-white rounded-xl shadow-sm hover:shadow-md p-4 w-28 h-20 md:w-32 md:h-24 flex items-center justify-center transition-all duration-300 hover:scale-105",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    src: partner.logo,
+                                    alt: partner.name,
+                                    width: 110,
+                                    height: 70,
+                                    className: "object-contain",
+                                    unoptimized: true
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/PartnersSection.tsx",
-                                    lineNumber: 58,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-xs text-gray-400 mt-2 hidden",
-                                    children: partner.name
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/PartnersSection.tsx",
-                                    lineNumber: 68,
-                                    columnNumber: 15
+                                    lineNumber: 63,
+                                    columnNumber: 17
                                 }, this)
-                            ]
-                        }, partner.name, true, {
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/PartnersSection.tsx",
+                                lineNumber: 62,
+                                columnNumber: 15
+                            }, this)
+                        }, partner.name, false, {
                             fileName: "[project]/src/components/PartnersSection.tsx",
-                            lineNumber: 53,
+                            lineNumber: 52,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/PartnersSection.tsx",
-                    lineNumber: 48,
+                    lineNumber: 47,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/PartnersSection.tsx",
-            lineNumber: 38,
+            lineNumber: 34,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/PartnersSection.tsx",
-        lineNumber: 37,
+        lineNumber: 33,
         columnNumber: 5
     }, this);
 }

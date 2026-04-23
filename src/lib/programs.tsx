@@ -1,4 +1,11 @@
-import { LucideIcon, BookOpen, TrendingUp, Users, Heart, Leaf, Scale, GraduationCap, DollarSign, Utensils, Droplets, Sparkles, Target, CheckCircle, HeartHandshake, Award } from "lucide-react";
+import { BookOpen, TrendingUp, Users, Heart, Leaf, Scale, GraduationCap, DollarSign, Utensils, Droplets, Sparkles, Target, CheckCircle, HeartHandshake, Award, Scissors, Briefcase, LandPlot, PiggyBank, Gavel, Tractor, ChefHat, Music, Dumbbell, Brain, Eye, Shirt, Wrench, BookOpenCheck, HandHeart, Trees, Factory, Theater, Palette, Salad } from "lucide-react";
+
+export interface Activity {
+  icon: string;
+  title: string;
+  description: string;
+  frequency: string;
+}
 
 export interface Program {
   id: string;
@@ -10,6 +17,7 @@ export interface Program {
   shortDescription: string;
   fullDescription: string;
   objectives: string[];
+  activities: Activity[];
   impact: ImpactStats;
   color: string;
   secondaryColor: string;
@@ -57,6 +65,12 @@ We also invest in teacher training and school infrastructure improvements, recog
       "Offer after-school tutoring and mentorship programs",
       "Support teacher training and school infrastructure improvements",
     ],
+    activities: [
+      { icon: "BookOpenCheck", title: "Learning Support Sessions", description: "After-school tutoring and homework assistance", frequency: "Daily" },
+      { icon: "GraduationCap", title: "School Readiness Programs", description: "Preparation classes for school entry", frequency: "Weekly" },
+      { icon: "Users", title: "Peer Mentorship Circles", description: "Student-led study groups and mentoring", frequency: "Bi-weekly" },
+      { icon: "Sparkles", title: "STEM Workshops", description: "Science, technology, engineering, and math activities", frequency: "Monthly" },
+    ],
     impact: {
       peopleHelped: "1,500+",
       beneficiaries: "2,500+",
@@ -91,6 +105,12 @@ Our approach recognizes that economic empowerment requires more than just financ
       "Offer seed funding and microfinance opportunities",
       "Promote financial literacy and money management",
       "Create employment opportunities through business incubation",
+    ],
+    activities: [
+      { icon: "Briefcase", title: "Business Planning Workshops", description: "Training on business plan development", frequency: "Weekly" },
+      { icon: "PiggyBank", title: "Savings Clubs", description: "Group savings and lending circles", frequency: "Weekly" },
+      { icon: "TrendingUp", title: "Market Research Sessions", description: "Identifying viable business opportunities", frequency: "Monthly" },
+      { icon: "HandHeart", title: "Mentorship Program", description: "One-on-one business coaching", frequency: "Bi-weekly" },
     ],
     impact: {
       peopleHelped: "500+",
@@ -127,6 +147,12 @@ Our program emphasizes community building and peer support, recognizing that ref
       "Support small business incubation and development",
       "Facilitate networking with local businesses and communities",
     ],
+    activities: [
+      { icon: "Briefcase", title: "Job Placement Drives", description: "Connecting refugees with employers", frequency: "Monthly" },
+      { icon: "Users", title: "Networking Events", description: "Building professional connections", frequency: "Monthly" },
+      { icon: "TrendingUp", title: "Business Incubation", description: "Supporting new business startups", frequency: "Ongoing" },
+      { icon: "LandPlot", title: "Urban Navigation Workshops", description: "Learning city resources and services", frequency: "Weekly" },
+    ],
     impact: {
       peopleHelped: "300+",
       beneficiaries: "450+",
@@ -161,6 +187,12 @@ Our strong relationships with local employers mean that our graduates have excel
       "Offer certification and competency testing",
       "Supply tools and equipment to graduates",
       "Link graduates with employment opportunities",
+    ],
+    activities: [
+      { icon: "Scissors", title: "Tailoring Classes", description: "Garment making and fashion design", frequency: "Daily" },
+      { icon: "Wrench", title: "Hairdressing Training", description: "Hair styling and beauty therapy", frequency: "Daily" },
+      { icon: "Sparkles", title: "Mobile Repair Workshops", description: "Phone and electronics repair skills", frequency: "Weekly" },
+      { icon: "Briefcase", title: "Tool Provision", description: "Starter kits for graduates", frequency: "Upon Graduation" },
     ],
     impact: {
       peopleHelped: "200+",
@@ -197,6 +229,12 @@ Through our cooperative models, we help community members pool resources and acc
       "Facilitate access to microcredit and loans",
       "Promote cooperative economics and collective enterprise",
     ],
+    activities: [
+      { icon: "PiggyBank", title: "VSLA Training", description: "Village savings and loan associations", frequency: "Weekly" },
+      { icon: "BookOpen", title: "Financial Literacy Classes", description: "Budgeting and money management", frequency: "Weekly" },
+      { icon: "Users", title: "Cooperative Meetings", description: "Group savings and decision making", frequency: "Bi-weekly" },
+      { icon: "TrendingUp", title: "Credit Access Workshops", description: "Understanding loans and credit", frequency: "Monthly" },
+    ],
     impact: {
       peopleHelped: "50+",
       beneficiaries: "1,200+",
@@ -231,6 +269,12 @@ Our advocacy work extends to policy engagement, where we advocate for refugee-fr
       "Provide legal support referrals and assistance",
       "Engage in community advocacy and mobilization",
       "Participate in policy engagement and dialogue",
+    ],
+    activities: [
+      { icon: "Scale", title: "Rights Awareness Workshops", description: "Legal rights education sessions", frequency: "Weekly" },
+      { icon: "Users", title: "Community Mobilization", description: "Grassroots advocacy campaigns", frequency: "Ongoing" },
+      { icon: "BookOpen", title: "Legal Aid Referrals", description: "Connecting with legal services", frequency: "As Needed" },
+      { icon: "HandHeart", title: "Policy Dialogues", description: "Engaging with decision makers", frequency: "Quarterly" },
     ],
     impact: {
       peopleHelped: "5,000+",
@@ -267,6 +311,12 @@ Market linkage is another crucial component of our agriculture program. We help 
       "Implement community gardening projects",
       "Facilitate market access and linkages",
     ],
+    activities: [
+      { icon: "Tractor", title: "Farming Training", description: "Modern agriculture techniques", frequency: "Weekly" },
+      { icon: "Trees", title: "Community Gardens", description: "Collective farming plots", frequency: "Daily" },
+      { icon: "Droplets", title: "Irrigation Workshops", description: "Water management techniques", frequency: "Monthly" },
+      { icon: "TrendingUp", title: "Market Linkage", description: "Connecting farmers to buyers", frequency: "Ongoing" },
+    ],
     impact: {
       peopleHelped: "150+",
       beneficiaries: "600+",
@@ -302,6 +352,12 @@ We provide job placement support, connecting our graduates with hotels, restaura
       "Support job placement in the hospitality sector",
       "Assist with enterprise development and startup",
     ],
+    activities: [
+      { icon: "ChefHat", title: "Bread Baking Classes", description: "Artisan bread making techniques", frequency: "Daily" },
+      { icon: "Salad", title: "Pastry Workshops", description: "Cakes, cookies, and confections", frequency: "Weekly" },
+      { icon: "BookOpenCheck", title: "Food Safety Certification", description: "Health and safety training", frequency: "Monthly" },
+      { icon: "Briefcase", title: "Job Placement", description: "Connecting graduates with hotels", frequency: "Ongoing" },
+    ],
     impact: {
       peopleHelped: "75+",
       beneficiaries: "100+",
@@ -310,41 +366,6 @@ We provide job placement support, connecting our graduates with hotels, restaura
     },
     color: "bg-amber-600",
     secondaryColor: "text-amber-600",
-  },
-  {
-    id: "aquaculture",
-    slug: slugify("Fish Farming"),
-    icon: <Droplets className="w-8 h-8" />,
-    image: "https://ext.same-assets.com/922964245/3016221291.jpeg",
-    gallery: [
-      "https://ext.same-assets.com/922964245/3016221291.jpeg",
-      "https://ext.same-assets.com/922964245/4290276478.jpeg",
-      "https://ext.same-assets.com/922964245/3893045342.jpeg",
-      "https://ext.same-assets.com/922964245/2606823118.jpeg",
-    ],
-    title: "Fish Farming",
-    shortDescription: "Sustainable aquaculture for nutrition and income.",
-    fullDescription: `Our Fish Farming program promotes aquaculture as a sustainable source of protein and income for refugee and host community households. Fish farming is particularly well-suited to Uganda's climate and offers excellent nutritional and economic benefits.
-
-We provide comprehensive training in fish farming techniques, from pond construction and management to fish health and feeding practices. Our training is hands-on, allowing participants to learn by doing.
-
-We support program participants with pond construction and fingerling provision, giving them everything they need to start their fish farms. Our extension services provide ongoing support to help farmers overcome challenges and maximize their yields.
-
-We also help fish farmers access markets where they can sell their produce. Whether to local markets, restaurants, or individuals, we connect farmers with buyers who appreciate fresh, locally-grown fish.`,
-    objectives: [
-      "Provide fish farming training and technical support",
-      "Support pond construction and management",
-      "Supply fingerlings and fish feed",
-      "Facilitate market access for fish products",
-    ],
-    impact: {
-      peopleHelped: "25+",
-      beneficiaries: "125+",
-      projects: "4",
-      communities: "6+",
-    },
-    color: "bg-cyan-600",
-    secondaryColor: "text-cyan-600",
   },
   {
     id: "sporting-artistic",
@@ -371,6 +392,12 @@ Through tournaments, exhibitions, and cultural events, we create platforms for t
       "Provide arts and crafts workshops for creative expression",
       "Host cultural events and talent showcases",
       "Promote physical fitness and mental well-being through sports",
+    ],
+    activities: [
+      { icon: "Dumbbell", title: "Football Matches", description: "Regular team games and tournaments", frequency: "Weekly" },
+      { icon: "Music", title: "Music & Dance Classes", description: "Traditional and modern performance", frequency: "Weekly" },
+      { icon: "Palette", title: "Art Workshops", description: "Painting, drawing, and crafts", frequency: "Bi-weekly" },
+      { icon: "Theater", title: "Drama & Theater", description: "Skits and cultural performances", frequency: "Monthly" },
     ],
     impact: {
       peopleHelped: "200+",
@@ -407,6 +434,12 @@ Our awareness campaigns challenge stigma and discrimination, promoting a more in
       "Supply assistive devices and mobility aids",
       "Conduct awareness campaigns against stigma and discrimination",
     ],
+    activities: [
+      { icon: "Brain", title: "Counseling Sessions", description: "Individual and group therapy", frequency: "Weekly" },
+      { icon: "Heart", title: "Support Group Meetings", description: "Safe spaces for sharing experiences", frequency: "Bi-weekly" },
+      { icon: "Eye", title: "Disability Assessments", description: "Identifying needs and solutions", frequency: "Monthly" },
+      { icon: "HandHeart", title: "Stigma Awareness Campaigns", description: "Community education programs", frequency: "Quarterly" },
+    ],
     impact: {
       peopleHelped: "300+",
       beneficiaries: "500+",
@@ -441,6 +474,12 @@ For aspiring entrepreneurs, we provide business development support for starting
       "Preserve and celebrate cultural food heritage",
       "Offer food safety certification and hospitality skills",
       "Support culinary entrepreneurship and business development",
+    ],
+    activities: [
+      { icon: "ChefHat", title: "Cultural Cooking Classes", description: "Traditional recipes from home countries", frequency: "Weekly" },
+      { icon: "BookOpenCheck", title: "Nutrition Workshops", description: "Healthy meal planning and prep", frequency: "Bi-weekly" },
+      { icon: "Users", title: "Food Festivals", description: "Community celebration events", frequency: "Quarterly" },
+      { icon: "Briefcase", title: "Catering Startup Support", description: "Businesslaunch assistance", frequency: "Ongoing" },
     ],
     impact: {
       peopleHelped: "100+",

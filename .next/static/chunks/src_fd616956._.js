@@ -19,7 +19,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/graduation-cap.js [app-client] (ecmascript) <export default as GraduationCap>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/dollar-sign.js [app-client] (ecmascript) <export default as DollarSign>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/utensils.js [app-client] (ecmascript) <export default as Utensils>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$droplets$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Droplets$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/droplets.js [app-client] (ecmascript) <export default as Droplets>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2d$handshake$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__HeartHandshake$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/heart-handshake.js [app-client] (ecmascript) <export default as HeartHandshake>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/award.js [app-client] (ecmascript) <export default as Award>");
 ;
@@ -35,7 +34,7 @@ const programs = [
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 37,
+            lineNumber: 45,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/84962539.jpeg",
@@ -60,6 +59,32 @@ We also invest in teacher training and school infrastructure improvements, recog
             "Offer after-school tutoring and mentorship programs",
             "Support teacher training and school infrastructure improvements"
         ],
+        activities: [
+            {
+                icon: "BookOpenCheck",
+                title: "Learning Support Sessions",
+                description: "After-school tutoring and homework assistance",
+                frequency: "Daily"
+            },
+            {
+                icon: "GraduationCap",
+                title: "School Readiness Programs",
+                description: "Preparation classes for school entry",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Users",
+                title: "Peer Mentorship Circles",
+                description: "Student-led study groups and mentoring",
+                frequency: "Bi-weekly"
+            },
+            {
+                icon: "Sparkles",
+                title: "STEM Workshops",
+                description: "Science, technology, engineering, and math activities",
+                frequency: "Monthly"
+            }
+        ],
         impact: {
             peopleHelped: "1,500+",
             beneficiaries: "2,500+",
@@ -76,7 +101,7 @@ We also invest in teacher training and school infrastructure improvements, recog
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 72,
+            lineNumber: 86,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/2606823118.jpeg",
@@ -101,6 +126,32 @@ Our approach recognizes that economic empowerment requires more than just financ
             "Promote financial literacy and money management",
             "Create employment opportunities through business incubation"
         ],
+        activities: [
+            {
+                icon: "Briefcase",
+                title: "Business Planning Workshops",
+                description: "Training on business plan development",
+                frequency: "Weekly"
+            },
+            {
+                icon: "PiggyBank",
+                title: "Savings Clubs",
+                description: "Group savings and lending circles",
+                frequency: "Weekly"
+            },
+            {
+                icon: "TrendingUp",
+                title: "Market Research Sessions",
+                description: "Identifying viable business opportunities",
+                frequency: "Monthly"
+            },
+            {
+                icon: "HandHeart",
+                title: "Mentorship Program",
+                description: "One-on-one business coaching",
+                frequency: "Bi-weekly"
+            }
+        ],
         impact: {
             peopleHelped: "500+",
             beneficiaries: "800+",
@@ -117,7 +168,7 @@ Our approach recognizes that economic empowerment requires more than just financ
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 107,
+            lineNumber: 127,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/496075394.jpeg",
@@ -142,6 +193,32 @@ Our program emphasizes community building and peer support, recognizing that ref
             "Support small business incubation and development",
             "Facilitate networking with local businesses and communities"
         ],
+        activities: [
+            {
+                icon: "Briefcase",
+                title: "Job Placement Drives",
+                description: "Connecting refugees with employers",
+                frequency: "Monthly"
+            },
+            {
+                icon: "Users",
+                title: "Networking Events",
+                description: "Building professional connections",
+                frequency: "Monthly"
+            },
+            {
+                icon: "TrendingUp",
+                title: "Business Incubation",
+                description: "Supporting new business startups",
+                frequency: "Ongoing"
+            },
+            {
+                icon: "LandPlot",
+                title: "Urban Navigation Workshops",
+                description: "Learning city resources and services",
+                frequency: "Weekly"
+            }
+        ],
         impact: {
             peopleHelped: "300+",
             beneficiaries: "450+",
@@ -158,7 +235,7 @@ Our program emphasizes community building and peer support, recognizing that ref
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 142,
+            lineNumber: 168,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/3347159728.jpeg",
@@ -183,6 +260,32 @@ Our strong relationships with local employers mean that our graduates have excel
             "Supply tools and equipment to graduates",
             "Link graduates with employment opportunities"
         ],
+        activities: [
+            {
+                icon: "Scissors",
+                title: "Tailoring Classes",
+                description: "Garment making and fashion design",
+                frequency: "Daily"
+            },
+            {
+                icon: "Wrench",
+                title: "Hairdressing Training",
+                description: "Hair styling and beauty therapy",
+                frequency: "Daily"
+            },
+            {
+                icon: "Sparkles",
+                title: "Mobile Repair Workshops",
+                description: "Phone and electronics repair skills",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Briefcase",
+                title: "Tool Provision",
+                description: "Starter kits for graduates",
+                frequency: "Upon Graduation"
+            }
+        ],
         impact: {
             peopleHelped: "200+",
             beneficiaries: "300+",
@@ -199,7 +302,7 @@ Our strong relationships with local employers mean that our graduates have excel
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 177,
+            lineNumber: 209,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/4234630857.jpeg",
@@ -224,6 +327,32 @@ Through our cooperative models, we help community members pool resources and acc
             "Facilitate access to microcredit and loans",
             "Promote cooperative economics and collective enterprise"
         ],
+        activities: [
+            {
+                icon: "PiggyBank",
+                title: "VSLA Training",
+                description: "Village savings and loan associations",
+                frequency: "Weekly"
+            },
+            {
+                icon: "BookOpen",
+                title: "Financial Literacy Classes",
+                description: "Budgeting and money management",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Users",
+                title: "Cooperative Meetings",
+                description: "Group savings and decision making",
+                frequency: "Bi-weekly"
+            },
+            {
+                icon: "TrendingUp",
+                title: "Credit Access Workshops",
+                description: "Understanding loans and credit",
+                frequency: "Monthly"
+            }
+        ],
         impact: {
             peopleHelped: "50+",
             beneficiaries: "1,200+",
@@ -240,7 +369,7 @@ Through our cooperative models, we help community members pool resources and acc
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 212,
+            lineNumber: 250,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/294679151.jpeg",
@@ -265,6 +394,32 @@ Our advocacy work extends to policy engagement, where we advocate for refugee-fr
             "Engage in community advocacy and mobilization",
             "Participate in policy engagement and dialogue"
         ],
+        activities: [
+            {
+                icon: "Scale",
+                title: "Rights Awareness Workshops",
+                description: "Legal rights education sessions",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Users",
+                title: "Community Mobilization",
+                description: "Grassroots advocacy campaigns",
+                frequency: "Ongoing"
+            },
+            {
+                icon: "BookOpen",
+                title: "Legal Aid Referrals",
+                description: "Connecting with legal services",
+                frequency: "As Needed"
+            },
+            {
+                icon: "HandHeart",
+                title: "Policy Dialogues",
+                description: "Engaging with decision makers",
+                frequency: "Quarterly"
+            }
+        ],
         impact: {
             peopleHelped: "5,000+",
             beneficiaries: "7,500+",
@@ -281,7 +436,7 @@ Our advocacy work extends to policy engagement, where we advocate for refugee-fr
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 247,
+            lineNumber: 291,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/4290276478.jpeg",
@@ -306,6 +461,32 @@ Market linkage is another crucial component of our agriculture program. We help 
             "Implement community gardening projects",
             "Facilitate market access and linkages"
         ],
+        activities: [
+            {
+                icon: "Tractor",
+                title: "Farming Training",
+                description: "Modern agriculture techniques",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Trees",
+                title: "Community Gardens",
+                description: "Collective farming plots",
+                frequency: "Daily"
+            },
+            {
+                icon: "Droplets",
+                title: "Irrigation Workshops",
+                description: "Water management techniques",
+                frequency: "Monthly"
+            },
+            {
+                icon: "TrendingUp",
+                title: "Market Linkage",
+                description: "Connecting farmers to buyers",
+                frequency: "Ongoing"
+            }
+        ],
         impact: {
             peopleHelped: "150+",
             beneficiaries: "600+",
@@ -322,7 +503,7 @@ Market linkage is another crucial component of our agriculture program. We help 
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 282,
+            lineNumber: 332,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/3980788437.jpeg",
@@ -347,6 +528,32 @@ We provide job placement support, connecting our graduates with hotels, restaura
             "Support job placement in the hospitality sector",
             "Assist with enterprise development and startup"
         ],
+        activities: [
+            {
+                icon: "ChefHat",
+                title: "Bread Baking Classes",
+                description: "Artisan bread making techniques",
+                frequency: "Daily"
+            },
+            {
+                icon: "Salad",
+                title: "Pastry Workshops",
+                description: "Cakes, cookies, and confections",
+                frequency: "Weekly"
+            },
+            {
+                icon: "BookOpenCheck",
+                title: "Food Safety Certification",
+                description: "Health and safety training",
+                frequency: "Monthly"
+            },
+            {
+                icon: "Briefcase",
+                title: "Job Placement",
+                description: "Connecting graduates with hotels",
+                frequency: "Ongoing"
+            }
+        ],
         impact: {
             peopleHelped: "75+",
             beneficiaries: "100+",
@@ -357,54 +564,13 @@ We provide job placement support, connecting our graduates with hotels, restaura
         secondaryColor: "text-amber-600"
     },
     {
-        id: "aquaculture",
-        slug: slugify("Fish Farming"),
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$droplets$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Droplets$3e$__["Droplets"], {
-            className: "w-8 h-8"
-        }, void 0, false, {
-            fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 317,
-            columnNumber: 11
-        }, this),
-        image: "https://ext.same-assets.com/922964245/3016221291.jpeg",
-        gallery: [
-            "https://ext.same-assets.com/922964245/3016221291.jpeg",
-            "https://ext.same-assets.com/922964245/4290276478.jpeg",
-            "https://ext.same-assets.com/922964245/3893045342.jpeg",
-            "https://ext.same-assets.com/922964245/2606823118.jpeg"
-        ],
-        title: "Fish Farming",
-        shortDescription: "Sustainable aquaculture for nutrition and income.",
-        fullDescription: `Our Fish Farming program promotes aquaculture as a sustainable source of protein and income for refugee and host community households. Fish farming is particularly well-suited to Uganda's climate and offers excellent nutritional and economic benefits.
-
-We provide comprehensive training in fish farming techniques, from pond construction and management to fish health and feeding practices. Our training is hands-on, allowing participants to learn by doing.
-
-We support program participants with pond construction and fingerling provision, giving them everything they need to start their fish farms. Our extension services provide ongoing support to help farmers overcome challenges and maximize their yields.
-
-We also help fish farmers access markets where they can sell their produce. Whether to local markets, restaurants, or individuals, we connect farmers with buyers who appreciate fresh, locally-grown fish.`,
-        objectives: [
-            "Provide fish farming training and technical support",
-            "Support pond construction and management",
-            "Supply fingerlings and fish feed",
-            "Facilitate market access for fish products"
-        ],
-        impact: {
-            peopleHelped: "25+",
-            beneficiaries: "125+",
-            projects: "4",
-            communities: "6+"
-        },
-        color: "bg-cyan-600",
-        secondaryColor: "text-cyan-600"
-    },
-    {
         id: "sporting-artistic",
         slug: slugify("Sporting and Artistic"),
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 352,
+            lineNumber: 373,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/3246824778.jpeg",
@@ -429,6 +595,32 @@ Through tournaments, exhibitions, and cultural events, we create platforms for t
             "Host cultural events and talent showcases",
             "Promote physical fitness and mental well-being through sports"
         ],
+        activities: [
+            {
+                icon: "Dumbbell",
+                title: "Football Matches",
+                description: "Regular team games and tournaments",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Music",
+                title: "Music & Dance Classes",
+                description: "Traditional and modern performance",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Palette",
+                title: "Art Workshops",
+                description: "Painting, drawing, and crafts",
+                frequency: "Bi-weekly"
+            },
+            {
+                icon: "Theater",
+                title: "Drama & Theater",
+                description: "Skits and cultural performances",
+                frequency: "Monthly"
+            }
+        ],
         impact: {
             peopleHelped: "200+",
             beneficiaries: "400+",
@@ -445,7 +637,7 @@ Through tournaments, exhibitions, and cultural events, we create platforms for t
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 387,
+            lineNumber: 414,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/294679151.jpeg",
@@ -470,6 +662,32 @@ Our awareness campaigns challenge stigma and discrimination, promoting a more in
             "Supply assistive devices and mobility aids",
             "Conduct awareness campaigns against stigma and discrimination"
         ],
+        activities: [
+            {
+                icon: "Brain",
+                title: "Counseling Sessions",
+                description: "Individual and group therapy",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Heart",
+                title: "Support Group Meetings",
+                description: "Safe spaces for sharing experiences",
+                frequency: "Bi-weekly"
+            },
+            {
+                icon: "Eye",
+                title: "Disability Assessments",
+                description: "Identifying needs and solutions",
+                frequency: "Monthly"
+            },
+            {
+                icon: "HandHeart",
+                title: "Stigma Awareness Campaigns",
+                description: "Community education programs",
+                frequency: "Quarterly"
+            }
+        ],
         impact: {
             peopleHelped: "300+",
             beneficiaries: "500+",
@@ -486,7 +704,7 @@ Our awareness campaigns challenge stigma and discrimination, promoting a more in
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 422,
+            lineNumber: 455,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/3980788437.jpeg",
@@ -510,6 +728,32 @@ For aspiring entrepreneurs, we provide business development support for starting
             "Preserve and celebrate cultural food heritage",
             "Offer food safety certification and hospitality skills",
             "Support culinary entrepreneurship and business development"
+        ],
+        activities: [
+            {
+                icon: "ChefHat",
+                title: "Cultural Cooking Classes",
+                description: "Traditional recipes from home countries",
+                frequency: "Weekly"
+            },
+            {
+                icon: "BookOpenCheck",
+                title: "Nutrition Workshops",
+                description: "Healthy meal planning and prep",
+                frequency: "Bi-weekly"
+            },
+            {
+                icon: "Users",
+                title: "Food Festivals",
+                description: "Community celebration events",
+                frequency: "Quarterly"
+            },
+            {
+                icon: "Briefcase",
+                title: "Catering Startup Support",
+                description: "Businesslaunch assistance",
+                frequency: "Ongoing"
+            }
         ],
         impact: {
             peopleHelped: "100+",

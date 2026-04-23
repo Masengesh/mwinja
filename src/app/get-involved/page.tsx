@@ -187,53 +187,70 @@ export default function GetInvolvedPage() {
       {/* Partner Section */}
       <section className="py-20 lg:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            <div className="relative">
-              <Image
-                src="https://ext.same-assets.com/922964245/1260189484.jpeg"
-                alt="Partnership"
-                width={600}
-                height={500}
-                className="rounded-2xl shadow-2xl w-full object-cover"
-              />
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary-blue rounded-full -z-10" />
-              <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-primary-blue/20 rounded-full -z-10" />
-            </div>
+          <div className="text-center mb-16">
+            <span className="inline-flex items-center gap-2 text-primary-blue font-semibold text-sm uppercase tracking-wider mb-4">
+              Partnership Opportunities
+            </span>
+            <h2 className="font-jost text-3xl md:text-4xl lg:text-5xl font-bold text-dark-navy mb-6">
+              Partner With Us
+            </h2>
+            <p className="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
+              Mwinja Devine Help Foundation LTD seeks strategic partnerships with organizations sharing our vision of creating a world where each person connects spiritually while cultivating harmony, peace and love towards people who require special protection.
+            </p>
+          </div>
 
-            <div>
-              <span className="inline-flex items-center gap-2 text-primary-blue font-semibold text-sm uppercase tracking-wider mb-4">
-                Partnerships
-              </span>
-              <h2 className="font-jost text-3xl md:text-4xl lg:text-5xl font-bold text-dark-navy mb-6">
-                Partner With Us
-              </h2>
-              <p className="text-gray-600 text-lg mb-6 leading-relaxed">
-                We seek strategic partnerships with organizations and institutions that share our vision for sustainable community development.
-              </p>
-
-              <div className="space-y-3 mb-8">
-                {[
-                  "Funding Partners - Project grants and core support",
-                  "Technical Partners - Skills transfer and training",
-                  "Government - Policy alignment and referrals",
-                  "Private Sector - Employment and market access",
-                  "Academia - Research and innovation"
-                ].map((item, index) => (
-                  <div key={index} className="flex items-center gap-3">
-                    <Handshake className="w-5 h-5 text-primary-blue flex-shrink-0" />
-                    <span className="text-gray-700">{item}</span>
-                  </div>
-                ))}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            {[
+              {
+                title: "Funding Partners",
+                items: ["Project grants", "Core support", "Capacity building investments"]
+              },
+              {
+                title: "Technical Partners",
+                items: ["Skills transfer", "Curriculum development", "Quality assurance"]
+              },
+              {
+                title: "Government",
+                items: ["Policy alignment", "Referral pathways", "Registration support"]
+              },
+              {
+                title: "UN Agencies",
+                items: ["Coordination", "Advocacy", "Resource mobilization"]
+              },
+              {
+                title: "Private Sector",
+                items: ["Employment linkages", "Apprenticeships", "Market access"]
+              },
+              {
+                title: "Academia",
+                items: ["Research partnerships", "M&E support", "Innovation"]
+              }
+            ].map((partner, index) => (
+              <div key={index} className="bg-light-blue rounded-2xl p-6 hover:shadow-xl transition-shadow">
+                <div className="w-12 h-12 bg-primary-blue/10 rounded-xl flex items-center justify-center mb-4 text-primary-blue">
+                  <Handshake className="w-6 h-6" />
+                </div>
+                <h3 className="font-jost text-lg font-bold text-dark-navy mb-3">{partner.title}</h3>
+                <ul className="space-y-2">
+                  {partner.items.map((item, idx) => (
+                    <li key={idx} className="flex items-center gap-2 text-gray-600 text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-blue flex-shrink-0" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
               </div>
+            ))}
+          </div>
 
-              <Link
-                href="#contact-form"
-                className="inline-flex items-center gap-2 bg-dark-navy hover:bg-dark-navy/90 text-white font-bold px-8 py-4 rounded-full transition-colors"
-              >
-                <Handshake className="w-5 h-5" />
-                Become a Partner
-              </Link>
-            </div>
+          <div className="text-center">
+            <Link
+              href="#contact-form"
+              className="inline-flex items-center gap-2 bg-primary-blue hover:bg-primary-blue-dark text-white font-bold px-8 py-4 rounded-full transition-colors"
+            >
+              <Handshake className="w-5 h-5" />
+              Partner With Us
+            </Link>
           </div>
         </div>
       </section>

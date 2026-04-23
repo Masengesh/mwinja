@@ -67,17 +67,25 @@ export default function AboutSection() {
               <Sparkles className="w-4 h-4" />
               About Us
             </span>
-            
+
             <h2 className="font-jost text-3xl md:text-4xl lg:text-5xl font-bold text-dark-navy mb-6 leading-tight">
               Mwinja Divine Help Foundation
             </h2>
 
             <p className="text-gray-600 text-lg mb-6 leading-relaxed">
-              A <strong className="text-dark-navy">Refugee-Led Organization</strong> founded in 2023 in Kampala, Uganda, dedicated to addressing the social, economic, and protection challenges faced by refugees and host communities.
+              A <strong className="text-dark-navy">Refugee-Led Organization</strong> created in 2023 in Kampala, Uganda.
+
+              It was founded in response to the increasing social, economic, and protection issues that refugees and host communities face. The organization works in areas where poverty, unemployment, juvenile delinquency, and inequality are prevalent, and vulnerable groups—particularly women and children—face increased risks of marginalization, violence, and financial difficulties.
             </p>
 
             <p className="text-gray-600 mb-8 leading-relaxed">
-              We are committed to improving living conditions by promoting access to education, health, art, culture, and local development. Our organization is guided by the principles of charity, compassion, and solidarity.
+              is committed to improving people’s living conditions by promoting access to education, health, art, culture and local development.
+            </p>
+
+            <p className="text-gray-600 mb-8 leading-relaxed">
+              is a non-profit organization dedicated to humanitarian causes and social development. It is characterized by charity, compassion and solidarity.<br/>
+
+              The organization does not limit itself to social work but also includes socio-cultural, economic and financial aspects, as well as development activities.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
