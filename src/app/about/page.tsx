@@ -51,7 +51,7 @@ const team = [
   { name: "Ombeni nyarugeta", role: "Livelihoods Coordinator", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880424/WhatsApp_Image_2026-04-18_at_18.16.22_rnwfvy.jpg", bio: "Expert in vocational training and small business development." },
   { name: "Jullien kitsa Bauma", role: "outrich manager", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880423/WhatsApp_Image_2026-04-18_at_15.51.08_stysxd.jpg" },
   { name: "xxxxxxxxxx", role: "Accountant manger", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1777001573/acountt_k0bqqs.jpg" },
-  { name: "Therese kabangu", role: "xxxxxxxxx", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1777001573/axxxxxx_hmzg4f.jpg" },
+  { name: "Therese kabangu", role: "Media manger", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1777001573/axxxxxx_hmzg4f.jpg" },
 
 ];
 
