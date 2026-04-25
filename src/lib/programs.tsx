@@ -1,7 +1,7 @@
 import { BookOpen, TrendingUp, Users, Heart, Leaf, Scale, GraduationCap, DollarSign, Utensils, Droplets, Sparkles, Target, CheckCircle, HeartHandshake, Award, Scissors, Briefcase, LandPlot, PiggyBank, Gavel, Tractor, ChefHat, Music, Dumbbell, Brain, Eye, Shirt, Wrench, BookOpenCheck, HandHeart, Trees, Factory, Theater, Palette, Salad } from "lucide-react";
 
 export interface Activity {
-  icon: React.ReactNode; // 🔥 allows real icons instead of string mapping
+  icon: string; // 🔥 allows real icons instead of string mapping
   title: string;
   description: string;
   frequency: string;
