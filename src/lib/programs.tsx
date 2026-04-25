@@ -1,10 +1,17 @@
 import { BookOpen, TrendingUp, Users, Heart, Leaf, Scale, GraduationCap, DollarSign, Utensils, Droplets, Sparkles, Target, CheckCircle, HeartHandshake, Award, Scissors, Briefcase, LandPlot, PiggyBank, Gavel, Tractor, ChefHat, Music, Dumbbell, Brain, Eye, Shirt, Wrench, BookOpenCheck, HandHeart, Trees, Factory, Theater, Palette, Salad } from "lucide-react";
 
 export interface Activity {
-  icon: string;
+  icon: React.ReactNode; // 🔥 allows real icons instead of string mapping
   title: string;
   description: string;
   frequency: string;
+}
+
+export interface ProgramSection {
+  title: string;
+  description: string;
+  items: string[];
+  icon: React.ReactNode;
 }
 
 export interface Program {
@@ -13,12 +20,19 @@ export interface Program {
   icon: React.ReactNode;
   image: string;
   gallery: string[];
+
   title: string;
   shortDescription: string;
-  fullDescription: string;
+
+  fullDescription?: string;
+
+  // ✅ NEW (main UI driver)
+  sections: ProgramSection[];
+
   objectives: string[];
   activities: Activity[];
   impact: ImpactStats;
+
   color: string;
   secondaryColor: string;
 }
@@ -28,6 +42,10 @@ export interface ImpactStats {
   beneficiaries: string;
   projects: string;
   communities: string;
+
+  // optional future expansion
+  volunteers?: string;
+  partners?: string;
 }
 
 function slugify(text: string): string {
@@ -51,37 +69,86 @@ export const programs: Program[] = [
       "https://ext.same-assets.com/922964245/496075394.jpeg",
     ],
     title: "Education Programs",
-    shortDescription: "Opening doors to learning for vulnerable children and youth.",
-    fullDescription: `Our education programs are at the heart of our mission to create lasting change in refugee and host communities in Uganda. We believe that education is the most powerful tool for breaking the cycle of poverty and building a brighter future.
+    shortDescription:
+      "Empowering refugees through adult literacy, vocational training, and capacity building.",
 
-Every child deserves access to quality education, yet thousands of refugee children in Uganda face significant barriers to learning. Through our comprehensive education initiatives, we provide school fee support, scholastic materials, tutoring, and after-school programs that enable children to attend school and succeed academically.
+    fullDescription: `Our Education Programs are designed to empower refugees and host communities through knowledge, skills, and capacity building. We believe education is the foundation for long-term self-reliance and dignity.
 
-Our approach goes beyond simply paying school fees. We work closely with schools, communities, and families to create a supportive environment for learning. Our after-school programs provide remedial tutoring, mentorship, and life skills training that help students develop both academically and personally.
+Adult Literacy & Language  
+We support refugees facing language barriers by offering English training that improves communication and employment opportunities.
 
-We also invest in teacher training and school infrastructure improvements, recognizing that quality education requires well-trained teachers and adequate learning facilities. By partnering with local schools, we help build capacity and ensure sustainable education outcomes.`,
+• Functional English for daily communication  
+• Business English for entrepreneurship  
+• Digital literacy skills  
+• Cultural integration support  
+
+Vocational Skills Training  
+We equip learners with practical skills that can be used to create jobs or start small businesses.
+
+• Computer & IT skills  
+• Tailoring and fashion design  
+• Hairdressing and beauty therapy  
+• Makeup and personal styling  
+• Entrepreneurship development  
+
+Capacity Building  
+We strengthen individuals and organizations through leadership and management training.
+
+• Project management  
+• Financial reporting  
+• Proposal writing & fundraising  
+• Governance & leadership  
+• Monitoring & evaluation (M&E)  
+
+    These programs are designed to create independence, opportunity, and long-term impact in communities.`,
+
+    sections: [
+      {
+        title: "Adult Literacy & Language",
+        description: "English training for communication and employment",
+        items: ["Functional English", "Business English", "Digital literacy", "Cultural integration"],
+        icon: <BookOpenCheck className="w-6 h-6" />,
+      },
+      {
+        title: "Vocational Skills Training",
+        description: "Practical skills for job creation and business",
+        items: ["Computer & IT", "Tailoring & fashion", "Hairdressing & beauty", "Entrepreneurship"],
+        icon: <Scissors className="w-6 h-6" />,
+      },
+      {
+        title: "Capacity Building",
+        description: "Leadership and management training",
+        items: ["Project management", "Financial reporting", "Fundraising", "Governance & leadership", "M&E"],
+        icon: <Award className="w-6 h-6" />,
+      },
+    ],
+
     objectives: [
-      "Increase school enrollment and attendance rates among refugee and host community children",
-      "Provide scholastic materials, uniforms, and essential learning resources",
-      "Offer after-school tutoring and mentorship programs",
-      "Support teacher training and school infrastructure improvements",
+      "Increase access to education and skills training",
+      "Improve literacy and communication skills",
+      "Support vocational and technical training",
+      "Strengthen leadership and organizational capacity",
     ],
+
     activities: [
-      { icon: "BookOpenCheck", title: "Learning Support Sessions", description: "After-school tutoring and homework assistance", frequency: "Daily" },
-      { icon: "GraduationCap", title: "School Readiness Programs", description: "Preparation classes for school entry", frequency: "Weekly" },
-      { icon: "Users", title: "Peer Mentorship Circles", description: "Student-led study groups and mentoring", frequency: "Bi-weekly" },
-      { icon: "Sparkles", title: "STEM Workshops", description: "Science, technology, engineering, and math activities", frequency: "Monthly" },
+      { icon: "BookOpenCheck", title: "English Literacy", description: "Daily communication skills", frequency: "Daily" },
+      { icon: "Briefcase", title: "Business English", description: "Professional communication", frequency: "Weekly" },
+      { icon: "Users", title: "Digital Skills", description: "Computer literacy training", frequency: "Bi-weekly" },
     ],
+
     impact: {
       peopleHelped: "1,500+",
       beneficiaries: "2,500+",
       projects: "12",
       communities: "25+",
     },
+
     color: "bg-primary-blue",
     secondaryColor: "text-primary-blue",
   },
+
   {
-    id: "economic",
+    id: "economic empowerment",
     slug: slugify("Economic Empowerment"),
     icon: <DollarSign className="w-8 h-8" />,
     image: "https://ext.same-assets.com/922964245/2606823118.jpeg",
@@ -93,36 +160,84 @@ We also invest in teacher training and school infrastructure improvements, recog
     ],
     title: "Economic Empowerment",
     shortDescription: "Building sustainable incomes and financial independence.",
-    fullDescription: `Economic empowerment is essential for helping refugees and vulnerable community members achieve self-sufficiency and dignity. Our economic empowerment programs provide comprehensive support to help individuals and families build sustainable livelihoods.
 
-We offer business skills training that covers everything from basic entrepreneurship principles to advanced business management. Our financial literacy programs teach critical skills like budgeting, saving, and managing credit responsibly.
+    fullDescription: `Our Economic Empowerment program helps individuals and families achieve financial independence through skills, training, and business support.
 
-For those ready to start or expand their businesses, we provide seed funding through our microfinance initiatives. We also connect entrepreneurs with markets and business networks that can help their enterprises grow.
+Livelihood Development  
+Food insecurity among refugee households worsened dramatically from 37% in 2022 to 68% in 2023. With only 25% of required livelihood funding available in 2024, Mwinja Devine Help Foundation Ltd addresses this gap through comprehensive economic empowerment programs.
 
-Our approach recognizes that economic empowerment requires more than just financial support. We provide ongoing mentorship and business development services to help our beneficiaries navigate challenges and maximize their success. Whether someone wants to start a small shop, launch a service business, or expand an existing enterprise, we provide the tools and support they need to succeed.`,
+• Vocational skills training and certification
+• Business development and entrepreneurship
+• Microfinance access and financial literacy
+• Market linkages and value chain development
+• Cooperative formation and management
+
+
+
+
+
+Economic Challenges  
+
+• Food Insecurity (2023): 68%  
+• Skills Gap: 36.8% unskilled  
+• Livelihood Funding Gap: 75%  
+
+
+Mentorship & Growth  
+We provide continuous support to ensure long-term success.
+
+• Business coaching  
+• Market linkages  
+    • Enterprise development  
+    • Growth monitoring`,
+
+    sections: [
+      {
+        title: "Business Skills Training",
+        description: "Practical entrepreneurship knowledge",
+        items: ["Business planning", "Marketing strategies", "Customer management", "Record keeping"],
+        icon: <Briefcase className="w-6 h-6" />,
+      },
+      {
+        title: "Financial Support & Access",
+        description: "Support for small businesses and income generation",
+        items: ["Savings groups", "Microfinance access", "Seed funding", "Investment guidance"],
+        icon: <PiggyBank className="w-6 h-6" />,
+      },
+      {
+        title: "Mentorship & Growth",
+        description: "Continuous support for long-term success",
+        items: ["Business coaching", "Market linkages", "Enterprise development", "Growth monitoring"],
+        icon: <TrendingUp className="w-6 h-6" />,
+      },
+    ],
+
     objectives: [
-      "Provide comprehensive business skills training",
-      "Offer seed funding and microfinance opportunities",
-      "Promote financial literacy and money management",
-      "Create employment opportunities through business incubation",
+      "Promote financial independence",
+      "Support small business creation",
+      "Improve financial literacy",
+      "Increase employment opportunities",
     ],
+
     activities: [
-      { icon: "Briefcase", title: "Business Planning Workshops", description: "Training on business plan development", frequency: "Weekly" },
-      { icon: "PiggyBank", title: "Savings Clubs", description: "Group savings and lending circles", frequency: "Weekly" },
-      { icon: "TrendingUp", title: "Market Research Sessions", description: "Identifying viable business opportunities", frequency: "Monthly" },
-      { icon: "HandHeart", title: "Mentorship Program", description: "One-on-one business coaching", frequency: "Bi-weekly" },
+      { icon: "Briefcase", title: "Business Training", description: "Entrepreneurship skills", frequency: "Weekly" },
+      { icon: "PiggyBank", title: "Savings Groups", description: "Community savings support", frequency: "Weekly" },
+      { icon: "TrendingUp", title: "Business Mentorship", description: "Growth support", frequency: "Bi-weekly" },
     ],
+
     impact: {
       peopleHelped: "500+",
       beneficiaries: "800+",
       projects: "8",
       communities: "15+",
     },
+
     color: "bg-green-600",
     secondaryColor: "text-green-600",
   },
+
   {
-    id: "livelihoods",
+    id: "Urban Refugee livelihoods",
     slug: slugify("Urban Refugee Livelihoods"),
     icon: <Users className="w-8 h-8" />,
     image: "https://ext.same-assets.com/922964245/496075394.jpeg",
@@ -133,363 +248,570 @@ Our approach recognizes that economic empowerment requires more than just financ
       "https://ext.same-assets.com/922964245/2606823118.jpeg",
     ],
     title: "Urban Refugee Livelihoods",
-    shortDescription: "Empowering refugees to build independent lives in urban areas.",
-    fullDescription: `Urban refugees in Kampala face unique challenges as they navigate life in an unfamiliar city, often without family support networks or local connections. Our Urban Refugee Livelihoods program specifically addresses these challenges, helping refugees build sustainable lives in urban areas.
+    shortDescription: "Empowering refugees to build independent urban lives.",
 
-We provide skills training in high-demand sectors, from tailoring and carpentry to hospitality and information technology. Our job placement services connect trained refugees with employers who value their skills and contributions.
+    fullDescription: `This program supports refugees living in urban areas to build sustainable livelihoods and integrate into city life.
 
-For those who prefer entrepreneurship, our small business incubation program provides training, mentorship, and seed capital to help refugees launch successful enterprises. We also help refugees navigate the complex process of registering businesses and accessing local markets.
+Urban Refugee Livelihoods
 
-Our program emphasizes community building and peer support, recognizing that refugees often thrive when they have connections to others who understand their experiences. Through networking events and community gatherings, we help refugees build relationships that support their economic and social integration.`,
+• The 2024 Urban Livelihoods Assessment in Kampala revealed that 36.8% of respondents have not acquired any skills since leaving formal education, resulting in limited employability. Key barriers identified include low- income levels, lack of access to credit, language barriers, and discrimination. 
+
+• Women particularly struggle with limited access to financial resources, competition from male-dominated businesses, and harassment. Urban refugees face unique challenges including limited funding, insufficient livelihood opportunities, and lack of academic credential recognition. 
+`,
+
     objectives: [
-      "Provide vocational skills training in high-demand sectors",
-      "Offer job placement and employment matching services",
-      "Support small business incubation and development",
-      "Facilitate networking with local businesses and communities",
+      "Improve urban employment opportunities",
+      "Support entrepreneurship",
+      "Provide vocational training",
+      "Strengthen social integration",
     ],
+
     activities: [
-      { icon: "Briefcase", title: "Job Placement Drives", description: "Connecting refugees with employers", frequency: "Monthly" },
-      { icon: "Users", title: "Networking Events", description: "Building professional connections", frequency: "Monthly" },
-      { icon: "TrendingUp", title: "Business Incubation", description: "Supporting new business startups", frequency: "Ongoing" },
-      { icon: "LandPlot", title: "Urban Navigation Workshops", description: "Learning city resources and services", frequency: "Weekly" },
+      { icon: "Briefcase", title: "Job Placement", description: "Employment support", frequency: "Monthly" },
+      { icon: "Users", title: "Networking", description: "Community connections", frequency: "Monthly" },
+      { icon: "TrendingUp", title: "Business Support", description: "Startup guidance", frequency: "Ongoing" },
     ],
+
     impact: {
       peopleHelped: "300+",
       beneficiaries: "450+",
       projects: "6",
       communities: "10+",
     },
+
+    sections: [
+      {
+        title: "Skills Development",
+        description: "Practical training for urban job markets",
+        items: ["Tailoring and crafts", "Hospitality training", "IT and digital skills", "Trade skills"],
+        icon: <Scissors className="w-6 h-6" />,
+      },
+      {
+        title: "Job Placement",
+        description: "Connecting trained individuals with employers",
+        items: ["Job matching", "CV preparation", "Interview coaching", "Employer networking"],
+        icon: <Briefcase className="w-6 h-6" />,
+      },
+      {
+        title: "Entrepreneurship Support",
+        description: "Help starting and growing businesses",
+        items: ["Startup training", "Business registration support", "Seed capital access", "Market linkage"],
+        icon: <TrendingUp className="w-6 h-6" />,
+      },
+    ],
+
     color: "bg-orange-600",
     secondaryColor: "text-orange-600",
   },
+
   {
-    id: "skills",
+    id: "skills developments programs",
     slug: slugify("Skills Development"),
     icon: <TrendingUp className="w-8 h-8" />,
     image: "https://ext.same-assets.com/922964245/3347159728.jpeg",
-    gallery: [
-      "https://ext.same-assets.com/922964245/3347159728.jpeg",
-      "https://ext.same-assets.com/922964245/3246824778.jpeg",
-      "https://ext.same-assets.com/922964245/3980788437.jpeg",
-      "https://ext.same-assets.com/922964245/496075394.jpeg",
-    ],
+    gallery: [],
     title: "Skills Development",
     shortDescription: "Practical vocational training for self-reliance.",
-    fullDescription: `Our Skills Development programs equip youth and adults with practical vocational skills that lead to sustainable employment or self-employment. We believe that practical skills are key to economic independence and personal dignity.
 
-We offer training in a variety of trades, including tailoring, carpentry, mobile phone repair, electrical work, and hospitality. Our programs combine hands-on practical training with theoretical knowledge, ensuring graduates are well-prepared for the workforce.
+    fullDescription: `Our Skills Development program provides hands-on vocational training that prepares individuals for employment and self-employment.
 
-All our training programs include certification and competency testing, giving graduates credentials that employers recognize and respect. We also provide tool provision for graduates who complete our programs, giving them everything they need to start working immediately.
+Technical Training  
+We offer practical skills for job readiness.
 
-Our strong relationships with local employers mean that our graduates have excellent job placement opportunities. We work closely with businesses across various sectors to understand their hiring needs and match our training accordingly.`,
-    objectives: [
-      "Provide comprehensive vocational skills training",
-      "Offer certification and competency testing",
-      "Supply tools and equipment to graduates",
-      "Link graduates with employment opportunities",
+• Tailoring & Fashion: Textile industry, self-employment  
+• Hairdressing: Beauty sector, salon ownership  
+• Computer/IT Skills: Digital economy, office work  
+• Makeup Artistry: Events industry, freelance
+
+Employment Support  
+We help graduates transition into work.
+
+• Certification  
+• Tool provision  
+• Job placement  
+• Apprenticeships`,
+
+    objectives: [],
+    activities: [],
+    impact: { peopleHelped: "", beneficiaries: "", projects: "", communities: "" },
+
+    sections: [
+      {
+        title: "Vocational Training",
+        description: "Hands-on skills for employment",
+        items: ["Tailoring", "Hairdressing", "Electrical work", "Mobile repair"],
+        icon: <Wrench className="w-6 h-6" />,
+      },
+      {
+        title: "Employment Support",
+        description: "Graduate transition assistance",
+        items: ["Certification", "Tool provision", "Job placement", "Apprenticeships"],
+        icon: <Briefcase className="w-6 h-6" />,
+      },
     ],
-    activities: [
-      { icon: "Scissors", title: "Tailoring Classes", description: "Garment making and fashion design", frequency: "Daily" },
-      { icon: "Wrench", title: "Hairdressing Training", description: "Hair styling and beauty therapy", frequency: "Daily" },
-      { icon: "Sparkles", title: "Mobile Repair Workshops", description: "Phone and electronics repair skills", frequency: "Weekly" },
-      { icon: "Briefcase", title: "Tool Provision", description: "Starter kits for graduates", frequency: "Upon Graduation" },
-    ],
-    impact: {
-      peopleHelped: "200+",
-      beneficiaries: "300+",
-      projects: "5",
-      communities: "8+",
-    },
+
     color: "bg-indigo-600",
     secondaryColor: "text-indigo-600",
   },
+
   {
-    id: "financial",
+    id: "financial programs",
     slug: slugify("Financial Inclusion"),
     icon: <BookOpen className="w-8 h-8" />,
-    image: "https://ext.same-assets.com/922964245/4234630857.jpeg",
-    gallery: [
-      "https://ext.same-assets.com/922964245/4234630857.jpeg",
-      "https://ext.same-assets.com/922964245/2606823118.jpeg",
-      "https://ext.same-assets.com/922964245/3893045342.jpeg",
-      "https://ext.same-assets.com/922964245/496075394.jpeg",
-    ],
+    image: "",
+    gallery: [],
     title: "Financial Inclusion",
-    shortDescription: "Building financial resilience through savings and access to credit.",
-    fullDescription: `Financial inclusion is fundamental to sustainable development. Our Financial Inclusion programs help refugees and host community members develop financial literacy, build savings, and access credit for productive purposes.
+    shortDescription: "Savings, credit and financial literacy.",
 
-We establish and support Village Savings and Loan Association (VSLA) groups, which are community-based financial institutions that provide members with a safe place to save and access small loans. These groups have proven incredibly effective in helping low-income households build financial resilience.
+    fullDescription: `Our Financial Inclusion program helps communities access savings, credit, and financial education.
 
-Our financial literacy training covers topics like budgeting, saving, borrowing responsibly, and managing debt. We help program participants understand how to use financial services effectively and avoid common pitfalls that can lead to financial difficulties.
 
-Through our cooperative models, we help community members pool resources and access larger loans for significant investments like starting businesses or paying for education. These cooperatives also provide peer support and accountability that helps members stay committed to their financial goals.`,
-    objectives: [
-      "Establish and support community savings groups",
-      "Provide comprehensive financial literacy training",
-      "Facilitate access to microcredit and loans",
-      "Promote cooperative economics and collective enterprise",
+Savings Groups  
+We support community financial systems.
+
+• Village Savings & Loan Associations (VSLAs)  
+• Loan access  
+• Financial security  
+
+Financial Inclusion  
+We teach money management skills.
+
+• Budgeting  
+• Saving strategies  
+• Debt management  
+• Credit use`,
+
+    objectives: [],
+    activities: [],
+    impact: { peopleHelped: "", beneficiaries: "", projects: "", communities: "" },
+
+    sections: [
+      {
+        title: "Savings Groups",
+        description: "Community financial systems",
+        items: ["VSLA groups", "Savings culture", "Loan access", "Financial security"],
+        icon: <PiggyBank className="w-6 h-6" />,
+      },
+      {
+        title: "Financial Education",
+        description: "Money management skills",
+        items: ["Budgeting", "Saving strategies", "Debt management", "Credit use"],
+        icon: <DollarSign className="w-6 h-6" />,
+      },
     ],
-    activities: [
-      { icon: "PiggyBank", title: "VSLA Training", description: "Village savings and loan associations", frequency: "Weekly" },
-      { icon: "BookOpen", title: "Financial Literacy Classes", description: "Budgeting and money management", frequency: "Weekly" },
-      { icon: "Users", title: "Cooperative Meetings", description: "Group savings and decision making", frequency: "Bi-weekly" },
-      { icon: "TrendingUp", title: "Credit Access Workshops", description: "Understanding loans and credit", frequency: "Monthly" },
-    ],
-    impact: {
-      peopleHelped: "50+",
-      beneficiaries: "1,200+",
-      projects: "15",
-      communities: "30+",
-    },
+
     color: "bg-teal-600",
     secondaryColor: "text-teal-600",
   },
+
   {
-    id: "rights",
+    id: "refugee rights advocacy",
     slug: slugify("Rights & Advocacy"),
     icon: <Scale className="w-8 h-8" />,
-    image: "https://ext.same-assets.com/922964245/294679151.jpeg",
-    gallery: [
-      "https://ext.same-assets.com/922964245/294679151.jpeg",
-      "https://ext.same-assets.com/922964245/496075394.jpeg",
-      "https://ext.same-assets.com/922964245/84962539.jpeg",
-      "https://ext.same-assets.com/922964245/2606823118.jpeg",
-    ],
+    image: "",
+    gallery: [],
     title: "Rights & Advocacy",
-    shortDescription: "Defending the rights of refugees and marginalized groups.",
-    fullDescription: `Our Rights & Advocacy program is dedicated to defending and promoting the rights of refugees and other marginalized groups in Uganda. We believe that knowledge of rights is the first step toward protecting them.
+    shortDescription: "Protecting human rights and dignity.",
 
-We conduct comprehensive rights awareness campaigns that inform refugees about their legal rights, including the right to work, access services, and move freely. These campaigns use accessible language and culturally appropriate materials to ensure understanding across diverse communities.
+    fullDescription: `We promote and protect human rights through education, advocacy, and legal awareness.
 
-For refugees facing legal challenges, we provide referrals to legal aid organizations and pro bono lawyers who can offer professional support. We also work with community leaders and refugee advocates to build local capacity for rights education and protection.
+Rights-Based Approach  
+Uganda’s progressive refugee policy—anchored in the 2006 Refugee Act and 2010 Regulations—provides freedom of movement, right to work, establish businesses, own property, and access national services including education and health. Mwinja Devine Help Foundation Ltd advocates to ensure these rights translate into lived reality
 
-Our advocacy work extends to policy engagement, where we advocate for refugee-friendly policies at local and national levels. We work with government agencies, international organizations, and other stakeholders to ensure that refugee voices are heard in decisions that affect their lives.`,
-    objectives: [
-      "Conduct rights awareness and education campaigns",
-      "Provide legal support referrals and assistance",
-      "Engage in community advocacy and mobilization",
-      "Participate in policy engagement and dialogue",
+• Legal awareness and rights education  
+• Documentation support and advocacy  
+• Policy engagement with local authorities
+• Community representation in coordination forums
+• Anti-discrimination campaigns
+
+Social Inclusion
+we promotes peaceful coexistence between refugees and host communities through joint programming, cultural exchange, and shared resource management. Our 70/30 targeting ensures host communities benefit alongside refugees.
+
+• Host-refugee joint activities  
+• Interfaith dialogue initiatives 
+• Youth leadership development
+• Community conflict resolution
+
+Advocacy  
+We amplify community voices.
+
+• Policy engagement  
+• Community mobilization  
+• Legal referrals`,
+
+    objectives: [],
+    activities: [],
+    impact: { peopleHelped: "", beneficiaries: "", projects: "", communities: "" },
+
+    sections: [
+      {
+        title: "Rights Awareness",
+        description: "Educating communities about their rights",
+        items: ["Legal rights education", "Work rights", "Protection services"],
+        icon: <Gavel className="w-6 h-6" />,
+      },
+      {
+        title: "Advocacy",
+        description: "Amplifying community voices",
+        items: ["Policy engagement", "Community mobilization", "Legal referrals"],
+        icon: <Users className="w-6 h-6" />,
+      },
     ],
-    activities: [
-      { icon: "Scale", title: "Rights Awareness Workshops", description: "Legal rights education sessions", frequency: "Weekly" },
-      { icon: "Users", title: "Community Mobilization", description: "Grassroots advocacy campaigns", frequency: "Ongoing" },
-      { icon: "BookOpen", title: "Legal Aid Referrals", description: "Connecting with legal services", frequency: "As Needed" },
-      { icon: "HandHeart", title: "Policy Dialogues", description: "Engaging with decision makers", frequency: "Quarterly" },
-    ],
-    impact: {
-      peopleHelped: "5,000+",
-      beneficiaries: "7,500+",
-      projects: "10",
-      communities: "40+",
-    },
+
     color: "bg-purple-600",
     secondaryColor: "text-purple-600",
   },
+
   {
-    id: "agriculture",
-    slug: slugify("Agriculture Programs"),
-    icon: <Leaf className="w-8 h-8" />,
-    image: "https://ext.same-assets.com/922964245/4290276478.jpeg",
-    gallery: [
-      "https://ext.same-assets.com/922964245/4290276478.jpeg",
-      "https://ext.same-assets.com/922964245/3893045342.jpeg",
-      "https://ext.same-assets.com/922964245/3016221291.jpeg",
-      "https://ext.same-assets.com/922964245/2606823118.jpeg",
-    ],
-    title: "Agriculture Programs",
-    shortDescription: "Sustainable farming for food security and income.",
-    fullDescription: `Our Agriculture Programs support refugee and host community farmers with training, resources, and market access to improve food security and household incomes. Agriculture remains a vital source of livelihood for many refugees in Uganda.
+  id: "sporting-artistic",
+  slug: slugify("Sporting and Artistic"),
+  icon: <Award className="w-8 h-8" />,
+  image: "",
+  gallery: [],
+  title: "Sporting and Artistic",
+  shortDescription:
+    "Promoting sports, creativity, and youth talent development for community well-being.",
 
-We provide comprehensive agricultural training that covers modern farming techniques, crop management, and sustainable practices. Our extension workers work directly with farmers in their fields, providing hands-on guidance and support.
+  fullDescription: `Our Sporting and Artistic program promotes physical health, creativity, and social cohesion among youth and communities.
 
-We also supply seeds, tools, and other inputs that farmers need to succeed. Our community gardening projects create spaces where refugees can grow vegetables for their families, improving nutrition and reducing food expenses.
+Through sports and arts, we create safe spaces where young people can develop talent, build confidence, and strengthen teamwork skills.
 
-Market linkage is another crucial component of our agriculture program. We help farmers access markets where they can sell their surplus production, turning their farming activities into sustainable income generators.`,
-    objectives: [
-      "Provide agricultural training and extension services",
-      "Supply inputs including seeds, tools, and fertilizers",
-      "Implement community gardening projects",
-      "Facilitate market access and linkages",
-    ],
-    activities: [
-      { icon: "Tractor", title: "Farming Training", description: "Modern agriculture techniques", frequency: "Weekly" },
-      { icon: "Trees", title: "Community Gardens", description: "Collective farming plots", frequency: "Daily" },
-      { icon: "Droplets", title: "Irrigation Workshops", description: "Water management techniques", frequency: "Monthly" },
-      { icon: "TrendingUp", title: "Market Linkage", description: "Connecting farmers to buyers", frequency: "Ongoing" },
-    ],
-    impact: {
-      peopleHelped: "150+",
-      beneficiaries: "600+",
-      projects: "8",
-      communities: "12+",
-    },
-    color: "bg-emerald-600",
-    secondaryColor: "text-emerald-600",
+This program is also a tool for peacebuilding, inclusion, and youth empowerment across refugee and host communities.
+
+Sports Development  
+We organize structured sports activities that promote discipline, teamwork, and physical health.
+
+• Football, volleyball, and athletics tournaments  
+• Youth sports leagues and competitions  
+• Physical fitness and wellness training  
+• Community sports events and outreach  
+
+Creative Arts Development  
+We support artistic expression and cultural creativity among youth.
+
+• Music, dance, and drama training  
+• Visual arts and crafts workshops  
+• Talent shows and cultural festivals  
+• Creative expression for healing and confidence building  
+
+Community Engagement  
+We use sports and arts to strengthen unity and inclusion.
+
+• Inter-community tournaments  
+• Cultural exchange events  
+• Youth leadership through sports  
+• Peacebuilding activities`,
+
+  objectives: [],
+  activities: [],
+  impact: {
+    peopleHelped: "",
+    beneficiaries: "",
+    projects: "",
+    communities: "",
   },
-  {
-    id: "bakery",
-    slug: slugify("Bakery & Culinary"),
-    icon: <Utensils className="w-8 h-8" />,
-    image: "https://ext.same-assets.com/922964245/3980788437.jpeg",
-    gallery: [
-      "https://ext.same-assets.com/922964245/3980788437.jpeg",
-      "https://ext.same-assets.com/922964245/3347159728.jpeg",
-      "https://ext.same-assets.com/922964245/3246824778.jpeg",
-      "https://ext.same-assets.com/922964245/496075394.jpeg",
-    ],
-    title: "Bakery & Culinary",
-    shortDescription: "Skills for the food industry.",
-    fullDescription: `Our Bakery and Culinary program provides professional training in food preparation and baking, opening doors to employment in the thriving hospitality sector and entrepreneurship opportunities.
 
-We train individuals in professional baking techniques, from bread and pastries to cakes and confections. Our curriculum covers food safety, kitchen management, and business aspects of running a food enterprise.
-
-All graduates receive food safety certification that is recognized by employers throughout Uganda. This credential significantly enhances their employment prospects and credibility as food professionals.
-
-We provide job placement support, connecting our graduates with hotels, restaurants, bakeries, and catering companies. For those who prefer entrepreneurship, we offer business development support to help them start their own bakeries or food businesses.`,
-    objectives: [
-      "Provide professional baking and culinary training",
-      "Offer food safety certification",
-      "Support job placement in the hospitality sector",
-      "Assist with enterprise development and startup",
-    ],
-    activities: [
-      { icon: "ChefHat", title: "Bread Baking Classes", description: "Artisan bread making techniques", frequency: "Daily" },
-      { icon: "Salad", title: "Pastry Workshops", description: "Cakes, cookies, and confections", frequency: "Weekly" },
-      { icon: "BookOpenCheck", title: "Food Safety Certification", description: "Health and safety training", frequency: "Monthly" },
-      { icon: "Briefcase", title: "Job Placement", description: "Connecting graduates with hotels", frequency: "Ongoing" },
-    ],
-    impact: {
-      peopleHelped: "75+",
-      beneficiaries: "100+",
-      projects: "3",
-      communities: "5+",
+  sections: [
+    {
+      title: "Sports Development",
+      description: "Promoting physical health and teamwork",
+      items: [
+        "Football & volleyball",
+        "Athletics training",
+        "Youth competitions",
+        "Fitness programs",
+      ],
+      icon: <Dumbbell className="w-6 h-6" />,
     },
-    color: "bg-amber-600",
-    secondaryColor: "text-amber-600",
-  },
-  {
-    id: "sporting-artistic",
-    slug: slugify("Sporting and Artistic"),
-    icon: <Award className="w-8 h-8" />,
-    image: "https://ext.same-assets.com/922964245/3246824778.jpeg",
-    gallery: [
-      "https://ext.same-assets.com/922964245/3246824778.jpeg",
-      "https://ext.same-assets.com/922964245/3347159728.jpeg",
-      "https://ext.same-assets.com/922964245/3893045342.jpeg",
-      "https://ext.same-assets.com/922964245/4234630857.jpeg",
-    ],
-    title: "Sporting and Artistic",
-    shortDescription: "Promoting physical activity, sports, and creative expression for community well-being.",
-    fullDescription: `Our Sporting and Artistic program recognizes the vital role that physical activity and creative expression play in fostering community well-being, social cohesion, and personal development.
-
-We organize regular sports activities including football, volleyball, netball, and athletics that bring together refugees and host community members. These activities promote physical health, teamwork, and cross-cultural understanding.
-
-Our artistic initiatives include visual arts, music, dance, and drama workshops that provide creative outlets for self-expression and cultural exchange. We believe that art has the power to heal, unite, and inspire communities.
-
-Through tournaments, exhibitions, and cultural events, we create platforms for talent showcase and community celebration. These events strengthen social bonds and create opportunities for recognition and appreciation of diverse talents and cultures.`,
-    objectives: [
-      "Organize regular sports activities and tournaments",
-      "Provide arts and crafts workshops for creative expression",
-      "Host cultural events and talent showcases",
-      "Promote physical fitness and mental well-being through sports",
-    ],
-    activities: [
-      { icon: "Dumbbell", title: "Football Matches", description: "Regular team games and tournaments", frequency: "Weekly" },
-      { icon: "Music", title: "Music & Dance Classes", description: "Traditional and modern performance", frequency: "Weekly" },
-      { icon: "Palette", title: "Art Workshops", description: "Painting, drawing, and crafts", frequency: "Bi-weekly" },
-      { icon: "Theater", title: "Drama & Theater", description: "Skits and cultural performances", frequency: "Monthly" },
-    ],
-    impact: {
-      peopleHelped: "200+",
-      beneficiaries: "400+",
-      projects: "6",
-      communities: "10+",
+    {
+      title: "Creative Arts",
+      description: "Developing artistic and cultural talent",
+      items: [
+        "Music & dance",
+        "Drama & theater",
+        "Visual arts",
+        "Talent shows",
+      ],
+      icon: <Music className="w-6 h-6" />,
     },
-    color: "bg-rose-600",
-    secondaryColor: "text-rose-600",
-  },
-  {
-    id: "mental-health-disability",
-    slug: slugify("Mental Health and Disability Support"),
-    icon: <HeartHandshake className="w-8 h-8" />,
-    image: "https://ext.same-assets.com/922964245/294679151.jpeg",
-    gallery: [
-      "https://ext.same-assets.com/922964245/294679151.jpeg",
-      "https://ext.same-assets.com/922964245/3893045342.jpeg",
-      "https://ext.same-assets.com/922964245/2606823118.jpeg",
-      "https://ext.same-assets.com/922964245/496075394.jpeg",
-    ],
-    title: "Mental Health and Disability Support",
-    shortDescription: "Providing psychosocial support and promoting inclusion for persons with disabilities.",
-    fullDescription: `Our Mental Health and Disability Support program addresses the critical need for psychosocial support services and disability inclusion in refugee and host communities.
-
-We provide safe spaces for individuals to share their experiences, process trauma, and support one another. Our trained counselors and community volunteers facilitate support groups that foster healing, resilience, and hope.
-
-For persons with disabilities, we promote inclusion through accessibility assessments, assistive device provision, and skills training tailored to individual capabilities. We work to break down barriers and create opportunities for full participation in community life.
-
-Our awareness campaigns challenge stigma and discrimination, promoting a more inclusive society where everyone is valued and respected. We advocate for the rights of persons with disabilities and ensure their voices are heard in community decision-making.`,
-    objectives: [
-      "Provide psychosocial support and counseling services",
-      "Promote disability inclusion and accessibility",
-      "Supply assistive devices and mobility aids",
-      "Conduct awareness campaigns against stigma and discrimination",
-    ],
-    activities: [
-      { icon: "Brain", title: "Counseling Sessions", description: "Individual and group therapy", frequency: "Weekly" },
-      { icon: "Heart", title: "Support Group Meetings", description: "Safe spaces for sharing experiences", frequency: "Bi-weekly" },
-      { icon: "Eye", title: "Disability Assessments", description: "Identifying needs and solutions", frequency: "Monthly" },
-      { icon: "HandHeart", title: "Stigma Awareness Campaigns", description: "Community education programs", frequency: "Quarterly" },
-    ],
-    impact: {
-      peopleHelped: "300+",
-      beneficiaries: "500+",
-      projects: "7",
-      communities: "12+",
+    {
+      title: "Community Engagement",
+      description: "Building unity through sports and arts",
+      items: [
+        "Cultural events",
+        "Peacebuilding activities",
+        "Youth leadership",
+        "Inter-community events",
+      ],
+      icon: <Users className="w-6 h-6" />,
     },
-    color: "bg-pink-600",
-    secondaryColor: "text-pink-600",
+  ],
+
+  color: "bg-rose-600",
+  secondaryColor: "text-rose-600",
+},
+
+{
+  id: "mental-health-disability",
+  slug: slugify("Mental Health and Disability Support"),
+  icon: <HeartHandshake className="w-8 h-8" />,
+  image: "",
+  gallery: [],
+  title: "Mental Health and Disability Support",
+  shortDescription:
+    "Providing psychosocial support and promoting inclusion for vulnerable groups.",
+
+  fullDescription: `Our Mental Health and Disability Support program promotes emotional well-being, psychosocial healing, and inclusion for persons with disabilities.
+
+We address trauma, stress, stigma, and exclusion by creating safe, supportive community systems.
+
+Mental Health Support  
+We provide structured psychosocial and emotional care services.
+
+• Individual and group counseling  
+• Trauma healing sessions  
+• Stress management support  
+• Community mental health awareness  
+
+Disability Inclusion  
+We promote equal participation and accessibility for persons with disabilities.
+
+• Disability assessments and referrals  
+• Assistive device support  
+• Inclusive education advocacy  
+• Accessibility awareness campaigns  
+
+Community Healing & Awareness  
+We reduce stigma and promote understanding in communities.
+
+• Anti-stigma campaigns  
+• Peer support groups  
+• Community dialogue forums  
+• Family support sessions`,
+
+  objectives: [],
+  activities: [],
+  impact: {
+    peopleHelped: "",
+    beneficiaries: "",
+    projects: "",
+    communities: "",
   },
-  {
-    id: "culinary-art",
-    slug: slugify("Culinary Art"),
-    icon: <Utensils className="w-8 h-8" />,
-    image: "https://ext.same-assets.com/922964245/3980788437.jpeg",
-    gallery: [
-      "https://ext.same-assets.com/922964245/3980788437.jpeg",
-      "https://ext.same-assets.com/922964245/3347159728.jpeg",
-      "https://ext.same-assets.com/922964245/3246824778.jpeg",
-      "https://ext.same-assets.com/922964245/3893045342.jpeg",
-    ],
-    title: "Culinary Art",
-    shortDescription: "Celebrating culinary creativity and preserving cultural food heritage.",
-    fullDescription: `Our Culinary Art program celebrates the rich diversity of culinary traditions within refugee and host communities while providing practical skills for the food industry.
 
-We offer training in diverse cooking techniques, from traditional African cuisine to international culinary arts. Participants learn about nutrition, food safety, menu planning, and presentation skills that prepare them for employment in the hospitality sector.
-
-Our program also focuses on preserving cultural food heritage, helping participants document and share traditional recipes from their home countries. Through community cooking events and food festivals, we celebrate cultural diversity and foster cross-cultural understanding.
-
-For aspiring entrepreneurs, we provide business development support for starting catering services, food trucks, or restaurants. We help participants transform their culinary passion into sustainable livelihoods that contribute to the local economy.`,
-    objectives: [
-      "Provide comprehensive culinary training and nutrition education",
-      "Preserve and celebrate cultural food heritage",
-      "Offer food safety certification and hospitality skills",
-      "Support culinary entrepreneurship and business development",
-    ],
-    activities: [
-      { icon: "ChefHat", title: "Cultural Cooking Classes", description: "Traditional recipes from home countries", frequency: "Weekly" },
-      { icon: "BookOpenCheck", title: "Nutrition Workshops", description: "Healthy meal planning and prep", frequency: "Bi-weekly" },
-      { icon: "Users", title: "Food Festivals", description: "Community celebration events", frequency: "Quarterly" },
-      { icon: "Briefcase", title: "Catering Startup Support", description: "Businesslaunch assistance", frequency: "Ongoing" },
-    ],
-    impact: {
-      peopleHelped: "100+",
-      beneficiaries: "150+",
-      projects: "4",
-      communities: "8+",
+  sections: [
+    {
+      title: "Mental Health Support",
+      description: "Psychosocial healing and counseling",
+      items: [
+        "Counseling sessions",
+        "Trauma healing",
+        "Stress management",
+        "Support groups",
+      ],
+      icon: <Brain className="w-6 h-6" />,
     },
-    color: "bg-yellow-600",
-    secondaryColor: "text-yellow-600",
+    {
+      title: "Disability Inclusion",
+      description: "Supporting persons with disabilities",
+      items: [
+        "Accessibility support",
+        "Assistive devices",
+        "Inclusive education",
+        "Advocacy programs",
+      ],
+      icon: <Eye className="w-6 h-6" />,
+    },
+    {
+      title: "Community Awareness",
+      description: "Reducing stigma and promoting inclusion",
+      items: [
+        "Anti-stigma campaigns",
+        "Community dialogues",
+        "Family support",
+        "Peer groups",
+      ],
+      icon: <HandHeart className="w-6 h-6" />,
+    },
+  ],
+
+  color: "bg-pink-600",
+  secondaryColor: "text-pink-600",
+},
+
+{
+  id: "culinary-art",
+  slug: slugify("Culinary Art"),
+  icon: <Utensils className="w-8 h-8" />,
+  image: "",
+  gallery: [],
+  title: "Culinary Art",
+  shortDescription:
+    "Training in cooking skills, food safety, and culinary entrepreneurship.",
+
+  fullDescription: `Our Culinary Art program develops professional cooking skills and supports food-based entrepreneurship.
+
+We empower participants to turn cooking skills into sustainable livelihoods in the hospitality and food industry.
+
+Culinary Training  
+We provide hands-on cooking and baking skills development.
+
+• Professional cooking techniques  
+• Baking and pastry training  
+• Food presentation and hygiene  
+• Kitchen management skills  
+
+Food Entrepreneurship  
+We support participants in building food businesses.
+
+• Catering business training  
+• Small restaurant startup support  
+• Food packaging and branding  
+• Market access and sales skills  
+
+Cultural Food Heritage  
+We preserve and promote traditional food knowledge.
+
+• Traditional recipe training  
+• Cultural food festivals  
+• Community cooking events  
+• Nutrition awareness`,
+
+  objectives: [],
+  activities: [],
+  impact: {
+    peopleHelped: "",
+    beneficiaries: "",
+    projects: "",
+    communities: "",
   },
+
+  sections: [
+    {
+      title: "Culinary Training",
+      description: "Professional cooking and baking skills",
+      items: [
+        "Cooking techniques",
+        "Baking & pastries",
+        "Food hygiene",
+        "Kitchen management",
+      ],
+      icon: <ChefHat className="w-6 h-6" />,
+    },
+    {
+      title: "Food Business",
+      description: "Supporting culinary entrepreneurship",
+      items: [
+        "Catering business",
+        "Restaurant startup",
+        "Food packaging",
+        "Market access",
+      ],
+      icon: <Briefcase className="w-6 h-6" />,
+    },
+    {
+      title: "Cultural Food Heritage",
+      description: "Preserving traditional food knowledge",
+      items: [
+        "Traditional recipes",
+        "Food festivals",
+        "Community cooking",
+        "Nutrition awareness",
+      ],
+      icon: <Salad className="w-6 h-6" />,
+    },
+  ],
+
+  color: "bg-yellow-600",
+  secondaryColor: "text-yellow-600",
+},
+
+{
+  id: "agriculture",
+  slug: slugify("Agriculture Programs"),
+  icon: <Leaf className="w-8 h-8" />,
+  image: "",
+  gallery: [],
+  title: "Agriculture Programs",
+  shortDescription:
+    "Supporting sustainable farming, food security, and rural livelihoods.",
+
+  fullDescription: `Our Agriculture Program supports farmers with training, inputs, and market access to improve food security and income generation.
+
+We promote modern and sustainable farming techniques that strengthen resilience against climate and economic challenges.
+
+Sustainable Farming  
+We train farmers in improved agricultural practices.
+
+• Modern farming techniques  
+• Climate-smart agriculture  
+• Crop and livestock management  
+• Soil and water conservation  
+
+Food Security Support  
+We strengthen household and community food production.
+
+• Kitchen gardens  
+• Seed distribution support  
+• Nutrition-sensitive farming  
+• Post-harvest handling  
+
+Market & Livelihoods  
+We help farmers connect to markets and income opportunities.
+
+• Market linkage support  
+• Cooperative farming groups  
+• Value addition training  
+• Agricultural entrepreneurship`,
+
+  objectives: [],
+  activities: [],
+  impact: {
+    peopleHelped: "",
+    beneficiaries: "",
+    projects: "",
+    communities: "",
+  },
+
+  sections: [
+    {
+      title: "Sustainable Farming",
+      description: "Improving agricultural productivity",
+      items: [
+        "Climate-smart agriculture",
+        "Crop management",
+        "Soil conservation",
+        "Livestock farming",
+      ],
+      icon: <Tractor className="w-6 h-6" />,
+    },
+    {
+      title: "Food Security",
+      description: "Improving household nutrition",
+      items: [
+        "Kitchen gardens",
+        "Seed support",
+        "Nutrition farming",
+        "Harvest storage",
+      ],
+      icon: <Trees className="w-6 h-6" />,
+    },
+    {
+      title: "Market Access",
+      description: "Connecting farmers to markets",
+      items: [
+        "Market linkages",
+        "Cooperatives",
+        "Value addition",
+        "Agri-business",
+      ],
+      icon: <TrendingUp className="w-6 h-6" />,
+    },
+  ],
+
+  color: "bg-emerald-600",
+  secondaryColor: "text-emerald-600",
+},
+
 ];
 
 export function getProgramBySlug(slug: string): Program | undefined {

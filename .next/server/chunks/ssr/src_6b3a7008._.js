@@ -21,6 +21,21 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/utensils.js [app-ssr] (ecmascript) <export default as Utensils>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2d$handshake$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__HeartHandshake$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/heart-handshake.js [app-ssr] (ecmascript) <export default as HeartHandshake>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/award.js [app-ssr] (ecmascript) <export default as Award>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$scissors$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Scissors$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/scissors.js [app-ssr] (ecmascript) <export default as Scissors>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$briefcase$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Briefcase$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/briefcase.js [app-ssr] (ecmascript) <export default as Briefcase>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$piggy$2d$bank$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__PiggyBank$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/piggy-bank.js [app-ssr] (ecmascript) <export default as PiggyBank>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$gavel$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Gavel$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/gavel.js [app-ssr] (ecmascript) <export default as Gavel>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$tractor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Tractor$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/tractor.js [app-ssr] (ecmascript) <export default as Tractor>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chef$2d$hat$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChefHat$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chef-hat.js [app-ssr] (ecmascript) <export default as ChefHat>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$music$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Music$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/music.js [app-ssr] (ecmascript) <export default as Music>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dumbbell$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Dumbbell$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/dumbbell.js [app-ssr] (ecmascript) <export default as Dumbbell>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$brain$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Brain$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/brain.js [app-ssr] (ecmascript) <export default as Brain>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$eye$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Eye$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/eye.js [app-ssr] (ecmascript) <export default as Eye>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wrench$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Wrench$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/wrench.js [app-ssr] (ecmascript) <export default as Wrench>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2d$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpenCheck$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/book-open-check.js [app-ssr] (ecmascript) <export default as BookOpenCheck>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$hand$2d$heart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__HandHeart$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/hand-heart.js [app-ssr] (ecmascript) <export default as HandHeart>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/trees.js [app-ssr] (ecmascript) <export default as Trees>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$salad$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Salad$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/salad.js [app-ssr] (ecmascript) <export default as Salad>");
 ;
 ;
 function slugify(text) {
@@ -34,7 +49,7 @@ const programs = [
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 45,
+            lineNumber: 63,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/84962539.jpeg",
@@ -45,44 +60,114 @@ const programs = [
             "https://ext.same-assets.com/922964245/496075394.jpeg"
         ],
         title: "Education Programs",
-        shortDescription: "Opening doors to learning for vulnerable children and youth.",
-        fullDescription: `Our education programs are at the heart of our mission to create lasting change in refugee and host communities in Uganda. We believe that education is the most powerful tool for breaking the cycle of poverty and building a brighter future.
+        shortDescription: "Empowering refugees through adult literacy, vocational training, and capacity building.",
+        fullDescription: `Our Education Programs are designed to empower refugees and host communities through knowledge, skills, and capacity building. We believe education is the foundation for long-term self-reliance and dignity.
 
-Every child deserves access to quality education, yet thousands of refugee children in Uganda face significant barriers to learning. Through our comprehensive education initiatives, we provide school fee support, scholastic materials, tutoring, and after-school programs that enable children to attend school and succeed academically.
+Adult Literacy & Language  
+We support refugees facing language barriers by offering English training that improves communication and employment opportunities.
 
-Our approach goes beyond simply paying school fees. We work closely with schools, communities, and families to create a supportive environment for learning. Our after-school programs provide remedial tutoring, mentorship, and life skills training that help students develop both academically and personally.
+• Functional English for daily communication  
+• Business English for entrepreneurship  
+• Digital literacy skills  
+• Cultural integration support  
 
-We also invest in teacher training and school infrastructure improvements, recognizing that quality education requires well-trained teachers and adequate learning facilities. By partnering with local schools, we help build capacity and ensure sustainable education outcomes.`,
+Vocational Skills Training  
+We equip learners with practical skills that can be used to create jobs or start small businesses.
+
+• Computer & IT skills  
+• Tailoring and fashion design  
+• Hairdressing and beauty therapy  
+• Makeup and personal styling  
+• Entrepreneurship development  
+
+Capacity Building  
+We strengthen individuals and organizations through leadership and management training.
+
+• Project management  
+• Financial reporting  
+• Proposal writing & fundraising  
+• Governance & leadership  
+• Monitoring & evaluation (M&E)  
+
+    These programs are designed to create independence, opportunity, and long-term impact in communities.`,
+        sections: [
+            {
+                title: "Adult Literacy & Language",
+                description: "English training for communication and employment",
+                items: [
+                    "Functional English",
+                    "Business English",
+                    "Digital literacy",
+                    "Cultural integration"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2d$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpenCheck$3e$__["BookOpenCheck"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 110,
+                    columnNumber: 15
+                }, this)
+            },
+            {
+                title: "Vocational Skills Training",
+                description: "Practical skills for job creation and business",
+                items: [
+                    "Computer & IT",
+                    "Tailoring & fashion",
+                    "Hairdressing & beauty",
+                    "Entrepreneurship"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$scissors$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Scissors$3e$__["Scissors"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 116,
+                    columnNumber: 15
+                }, this)
+            },
+            {
+                title: "Capacity Building",
+                description: "Leadership and management training",
+                items: [
+                    "Project management",
+                    "Financial reporting",
+                    "Fundraising",
+                    "Governance & leadership",
+                    "M&E"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 122,
+                    columnNumber: 15
+                }, this)
+            }
+        ],
         objectives: [
-            "Increase school enrollment and attendance rates among refugee and host community children",
-            "Provide scholastic materials, uniforms, and essential learning resources",
-            "Offer after-school tutoring and mentorship programs",
-            "Support teacher training and school infrastructure improvements"
+            "Increase access to education and skills training",
+            "Improve literacy and communication skills",
+            "Support vocational and technical training",
+            "Strengthen leadership and organizational capacity"
         ],
         activities: [
             {
                 icon: "BookOpenCheck",
-                title: "Learning Support Sessions",
-                description: "After-school tutoring and homework assistance",
+                title: "English Literacy",
+                description: "Daily communication skills",
                 frequency: "Daily"
             },
             {
-                icon: "GraduationCap",
-                title: "School Readiness Programs",
-                description: "Preparation classes for school entry",
+                icon: "Briefcase",
+                title: "Business English",
+                description: "Professional communication",
                 frequency: "Weekly"
             },
             {
                 icon: "Users",
-                title: "Peer Mentorship Circles",
-                description: "Student-led study groups and mentoring",
+                title: "Digital Skills",
+                description: "Computer literacy training",
                 frequency: "Bi-weekly"
-            },
-            {
-                icon: "Sparkles",
-                title: "STEM Workshops",
-                description: "Science, technology, engineering, and math activities",
-                frequency: "Monthly"
             }
         ],
         impact: {
@@ -95,13 +180,13 @@ We also invest in teacher training and school infrastructure improvements, recog
         secondaryColor: "text-primary-blue"
     },
     {
-        id: "economic",
+        id: "economic empowerment",
         slug: slugify("Economic Empowerment"),
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__["DollarSign"], {
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 86,
+            lineNumber: 153,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/2606823118.jpeg",
@@ -113,42 +198,111 @@ We also invest in teacher training and school infrastructure improvements, recog
         ],
         title: "Economic Empowerment",
         shortDescription: "Building sustainable incomes and financial independence.",
-        fullDescription: `Economic empowerment is essential for helping refugees and vulnerable community members achieve self-sufficiency and dignity. Our economic empowerment programs provide comprehensive support to help individuals and families build sustainable livelihoods.
+        fullDescription: `Our Economic Empowerment program helps individuals and families achieve financial independence through skills, training, and business support.
 
-We offer business skills training that covers everything from basic entrepreneurship principles to advanced business management. Our financial literacy programs teach critical skills like budgeting, saving, and managing credit responsibly.
+Livelihood Development  
+Food insecurity among refugee households worsened dramatically from 37% in 2022 to 68% in 2023. With only 25% of required livelihood funding available in 2024, Mwinja Devine Help Foundation Ltd addresses this gap through comprehensive economic empowerment programs.
 
-For those ready to start or expand their businesses, we provide seed funding through our microfinance initiatives. We also connect entrepreneurs with markets and business networks that can help their enterprises grow.
+• Vocational skills training and certification
+• Business development and entrepreneurship
+• Microfinance access and financial literacy
+• Market linkages and value chain development
+• Cooperative formation and management
 
-Our approach recognizes that economic empowerment requires more than just financial support. We provide ongoing mentorship and business development services to help our beneficiaries navigate challenges and maximize their success. Whether someone wants to start a small shop, launch a service business, or expand an existing enterprise, we provide the tools and support they need to succeed.`,
+
+
+
+
+Economic Challenges  
+
+• Food Insecurity (2023): 68%  
+• Skills Gap: 36.8% unskilled  
+• Livelihood Funding Gap: 75%  
+
+
+Mentorship & Growth  
+We provide continuous support to ensure long-term success.
+
+• Business coaching  
+• Market linkages  
+    • Enterprise development  
+    • Growth monitoring`,
+        sections: [
+            {
+                title: "Business Skills Training",
+                description: "Practical entrepreneurship knowledge",
+                items: [
+                    "Business planning",
+                    "Marketing strategies",
+                    "Customer management",
+                    "Record keeping"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$briefcase$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Briefcase$3e$__["Briefcase"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 199,
+                    columnNumber: 15
+                }, this)
+            },
+            {
+                title: "Financial Support & Access",
+                description: "Support for small businesses and income generation",
+                items: [
+                    "Savings groups",
+                    "Microfinance access",
+                    "Seed funding",
+                    "Investment guidance"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$piggy$2d$bank$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__PiggyBank$3e$__["PiggyBank"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 205,
+                    columnNumber: 15
+                }, this)
+            },
+            {
+                title: "Mentorship & Growth",
+                description: "Continuous support for long-term success",
+                items: [
+                    "Business coaching",
+                    "Market linkages",
+                    "Enterprise development",
+                    "Growth monitoring"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 211,
+                    columnNumber: 15
+                }, this)
+            }
+        ],
         objectives: [
-            "Provide comprehensive business skills training",
-            "Offer seed funding and microfinance opportunities",
-            "Promote financial literacy and money management",
-            "Create employment opportunities through business incubation"
+            "Promote financial independence",
+            "Support small business creation",
+            "Improve financial literacy",
+            "Increase employment opportunities"
         ],
         activities: [
             {
                 icon: "Briefcase",
-                title: "Business Planning Workshops",
-                description: "Training on business plan development",
+                title: "Business Training",
+                description: "Entrepreneurship skills",
                 frequency: "Weekly"
             },
             {
                 icon: "PiggyBank",
-                title: "Savings Clubs",
-                description: "Group savings and lending circles",
+                title: "Savings Groups",
+                description: "Community savings support",
                 frequency: "Weekly"
             },
             {
                 icon: "TrendingUp",
-                title: "Market Research Sessions",
-                description: "Identifying viable business opportunities",
-                frequency: "Monthly"
-            },
-            {
-                icon: "HandHeart",
-                title: "Mentorship Program",
-                description: "One-on-one business coaching",
+                title: "Business Mentorship",
+                description: "Growth support",
                 frequency: "Bi-weekly"
             }
         ],
@@ -162,13 +316,13 @@ Our approach recognizes that economic empowerment requires more than just financ
         secondaryColor: "text-green-600"
     },
     {
-        id: "livelihoods",
+        id: "Urban Refugee livelihoods",
         slug: slugify("Urban Refugee Livelihoods"),
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 127,
+            lineNumber: 242,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/496075394.jpeg",
@@ -179,44 +333,39 @@ Our approach recognizes that economic empowerment requires more than just financ
             "https://ext.same-assets.com/922964245/2606823118.jpeg"
         ],
         title: "Urban Refugee Livelihoods",
-        shortDescription: "Empowering refugees to build independent lives in urban areas.",
-        fullDescription: `Urban refugees in Kampala face unique challenges as they navigate life in an unfamiliar city, often without family support networks or local connections. Our Urban Refugee Livelihoods program specifically addresses these challenges, helping refugees build sustainable lives in urban areas.
+        shortDescription: "Empowering refugees to build independent urban lives.",
+        fullDescription: `This program supports refugees living in urban areas to build sustainable livelihoods and integrate into city life.
 
-We provide skills training in high-demand sectors, from tailoring and carpentry to hospitality and information technology. Our job placement services connect trained refugees with employers who value their skills and contributions.
+Urban Refugee Livelihoods
 
-For those who prefer entrepreneurship, our small business incubation program provides training, mentorship, and seed capital to help refugees launch successful enterprises. We also help refugees navigate the complex process of registering businesses and accessing local markets.
+• The 2024 Urban Livelihoods Assessment in Kampala revealed that 36.8% of respondents have not acquired any skills since leaving formal education, resulting in limited employability. Key barriers identified include low- income levels, lack of access to credit, language barriers, and discrimination. 
 
-Our program emphasizes community building and peer support, recognizing that refugees often thrive when they have connections to others who understand their experiences. Through networking events and community gatherings, we help refugees build relationships that support their economic and social integration.`,
+• Women particularly struggle with limited access to financial resources, competition from male-dominated businesses, and harassment. Urban refugees face unique challenges including limited funding, insufficient livelihood opportunities, and lack of academic credential recognition. 
+`,
         objectives: [
-            "Provide vocational skills training in high-demand sectors",
-            "Offer job placement and employment matching services",
-            "Support small business incubation and development",
-            "Facilitate networking with local businesses and communities"
+            "Improve urban employment opportunities",
+            "Support entrepreneurship",
+            "Provide vocational training",
+            "Strengthen social integration"
         ],
         activities: [
             {
                 icon: "Briefcase",
-                title: "Job Placement Drives",
-                description: "Connecting refugees with employers",
+                title: "Job Placement",
+                description: "Employment support",
                 frequency: "Monthly"
             },
             {
                 icon: "Users",
-                title: "Networking Events",
-                description: "Building professional connections",
+                title: "Networking",
+                description: "Community connections",
                 frequency: "Monthly"
             },
             {
                 icon: "TrendingUp",
-                title: "Business Incubation",
-                description: "Supporting new business startups",
+                title: "Business Support",
+                description: "Startup guidance",
                 frequency: "Ongoing"
-            },
-            {
-                icon: "LandPlot",
-                title: "Urban Navigation Workshops",
-                description: "Learning city resources and services",
-                frequency: "Weekly"
             }
         ],
         impact: {
@@ -225,343 +374,301 @@ Our program emphasizes community building and peer support, recognizing that ref
             projects: "6",
             communities: "10+"
         },
+        sections: [
+            {
+                title: "Skills Development",
+                description: "Practical training for urban job markets",
+                items: [
+                    "Tailoring and crafts",
+                    "Hospitality training",
+                    "IT and digital skills",
+                    "Trade skills"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$scissors$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Scissors$3e$__["Scissors"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 287,
+                    columnNumber: 15
+                }, this)
+            },
+            {
+                title: "Job Placement",
+                description: "Connecting trained individuals with employers",
+                items: [
+                    "Job matching",
+                    "CV preparation",
+                    "Interview coaching",
+                    "Employer networking"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$briefcase$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Briefcase$3e$__["Briefcase"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 293,
+                    columnNumber: 15
+                }, this)
+            },
+            {
+                title: "Entrepreneurship Support",
+                description: "Help starting and growing businesses",
+                items: [
+                    "Startup training",
+                    "Business registration support",
+                    "Seed capital access",
+                    "Market linkage"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 299,
+                    columnNumber: 15
+                }, this)
+            }
+        ],
         color: "bg-orange-600",
         secondaryColor: "text-orange-600"
     },
     {
-        id: "skills",
+        id: "skills developments programs",
         slug: slugify("Skills Development"),
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"], {
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 168,
+            lineNumber: 310,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/3347159728.jpeg",
-        gallery: [
-            "https://ext.same-assets.com/922964245/3347159728.jpeg",
-            "https://ext.same-assets.com/922964245/3246824778.jpeg",
-            "https://ext.same-assets.com/922964245/3980788437.jpeg",
-            "https://ext.same-assets.com/922964245/496075394.jpeg"
-        ],
+        gallery: [],
         title: "Skills Development",
         shortDescription: "Practical vocational training for self-reliance.",
-        fullDescription: `Our Skills Development programs equip youth and adults with practical vocational skills that lead to sustainable employment or self-employment. We believe that practical skills are key to economic independence and personal dignity.
+        fullDescription: `Our Skills Development program provides hands-on vocational training that prepares individuals for employment and self-employment.
 
-We offer training in a variety of trades, including tailoring, carpentry, mobile phone repair, electrical work, and hospitality. Our programs combine hands-on practical training with theoretical knowledge, ensuring graduates are well-prepared for the workforce.
+Technical Training  
+We offer practical skills for job readiness.
 
-All our training programs include certification and competency testing, giving graduates credentials that employers recognize and respect. We also provide tool provision for graduates who complete our programs, giving them everything they need to start working immediately.
+• Tailoring & Fashion: Textile industry, self-employment  
+• Hairdressing: Beauty sector, salon ownership  
+• Computer/IT Skills: Digital economy, office work  
+• Makeup Artistry: Events industry, freelance
 
-Our strong relationships with local employers mean that our graduates have excellent job placement opportunities. We work closely with businesses across various sectors to understand their hiring needs and match our training accordingly.`,
-        objectives: [
-            "Provide comprehensive vocational skills training",
-            "Offer certification and competency testing",
-            "Supply tools and equipment to graduates",
-            "Link graduates with employment opportunities"
-        ],
-        activities: [
+Employment Support  
+We help graduates transition into work.
+
+• Certification  
+• Tool provision  
+• Job placement  
+• Apprenticeships`,
+        objectives: [],
+        activities: [],
+        impact: {
+            peopleHelped: "",
+            beneficiaries: "",
+            projects: "",
+            communities: ""
+        },
+        sections: [
             {
-                icon: "Scissors",
-                title: "Tailoring Classes",
-                description: "Garment making and fashion design",
-                frequency: "Daily"
+                title: "Vocational Training",
+                description: "Hands-on skills for employment",
+                items: [
+                    "Tailoring",
+                    "Hairdressing",
+                    "Electrical work",
+                    "Mobile repair"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wrench$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Wrench$3e$__["Wrench"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 343,
+                    columnNumber: 15
+                }, this)
             },
             {
-                icon: "Wrench",
-                title: "Hairdressing Training",
-                description: "Hair styling and beauty therapy",
-                frequency: "Daily"
-            },
-            {
-                icon: "Sparkles",
-                title: "Mobile Repair Workshops",
-                description: "Phone and electronics repair skills",
-                frequency: "Weekly"
-            },
-            {
-                icon: "Briefcase",
-                title: "Tool Provision",
-                description: "Starter kits for graduates",
-                frequency: "Upon Graduation"
+                title: "Employment Support",
+                description: "Graduate transition assistance",
+                items: [
+                    "Certification",
+                    "Tool provision",
+                    "Job placement",
+                    "Apprenticeships"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$briefcase$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Briefcase$3e$__["Briefcase"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 349,
+                    columnNumber: 15
+                }, this)
             }
         ],
-        impact: {
-            peopleHelped: "200+",
-            beneficiaries: "300+",
-            projects: "5",
-            communities: "8+"
-        },
         color: "bg-indigo-600",
         secondaryColor: "text-indigo-600"
     },
     {
-        id: "financial",
+        id: "financial programs",
         slug: slugify("Financial Inclusion"),
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__["BookOpen"], {
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 209,
+            lineNumber: 360,
             columnNumber: 11
         }, this),
-        image: "https://ext.same-assets.com/922964245/4234630857.jpeg",
-        gallery: [
-            "https://ext.same-assets.com/922964245/4234630857.jpeg",
-            "https://ext.same-assets.com/922964245/2606823118.jpeg",
-            "https://ext.same-assets.com/922964245/3893045342.jpeg",
-            "https://ext.same-assets.com/922964245/496075394.jpeg"
-        ],
+        image: "",
+        gallery: [],
         title: "Financial Inclusion",
-        shortDescription: "Building financial resilience through savings and access to credit.",
-        fullDescription: `Financial inclusion is fundamental to sustainable development. Our Financial Inclusion programs help refugees and host community members develop financial literacy, build savings, and access credit for productive purposes.
+        shortDescription: "Savings, credit and financial literacy.",
+        fullDescription: `Our Financial Inclusion program helps communities access savings, credit, and financial education.
 
-We establish and support Village Savings and Loan Association (VSLA) groups, which are community-based financial institutions that provide members with a safe place to save and access small loans. These groups have proven incredibly effective in helping low-income households build financial resilience.
 
-Our financial literacy training covers topics like budgeting, saving, borrowing responsibly, and managing debt. We help program participants understand how to use financial services effectively and avoid common pitfalls that can lead to financial difficulties.
+Savings Groups  
+We support community financial systems.
 
-Through our cooperative models, we help community members pool resources and access larger loans for significant investments like starting businesses or paying for education. These cooperatives also provide peer support and accountability that helps members stay committed to their financial goals.`,
-        objectives: [
-            "Establish and support community savings groups",
-            "Provide comprehensive financial literacy training",
-            "Facilitate access to microcredit and loans",
-            "Promote cooperative economics and collective enterprise"
-        ],
-        activities: [
+• Village Savings & Loan Associations (VSLAs)  
+• Loan access  
+• Financial security  
+
+Financial Inclusion  
+We teach money management skills.
+
+• Budgeting  
+• Saving strategies  
+• Debt management  
+• Credit use`,
+        objectives: [],
+        activities: [],
+        impact: {
+            peopleHelped: "",
+            beneficiaries: "",
+            projects: "",
+            communities: ""
+        },
+        sections: [
             {
-                icon: "PiggyBank",
-                title: "VSLA Training",
-                description: "Village savings and loan associations",
-                frequency: "Weekly"
+                title: "Savings Groups",
+                description: "Community financial systems",
+                items: [
+                    "VSLA groups",
+                    "Savings culture",
+                    "Loan access",
+                    "Financial security"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$piggy$2d$bank$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__PiggyBank$3e$__["PiggyBank"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 393,
+                    columnNumber: 15
+                }, this)
             },
             {
-                icon: "BookOpen",
-                title: "Financial Literacy Classes",
-                description: "Budgeting and money management",
-                frequency: "Weekly"
-            },
-            {
-                icon: "Users",
-                title: "Cooperative Meetings",
-                description: "Group savings and decision making",
-                frequency: "Bi-weekly"
-            },
-            {
-                icon: "TrendingUp",
-                title: "Credit Access Workshops",
-                description: "Understanding loans and credit",
-                frequency: "Monthly"
+                title: "Financial Education",
+                description: "Money management skills",
+                items: [
+                    "Budgeting",
+                    "Saving strategies",
+                    "Debt management",
+                    "Credit use"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__["DollarSign"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 399,
+                    columnNumber: 15
+                }, this)
             }
         ],
-        impact: {
-            peopleHelped: "50+",
-            beneficiaries: "1,200+",
-            projects: "15",
-            communities: "30+"
-        },
         color: "bg-teal-600",
         secondaryColor: "text-teal-600"
     },
     {
-        id: "rights",
+        id: "refugee rights advocacy",
         slug: slugify("Rights & Advocacy"),
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$scale$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Scale$3e$__["Scale"], {
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 250,
+            lineNumber: 410,
             columnNumber: 11
         }, this),
-        image: "https://ext.same-assets.com/922964245/294679151.jpeg",
-        gallery: [
-            "https://ext.same-assets.com/922964245/294679151.jpeg",
-            "https://ext.same-assets.com/922964245/496075394.jpeg",
-            "https://ext.same-assets.com/922964245/84962539.jpeg",
-            "https://ext.same-assets.com/922964245/2606823118.jpeg"
-        ],
+        image: "",
+        gallery: [],
         title: "Rights & Advocacy",
-        shortDescription: "Defending the rights of refugees and marginalized groups.",
-        fullDescription: `Our Rights & Advocacy program is dedicated to defending and promoting the rights of refugees and other marginalized groups in Uganda. We believe that knowledge of rights is the first step toward protecting them.
+        shortDescription: "Protecting human rights and dignity.",
+        fullDescription: `We promote and protect human rights through education, advocacy, and legal awareness.
 
-We conduct comprehensive rights awareness campaigns that inform refugees about their legal rights, including the right to work, access services, and move freely. These campaigns use accessible language and culturally appropriate materials to ensure understanding across diverse communities.
+Rights-Based Approach  
+Uganda’s progressive refugee policy—anchored in the 2006 Refugee Act and 2010 Regulations—provides freedom of movement, right to work, establish businesses, own property, and access national services including education and health. Mwinja Devine Help Foundation Ltd advocates to ensure these rights translate into lived reality
 
-For refugees facing legal challenges, we provide referrals to legal aid organizations and pro bono lawyers who can offer professional support. We also work with community leaders and refugee advocates to build local capacity for rights education and protection.
+• Legal awareness and rights education  
+• Documentation support and advocacy  
+• Policy engagement with local authorities
+• Community representation in coordination forums
+• Anti-discrimination campaigns
 
-Our advocacy work extends to policy engagement, where we advocate for refugee-friendly policies at local and national levels. We work with government agencies, international organizations, and other stakeholders to ensure that refugee voices are heard in decisions that affect their lives.`,
-        objectives: [
-            "Conduct rights awareness and education campaigns",
-            "Provide legal support referrals and assistance",
-            "Engage in community advocacy and mobilization",
-            "Participate in policy engagement and dialogue"
-        ],
-        activities: [
+Social Inclusion
+we promotes peaceful coexistence between refugees and host communities through joint programming, cultural exchange, and shared resource management. Our 70/30 targeting ensures host communities benefit alongside refugees.
+
+• Host-refugee joint activities  
+• Interfaith dialogue initiatives 
+• Youth leadership development
+• Community conflict resolution
+
+Advocacy  
+We amplify community voices.
+
+• Policy engagement  
+• Community mobilization  
+• Legal referrals`,
+        objectives: [],
+        activities: [],
+        impact: {
+            peopleHelped: "",
+            beneficiaries: "",
+            projects: "",
+            communities: ""
+        },
+        sections: [
             {
-                icon: "Scale",
-                title: "Rights Awareness Workshops",
-                description: "Legal rights education sessions",
-                frequency: "Weekly"
+                title: "Rights Awareness",
+                description: "Educating communities about their rights",
+                items: [
+                    "Legal rights education",
+                    "Work rights",
+                    "Protection services"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$gavel$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Gavel$3e$__["Gavel"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 451,
+                    columnNumber: 15
+                }, this)
             },
             {
-                icon: "Users",
-                title: "Community Mobilization",
-                description: "Grassroots advocacy campaigns",
-                frequency: "Ongoing"
-            },
-            {
-                icon: "BookOpen",
-                title: "Legal Aid Referrals",
-                description: "Connecting with legal services",
-                frequency: "As Needed"
-            },
-            {
-                icon: "HandHeart",
-                title: "Policy Dialogues",
-                description: "Engaging with decision makers",
-                frequency: "Quarterly"
+                title: "Advocacy",
+                description: "Amplifying community voices",
+                items: [
+                    "Policy engagement",
+                    "Community mobilization",
+                    "Legal referrals"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 457,
+                    columnNumber: 15
+                }, this)
             }
         ],
-        impact: {
-            peopleHelped: "5,000+",
-            beneficiaries: "7,500+",
-            projects: "10",
-            communities: "40+"
-        },
         color: "bg-purple-600",
         secondaryColor: "text-purple-600"
-    },
-    {
-        id: "agriculture",
-        slug: slugify("Agriculture Programs"),
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$leaf$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Leaf$3e$__["Leaf"], {
-            className: "w-8 h-8"
-        }, void 0, false, {
-            fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 291,
-            columnNumber: 11
-        }, this),
-        image: "https://ext.same-assets.com/922964245/4290276478.jpeg",
-        gallery: [
-            "https://ext.same-assets.com/922964245/4290276478.jpeg",
-            "https://ext.same-assets.com/922964245/3893045342.jpeg",
-            "https://ext.same-assets.com/922964245/3016221291.jpeg",
-            "https://ext.same-assets.com/922964245/2606823118.jpeg"
-        ],
-        title: "Agriculture Programs",
-        shortDescription: "Sustainable farming for food security and income.",
-        fullDescription: `Our Agriculture Programs support refugee and host community farmers with training, resources, and market access to improve food security and household incomes. Agriculture remains a vital source of livelihood for many refugees in Uganda.
-
-We provide comprehensive agricultural training that covers modern farming techniques, crop management, and sustainable practices. Our extension workers work directly with farmers in their fields, providing hands-on guidance and support.
-
-We also supply seeds, tools, and other inputs that farmers need to succeed. Our community gardening projects create spaces where refugees can grow vegetables for their families, improving nutrition and reducing food expenses.
-
-Market linkage is another crucial component of our agriculture program. We help farmers access markets where they can sell their surplus production, turning their farming activities into sustainable income generators.`,
-        objectives: [
-            "Provide agricultural training and extension services",
-            "Supply inputs including seeds, tools, and fertilizers",
-            "Implement community gardening projects",
-            "Facilitate market access and linkages"
-        ],
-        activities: [
-            {
-                icon: "Tractor",
-                title: "Farming Training",
-                description: "Modern agriculture techniques",
-                frequency: "Weekly"
-            },
-            {
-                icon: "Trees",
-                title: "Community Gardens",
-                description: "Collective farming plots",
-                frequency: "Daily"
-            },
-            {
-                icon: "Droplets",
-                title: "Irrigation Workshops",
-                description: "Water management techniques",
-                frequency: "Monthly"
-            },
-            {
-                icon: "TrendingUp",
-                title: "Market Linkage",
-                description: "Connecting farmers to buyers",
-                frequency: "Ongoing"
-            }
-        ],
-        impact: {
-            peopleHelped: "150+",
-            beneficiaries: "600+",
-            projects: "8",
-            communities: "12+"
-        },
-        color: "bg-emerald-600",
-        secondaryColor: "text-emerald-600"
-    },
-    {
-        id: "bakery",
-        slug: slugify("Bakery & Culinary"),
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__["Utensils"], {
-            className: "w-8 h-8"
-        }, void 0, false, {
-            fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 332,
-            columnNumber: 11
-        }, this),
-        image: "https://ext.same-assets.com/922964245/3980788437.jpeg",
-        gallery: [
-            "https://ext.same-assets.com/922964245/3980788437.jpeg",
-            "https://ext.same-assets.com/922964245/3347159728.jpeg",
-            "https://ext.same-assets.com/922964245/3246824778.jpeg",
-            "https://ext.same-assets.com/922964245/496075394.jpeg"
-        ],
-        title: "Bakery & Culinary",
-        shortDescription: "Skills for the food industry.",
-        fullDescription: `Our Bakery and Culinary program provides professional training in food preparation and baking, opening doors to employment in the thriving hospitality sector and entrepreneurship opportunities.
-
-We train individuals in professional baking techniques, from bread and pastries to cakes and confections. Our curriculum covers food safety, kitchen management, and business aspects of running a food enterprise.
-
-All graduates receive food safety certification that is recognized by employers throughout Uganda. This credential significantly enhances their employment prospects and credibility as food professionals.
-
-We provide job placement support, connecting our graduates with hotels, restaurants, bakeries, and catering companies. For those who prefer entrepreneurship, we offer business development support to help them start their own bakeries or food businesses.`,
-        objectives: [
-            "Provide professional baking and culinary training",
-            "Offer food safety certification",
-            "Support job placement in the hospitality sector",
-            "Assist with enterprise development and startup"
-        ],
-        activities: [
-            {
-                icon: "ChefHat",
-                title: "Bread Baking Classes",
-                description: "Artisan bread making techniques",
-                frequency: "Daily"
-            },
-            {
-                icon: "Salad",
-                title: "Pastry Workshops",
-                description: "Cakes, cookies, and confections",
-                frequency: "Weekly"
-            },
-            {
-                icon: "BookOpenCheck",
-                title: "Food Safety Certification",
-                description: "Health and safety training",
-                frequency: "Monthly"
-            },
-            {
-                icon: "Briefcase",
-                title: "Job Placement",
-                description: "Connecting graduates with hotels",
-                frequency: "Ongoing"
-            }
-        ],
-        impact: {
-            peopleHelped: "75+",
-            beneficiaries: "100+",
-            projects: "3",
-            communities: "5+"
-        },
-        color: "bg-amber-600",
-        secondaryColor: "text-amber-600"
     },
     {
         id: "sporting-artistic",
@@ -570,63 +677,103 @@ We provide job placement support, connecting our graduates with hotels, restaura
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 373,
-            columnNumber: 11
+            lineNumber: 468,
+            columnNumber: 9
         }, this),
-        image: "https://ext.same-assets.com/922964245/3246824778.jpeg",
-        gallery: [
-            "https://ext.same-assets.com/922964245/3246824778.jpeg",
-            "https://ext.same-assets.com/922964245/3347159728.jpeg",
-            "https://ext.same-assets.com/922964245/3893045342.jpeg",
-            "https://ext.same-assets.com/922964245/4234630857.jpeg"
-        ],
+        image: "",
+        gallery: [],
         title: "Sporting and Artistic",
-        shortDescription: "Promoting physical activity, sports, and creative expression for community well-being.",
-        fullDescription: `Our Sporting and Artistic program recognizes the vital role that physical activity and creative expression play in fostering community well-being, social cohesion, and personal development.
+        shortDescription: "Promoting sports, creativity, and youth talent development for community well-being.",
+        fullDescription: `Our Sporting and Artistic program promotes physical health, creativity, and social cohesion among youth and communities.
 
-We organize regular sports activities including football, volleyball, netball, and athletics that bring together refugees and host community members. These activities promote physical health, teamwork, and cross-cultural understanding.
+Through sports and arts, we create safe spaces where young people can develop talent, build confidence, and strengthen teamwork skills.
 
-Our artistic initiatives include visual arts, music, dance, and drama workshops that provide creative outlets for self-expression and cultural exchange. We believe that art has the power to heal, unite, and inspire communities.
+This program is also a tool for peacebuilding, inclusion, and youth empowerment across refugee and host communities.
 
-Through tournaments, exhibitions, and cultural events, we create platforms for talent showcase and community celebration. These events strengthen social bonds and create opportunities for recognition and appreciation of diverse talents and cultures.`,
-        objectives: [
-            "Organize regular sports activities and tournaments",
-            "Provide arts and crafts workshops for creative expression",
-            "Host cultural events and talent showcases",
-            "Promote physical fitness and mental well-being through sports"
-        ],
-        activities: [
+Sports Development  
+We organize structured sports activities that promote discipline, teamwork, and physical health.
+
+• Football, volleyball, and athletics tournaments  
+• Youth sports leagues and competitions  
+• Physical fitness and wellness training  
+• Community sports events and outreach  
+
+Creative Arts Development  
+We support artistic expression and cultural creativity among youth.
+
+• Music, dance, and drama training  
+• Visual arts and crafts workshops  
+• Talent shows and cultural festivals  
+• Creative expression for healing and confidence building  
+
+Community Engagement  
+We use sports and arts to strengthen unity and inclusion.
+
+• Inter-community tournaments  
+• Cultural exchange events  
+• Youth leadership through sports  
+• Peacebuilding activities`,
+        objectives: [],
+        activities: [],
+        impact: {
+            peopleHelped: "",
+            beneficiaries: "",
+            projects: "",
+            communities: ""
+        },
+        sections: [
             {
-                icon: "Dumbbell",
-                title: "Football Matches",
-                description: "Regular team games and tournaments",
-                frequency: "Weekly"
+                title: "Sports Development",
+                description: "Promoting physical health and teamwork",
+                items: [
+                    "Football & volleyball",
+                    "Athletics training",
+                    "Youth competitions",
+                    "Fitness programs"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dumbbell$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Dumbbell$3e$__["Dumbbell"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 524,
+                    columnNumber: 13
+                }, this)
             },
             {
-                icon: "Music",
-                title: "Music & Dance Classes",
-                description: "Traditional and modern performance",
-                frequency: "Weekly"
+                title: "Creative Arts",
+                description: "Developing artistic and cultural talent",
+                items: [
+                    "Music & dance",
+                    "Drama & theater",
+                    "Visual arts",
+                    "Talent shows"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$music$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Music$3e$__["Music"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 535,
+                    columnNumber: 13
+                }, this)
             },
             {
-                icon: "Palette",
-                title: "Art Workshops",
-                description: "Painting, drawing, and crafts",
-                frequency: "Bi-weekly"
-            },
-            {
-                icon: "Theater",
-                title: "Drama & Theater",
-                description: "Skits and cultural performances",
-                frequency: "Monthly"
+                title: "Community Engagement",
+                description: "Building unity through sports and arts",
+                items: [
+                    "Cultural events",
+                    "Peacebuilding activities",
+                    "Youth leadership",
+                    "Inter-community events"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 546,
+                    columnNumber: 13
+                }, this)
             }
         ],
-        impact: {
-            peopleHelped: "200+",
-            beneficiaries: "400+",
-            projects: "6",
-            communities: "10+"
-        },
         color: "bg-rose-600",
         secondaryColor: "text-rose-600"
     },
@@ -637,63 +784,101 @@ Through tournaments, exhibitions, and cultural events, we create platforms for t
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 414,
-            columnNumber: 11
+            lineNumber: 557,
+            columnNumber: 9
         }, this),
-        image: "https://ext.same-assets.com/922964245/294679151.jpeg",
-        gallery: [
-            "https://ext.same-assets.com/922964245/294679151.jpeg",
-            "https://ext.same-assets.com/922964245/3893045342.jpeg",
-            "https://ext.same-assets.com/922964245/2606823118.jpeg",
-            "https://ext.same-assets.com/922964245/496075394.jpeg"
-        ],
+        image: "",
+        gallery: [],
         title: "Mental Health and Disability Support",
-        shortDescription: "Providing psychosocial support and promoting inclusion for persons with disabilities.",
-        fullDescription: `Our Mental Health and Disability Support program addresses the critical need for psychosocial support services and disability inclusion in refugee and host communities.
+        shortDescription: "Providing psychosocial support and promoting inclusion for vulnerable groups.",
+        fullDescription: `Our Mental Health and Disability Support program promotes emotional well-being, psychosocial healing, and inclusion for persons with disabilities.
 
-We provide safe spaces for individuals to share their experiences, process trauma, and support one another. Our trained counselors and community volunteers facilitate support groups that foster healing, resilience, and hope.
+We address trauma, stress, stigma, and exclusion by creating safe, supportive community systems.
 
-For persons with disabilities, we promote inclusion through accessibility assessments, assistive device provision, and skills training tailored to individual capabilities. We work to break down barriers and create opportunities for full participation in community life.
+Mental Health Support  
+We provide structured psychosocial and emotional care services.
 
-Our awareness campaigns challenge stigma and discrimination, promoting a more inclusive society where everyone is valued and respected. We advocate for the rights of persons with disabilities and ensure their voices are heard in community decision-making.`,
-        objectives: [
-            "Provide psychosocial support and counseling services",
-            "Promote disability inclusion and accessibility",
-            "Supply assistive devices and mobility aids",
-            "Conduct awareness campaigns against stigma and discrimination"
-        ],
-        activities: [
+• Individual and group counseling  
+• Trauma healing sessions  
+• Stress management support  
+• Community mental health awareness  
+
+Disability Inclusion  
+We promote equal participation and accessibility for persons with disabilities.
+
+• Disability assessments and referrals  
+• Assistive device support  
+• Inclusive education advocacy  
+• Accessibility awareness campaigns  
+
+Community Healing & Awareness  
+We reduce stigma and promote understanding in communities.
+
+• Anti-stigma campaigns  
+• Peer support groups  
+• Community dialogue forums  
+• Family support sessions`,
+        objectives: [],
+        activities: [],
+        impact: {
+            peopleHelped: "",
+            beneficiaries: "",
+            projects: "",
+            communities: ""
+        },
+        sections: [
             {
-                icon: "Brain",
-                title: "Counseling Sessions",
-                description: "Individual and group therapy",
-                frequency: "Weekly"
+                title: "Mental Health Support",
+                description: "Psychosocial healing and counseling",
+                items: [
+                    "Counseling sessions",
+                    "Trauma healing",
+                    "Stress management",
+                    "Support groups"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$brain$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Brain$3e$__["Brain"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 611,
+                    columnNumber: 13
+                }, this)
             },
             {
-                icon: "Heart",
-                title: "Support Group Meetings",
-                description: "Safe spaces for sharing experiences",
-                frequency: "Bi-weekly"
+                title: "Disability Inclusion",
+                description: "Supporting persons with disabilities",
+                items: [
+                    "Accessibility support",
+                    "Assistive devices",
+                    "Inclusive education",
+                    "Advocacy programs"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$eye$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Eye$3e$__["Eye"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 622,
+                    columnNumber: 13
+                }, this)
             },
             {
-                icon: "Eye",
-                title: "Disability Assessments",
-                description: "Identifying needs and solutions",
-                frequency: "Monthly"
-            },
-            {
-                icon: "HandHeart",
-                title: "Stigma Awareness Campaigns",
-                description: "Community education programs",
-                frequency: "Quarterly"
+                title: "Community Awareness",
+                description: "Reducing stigma and promoting inclusion",
+                items: [
+                    "Anti-stigma campaigns",
+                    "Community dialogues",
+                    "Family support",
+                    "Peer groups"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$hand$2d$heart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__HandHeart$3e$__["HandHeart"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 633,
+                    columnNumber: 13
+                }, this)
             }
         ],
-        impact: {
-            peopleHelped: "300+",
-            beneficiaries: "500+",
-            projects: "7",
-            communities: "12+"
-        },
         color: "bg-pink-600",
         secondaryColor: "text-pink-600"
     },
@@ -704,65 +889,208 @@ Our awareness campaigns challenge stigma and discrimination, promoting a more in
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 455,
-            columnNumber: 11
+            lineNumber: 644,
+            columnNumber: 9
         }, this),
-        image: "https://ext.same-assets.com/922964245/3980788437.jpeg",
-        gallery: [
-            "https://ext.same-assets.com/922964245/3980788437.jpeg",
-            "https://ext.same-assets.com/922964245/3347159728.jpeg",
-            "https://ext.same-assets.com/922964245/3246824778.jpeg",
-            "https://ext.same-assets.com/922964245/3893045342.jpeg"
-        ],
+        image: "",
+        gallery: [],
         title: "Culinary Art",
-        shortDescription: "Celebrating culinary creativity and preserving cultural food heritage.",
-        fullDescription: `Our Culinary Art program celebrates the rich diversity of culinary traditions within refugee and host communities while providing practical skills for the food industry.
+        shortDescription: "Training in cooking skills, food safety, and culinary entrepreneurship.",
+        fullDescription: `Our Culinary Art program develops professional cooking skills and supports food-based entrepreneurship.
 
-We offer training in diverse cooking techniques, from traditional African cuisine to international culinary arts. Participants learn about nutrition, food safety, menu planning, and presentation skills that prepare them for employment in the hospitality sector.
+We empower participants to turn cooking skills into sustainable livelihoods in the hospitality and food industry.
 
-Our program also focuses on preserving cultural food heritage, helping participants document and share traditional recipes from their home countries. Through community cooking events and food festivals, we celebrate cultural diversity and foster cross-cultural understanding.
+Culinary Training  
+We provide hands-on cooking and baking skills development.
 
-For aspiring entrepreneurs, we provide business development support for starting catering services, food trucks, or restaurants. We help participants transform their culinary passion into sustainable livelihoods that contribute to the local economy.`,
-        objectives: [
-            "Provide comprehensive culinary training and nutrition education",
-            "Preserve and celebrate cultural food heritage",
-            "Offer food safety certification and hospitality skills",
-            "Support culinary entrepreneurship and business development"
-        ],
-        activities: [
+• Professional cooking techniques  
+• Baking and pastry training  
+• Food presentation and hygiene  
+• Kitchen management skills  
+
+Food Entrepreneurship  
+We support participants in building food businesses.
+
+• Catering business training  
+• Small restaurant startup support  
+• Food packaging and branding  
+• Market access and sales skills  
+
+Cultural Food Heritage  
+We preserve and promote traditional food knowledge.
+
+• Traditional recipe training  
+• Cultural food festivals  
+• Community cooking events  
+• Nutrition awareness`,
+        objectives: [],
+        activities: [],
+        impact: {
+            peopleHelped: "",
+            beneficiaries: "",
+            projects: "",
+            communities: ""
+        },
+        sections: [
             {
-                icon: "ChefHat",
-                title: "Cultural Cooking Classes",
-                description: "Traditional recipes from home countries",
-                frequency: "Weekly"
+                title: "Culinary Training",
+                description: "Professional cooking and baking skills",
+                items: [
+                    "Cooking techniques",
+                    "Baking & pastries",
+                    "Food hygiene",
+                    "Kitchen management"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chef$2d$hat$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChefHat$3e$__["ChefHat"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 698,
+                    columnNumber: 13
+                }, this)
             },
             {
-                icon: "BookOpenCheck",
-                title: "Nutrition Workshops",
-                description: "Healthy meal planning and prep",
-                frequency: "Bi-weekly"
+                title: "Food Business",
+                description: "Supporting culinary entrepreneurship",
+                items: [
+                    "Catering business",
+                    "Restaurant startup",
+                    "Food packaging",
+                    "Market access"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$briefcase$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Briefcase$3e$__["Briefcase"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 709,
+                    columnNumber: 13
+                }, this)
             },
             {
-                icon: "Users",
-                title: "Food Festivals",
-                description: "Community celebration events",
-                frequency: "Quarterly"
-            },
-            {
-                icon: "Briefcase",
-                title: "Catering Startup Support",
-                description: "Businesslaunch assistance",
-                frequency: "Ongoing"
+                title: "Cultural Food Heritage",
+                description: "Preserving traditional food knowledge",
+                items: [
+                    "Traditional recipes",
+                    "Food festivals",
+                    "Community cooking",
+                    "Nutrition awareness"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$salad$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Salad$3e$__["Salad"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 720,
+                    columnNumber: 13
+                }, this)
             }
         ],
-        impact: {
-            peopleHelped: "100+",
-            beneficiaries: "150+",
-            projects: "4",
-            communities: "8+"
-        },
         color: "bg-yellow-600",
         secondaryColor: "text-yellow-600"
+    },
+    {
+        id: "agriculture",
+        slug: slugify("Agriculture Programs"),
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$leaf$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Leaf$3e$__["Leaf"], {
+            className: "w-8 h-8"
+        }, void 0, false, {
+            fileName: "[project]/src/lib/programs.tsx",
+            lineNumber: 731,
+            columnNumber: 9
+        }, this),
+        image: "",
+        gallery: [],
+        title: "Agriculture Programs",
+        shortDescription: "Supporting sustainable farming, food security, and rural livelihoods.",
+        fullDescription: `Our Agriculture Program supports farmers with training, inputs, and market access to improve food security and income generation.
+
+We promote modern and sustainable farming techniques that strengthen resilience against climate and economic challenges.
+
+Sustainable Farming  
+We train farmers in improved agricultural practices.
+
+• Modern farming techniques  
+• Climate-smart agriculture  
+• Crop and livestock management  
+• Soil and water conservation  
+
+Food Security Support  
+We strengthen household and community food production.
+
+• Kitchen gardens  
+• Seed distribution support  
+• Nutrition-sensitive farming  
+• Post-harvest handling  
+
+Market & Livelihoods  
+We help farmers connect to markets and income opportunities.
+
+• Market linkage support  
+• Cooperative farming groups  
+• Value addition training  
+• Agricultural entrepreneurship`,
+        objectives: [],
+        activities: [],
+        impact: {
+            peopleHelped: "",
+            beneficiaries: "",
+            projects: "",
+            communities: ""
+        },
+        sections: [
+            {
+                title: "Sustainable Farming",
+                description: "Improving agricultural productivity",
+                items: [
+                    "Climate-smart agriculture",
+                    "Crop management",
+                    "Soil conservation",
+                    "Livestock farming"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$tractor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Tractor$3e$__["Tractor"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 785,
+                    columnNumber: 13
+                }, this)
+            },
+            {
+                title: "Food Security",
+                description: "Improving household nutrition",
+                items: [
+                    "Kitchen gardens",
+                    "Seed support",
+                    "Nutrition farming",
+                    "Harvest storage"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__["Trees"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 796,
+                    columnNumber: 13
+                }, this)
+            },
+            {
+                title: "Market Access",
+                description: "Connecting farmers to markets",
+                items: [
+                    "Market linkages",
+                    "Cooperatives",
+                    "Value addition",
+                    "Agri-business"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 807,
+                    columnNumber: 13
+                }, this)
+            }
+        ],
+        color: "bg-emerald-600",
+        secondaryColor: "text-emerald-600"
     }
 ];
 function getProgramBySlug(slug) {
