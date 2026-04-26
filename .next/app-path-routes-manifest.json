@@ -1,0 +1,11 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/contact/page": "/contact",
+  "/programs/page": "/programs",
+  "/about/page": "/about",
+  "/donate/page": "/donate",
+  "/gallery/page": "/gallery",
+  "/programs/[slug]/page": "/programs/[slug]",
+  "/page": "/",
+  "/get-involved/page": "/get-involved"
+}

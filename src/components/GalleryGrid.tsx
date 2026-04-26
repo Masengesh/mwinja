@@ -14,8 +14,12 @@ const galleryImages = [
   { src: "https://ext.same-assets.com/922964245/496075394.jpeg", alt: "Urban refugee support", title: "Refugee Assistance" },
   { src: "https://ext.same-assets.com/922964245/3347159728.jpeg", alt: "Skills development", title: "Vocational Training" },
   { src: "https://ext.same-assets.com/922964245/4234630857.jpeg", alt: "Financial literacy", title: "Financial Education" },
-  { src: "https://ext.same-assets.com/922964245/294679151.jpeg", alt: "Advocacy event", title: "Rights Advocacy" },
-  { src: "https://ext.same-assets.com/922964245/4290276478.jpeg", alt: "Agriculture program", title: "Farming Initiative" },
+  { src: "https://res.cloudinary.com/dbllxptl8/image/upload/v1777224201/WhatsApp_Image_2026-04-24_at_11.04.28_lh6bq3.jpg", alt: "Partnership meeting", title: "Partnership" },
+  { src: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880424/WhatsApp_Image_2026-04-18_at_18.13.57_eq1s6g.jpg", alt: "Partnership meeting", title: "Partnership" },
+  { src: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880424/WhatsApp_Image_2026-04-18_at_18.23.02_oofvtw.jpg", alt: "Partnership meeting", title: "Partnership" },
+  { src: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880424/WhatsApp_Image_2026-04-18_at_18.13.58_qycxte.jpg", alt: "Partnership meeting", title: "Partnership" },
+  { src: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880423/WhatsApp_Image_2026-04-18_at_15.07.31_ow1l8q.jpg", alt: "Partnership meeting", title: "Partnership" },
+  { src: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880421/cabage_sc4crz.jpg", alt: "Partnership meeting", title: "Partnership" },
 ];
 
 export default function GalleryGrid() {

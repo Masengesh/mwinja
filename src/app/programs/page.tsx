@@ -8,12 +8,12 @@ import { ArrowRight, Sparkles } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Our Programs | Mwinja Divine Help Foundation",
-  description: "Explore our education, economic empowerment, skills development, sporting and artistic, mental health support, culinary arts, and advocacy programs that transform lives of refugees and host communities in Uganda.",
+  description: "Explore our education, economic empowerment, skills development, sporting and artistic, mental health support, culinary arts, fishing program, and advocacy programs that transform lives of refugees and host communities in Uganda.",
 };
 
 const impactStats = [
   { value: "5,000+", label: "Direct Beneficiaries" },
-  { value: "15", label: "Active Programs" },
+  { value: "16", label: "Active Programs" },
   { value: "25+", label: "Communities Reached" },
   { value: "85%", label: "Women & Children" },
 ];

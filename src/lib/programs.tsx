@@ -408,7 +408,7 @@ We teach money management skills.
     id: "refugee rights advocacy",
     slug: slugify("Rights & Advocacy"),
     icon: <Scale className="w-8 h-8" />,
-    image: "",
+    image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776548109/7_cs9yi6.jpg",
     gallery: [],
     title: "Rights & Advocacy",
     shortDescription: "Protecting human rights and dignity.",
@@ -466,8 +466,12 @@ We amplify community voices.
   id: "sporting-artistic",
   slug: slugify("Sporting and Artistic"),
   icon: <Award className="w-8 h-8" />,
-  image: "",
-  gallery: [],
+  image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1777224200/WhatsApp_Image_2026-04-24_at_11.30.05_g6bpii.jpg",
+  gallery: [ "",
+    "https://res.cloudinary.com/dbllxptl8/image/upload/v1777224201/WhatsApp_Image_2026-04-24_at_11.30.07_2_q2k4gn.jpg",
+    "https://res.cloudinary.com/dbllxptl8/image/upload/v1777224200/WhatsApp_Image_2026-04-24_at_11.30.06_2_rwhgte.jpg",
+    "https://res.cloudinary.com/dbllxptl8/image/upload/v1777224200/WhatsApp_Image_2026-04-24_at_11.30.06_egqcfm.jpg",
+   ],
   title: "Sporting and Artistic",
   shortDescription:
     "Promoting sports, creativity, and youth talent development for community well-being.",
@@ -555,7 +559,7 @@ We use sports and arts to strengthen unity and inclusion.
   id: "mental-health-disability",
   slug: slugify("Mental Health and Disability Support"),
   icon: <HeartHandshake className="w-8 h-8" />,
-  image: "",
+  image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1777224201/WhatsApp_Image_2026-04-24_at_11.04.28_lh6bq3.jpg",
   gallery: [],
   title: "Mental Health and Disability Support",
   shortDescription:
@@ -642,8 +646,10 @@ We reduce stigma and promote understanding in communities.
   id: "culinary-art",
   slug: slugify("Culinary Art"),
   icon: <Utensils className="w-8 h-8" />,
-  image: "",
-  gallery: [],
+  image: "https://ext.same-assets.com/922964245/3980788437.jpeg",
+  gallery: ["https://ext.same-assets.com/922964245/4234630857.jpeg",
+    "https://ext.same-assets.com/922964245/3980788437.jpeg",
+   ],
   title: "Culinary Art",
   shortDescription:
     "Training in cooking skills, food safety, and culinary entrepreneurship.",
@@ -729,8 +735,11 @@ We preserve and promote traditional food knowledge.
   id: "agriculture",
   slug: slugify("Agriculture Programs"),
   icon: <Leaf className="w-8 h-8" />,
-  image: "",
-  gallery: [],
+  image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776560303/team_lr9k0j.jpg",
+  gallery: ["https://res.cloudinary.com/dbllxptl8/image/upload/v1776880422/team_y1mtwu.jpg",
+      "https://res.cloudinary.com/dbllxptl8/image/upload/v1776560302/WhatsApp_Image_2026-04-18_at_18.13.58_whs68x.jpg",
+      "https://res.cloudinary.com/dbllxptl8/image/upload/v1776560302/cbg2_d5maaf.jpg",
+      "https://res.cloudinary.com/dbllxptl8/image/upload/v1776548109/7_cs9yi6.jpg", ],
   title: "Agriculture Programs",
   shortDescription:
     "Supporting sustainable farming, food security, and rural livelihoods.",
@@ -811,8 +820,89 @@ We help farmers connect to markets and income opportunities.
   color: "bg-emerald-600",
   secondaryColor: "text-emerald-600",
 },
+{
+  id: "fishing-program",
+  slug: slugify("Fishing Program"),
+  icon: <Droplets className="w-8 h-8" />,
+  image: "",
+  gallery: [
+    "",
+  ],
+  title: "Fishing Program",
+  shortDescription: "Promoting sustainable fishing practices and aquaculture for food security and income generation.",
+  fullDescription: `Our Fishing Program supports sustainable fishing practices and aquaculture development to improve food security, nutrition, and livelihoods for refugee and host communities.
 
+Sustainable Aquaculture
+We promote environmentally responsible fish farming techniques that can be practiced at small scale.
+
+• Pond construction and management
+• Fish breeding and hatchery techniques
+• Feed formulation and management
+• Water quality monitoring
+• Harvest and post-harvest handling
+
+Capture Fisheries Support
+We support traditional fishing communities with resources and training for sustainable practices.
+
+• Sustainable fishing techniques
+• Equipment maintenance and repair
+• Safety training and life-saving equipment
+• Fish processing and preservation
+• Market access and value addition
+
+Training and Capacity Building
+We provide comprehensive training to build skills in fisheries and aquaculture.
+
+• Technical training in aquaculture and fisheries
+• Business skills for fish farming enterprises
+• Environmental stewardship and conservation
+• Community organizing and cooperative development
+
+These activities aim to reduce pressure on natural fish stocks while providing reliable sources of protein and income.`,
+  sections: [
+    {
+      title: "Sustainable Aquaculture",
+      description: "Environmentally responsible fish farming",
+      items: ["Pond construction", "Fish breeding", "Feed management", "Water quality", "Harvest handling"],
+      icon: <Trees className="w-6 h-6" />,
+    },
+    {
+      title: "Capture Fisheries Support",
+      description: "Supporting traditional fishing communities",
+      items: ["Sustainable techniques", "Equipment support", "Safety training", "Processing", "Market access"],
+      icon: <Briefcase className="w-6 h-6" />,
+    },
+    {
+      title: "Training and Capacity Building",
+      description: "Building skills in fisheries and aquaculture",
+      items: ["Technical training", "Business skills", "Environmental stewardship", "Community organizing"],
+      icon: <GraduationCap className="w-6 h-6" />,
+    },
+  ],
+  objectives: [
+    "Promote sustainable fishing and aquaculture practices",
+    "Improve food security and nutrition",
+    "Generate income through fisheries-related activities",
+    "Protect aquatic ecosystems and biodiversity",
+    "Build capacity for sustainable resource management",
+  ],
+  activities: [
+    { icon: "Droplets", title: "Fish Farming", description: "Sustainable aquaculture training", frequency: "Weekly" },
+    { icon: "Briefcase", title: "Fishing Equipment Support", description: "Tools and maintenance training", frequency: "Bi-weekly" },
+    { icon: "GraduationCap", title: "Fisheries Business Training", description: "Entrepreneurship in aquaculture", frequency: "Monthly" },
+    { icon: "Users", title: "Community Fishing Cooperatives", description: "Organizing and managing fishing groups", frequency: "Ongoing" },
+  ],
+  impact: {
+    peopleHelped: "800+",
+    beneficiaries: "1,200+",
+    projects: "10",
+    communities: "15+",
+  },
+  color: "bg-cyan-600",
+  secondaryColor: "text-cyan-600",
+}
 ];
+
 
 export function getProgramBySlug(slug: string): Program | undefined {
   return programs.find((p) => p.slug === slug);
