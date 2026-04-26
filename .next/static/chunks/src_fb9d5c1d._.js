@@ -1116,12 +1116,9 @@ We help farmers connect to markets and income opportunities.
             lineNumber: 826,
             columnNumber: 9
         }, this),
-        image: "https://ext.same-assets.com/922964245/placeholder-fishing.jpeg",
+        image: "",
         gallery: [
-            "https://ext.same-assets.com/922964245/placeholder-fishing-1.jpeg",
-            "https://ext.same-assets.com/922964245/placeholder-fishing-2.jpeg",
-            "https://ext.same-assets.com/922964245/placeholder-fishing-3.jpeg",
-            "https://ext.same-assets.com/922964245/placeholder-fishing-4.jpeg"
+            ""
         ],
         title: "Fishing Program",
         shortDescription: "Promoting sustainable fishing practices and aquaculture for food security and income generation.",
@@ -1169,7 +1166,7 @@ These activities aim to reduce pressure on natural fish stocks while providing r
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 870,
+                    lineNumber: 867,
                     columnNumber: 13
                 }, this)
             },
@@ -1187,7 +1184,7 @@ These activities aim to reduce pressure on natural fish stocks while providing r
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 876,
+                    lineNumber: 873,
                     columnNumber: 13
                 }, this)
             },
@@ -1204,7 +1201,7 @@ These activities aim to reduce pressure on natural fish stocks while providing r
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 882,
+                    lineNumber: 879,
                     columnNumber: 13
                 }, this)
             }
