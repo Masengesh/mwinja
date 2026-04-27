@@ -78,7 +78,8 @@ Adult Literacy & Language
 We support refugees facing language barriers by offering English training that improves communication and employment opportunities.
 
 • Functional English for daily communication  
-• Business English for entrepreneurship  
+• Business English for entrepreneurship
+• French Language 
 • Digital literacy skills  
 • Cultural integration support  
 
