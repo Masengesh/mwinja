@@ -107,7 +107,7 @@ We strengthen individuals and organizations through leadership and management tr
       {
         title: "Adult Literacy & Language",
         description: "English training for communication and employment",
-        items: ["Functional English", "Business English", "Digital literacy", "Cultural integration"],
+        items: ["Functional English", "Business English", "Digital literacy", "French Language ", "Cultural integration"],
         icon: <BookOpenCheck className="w-6 h-6" />,
       },
       {
