@@ -126,7 +126,7 @@ export default function DonationCTA() {
             </div>
 
             <ul className="text-white/80 space-y-2 text-sm">
-              <li>• Women & adolescent girls (economic empowerment)</li>
+              <li>• Women & children and youth adolescent (economic empowerment)</li>
               <li>• Out-of-school youth (skills & livelihoods)</li>
               <li>• Adult learners (literacy, language, digital skills)</li>
               <li>• Vulnerable households (food security & protection)</li>
