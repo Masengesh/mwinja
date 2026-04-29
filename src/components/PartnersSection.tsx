@@ -8,6 +8,7 @@ const partners = [
   { name: "EL-Hai Ministries", logo: "https://res.cloudinary.com/dtbzixyuy/image/upload/v1776262597/el-ai_fazz6w.jpg" },
   { name: "Tuinuwane", logo: "https://res.cloudinary.com/dtbzixyuy/image/upload/v1776262496/tuinuwane-project-logo_rbswbw.png" },
   { name: "Bomoko", logo: "https://res.cloudinary.com/dtbzixyuy/image/upload/v1776256101/hcp-mail-on_bhiexa.jpg" },
+    { name: "Achil Devine Foundation", logo: "" },
 ];
 
 export default function PartnersSection() {
