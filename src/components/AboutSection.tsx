@@ -79,7 +79,7 @@ export default function AboutSection() {
             </p>
 
             <p className="text-gray-600 mb-8 leading-relaxed">
-              is committed to improving people’s living conditions by promoting access to education, Mental health, Skills development, nutrition , financial inclusion, urban refugee liverhood, sporting and artist, agriculture, fishing and chicken farming culture and local development.
+              is committed to improving people’s living conditions by promoting access to education, Mental health, Skills development , financial inclusion, urban refugee livelihood, sporting and artist, chicken poultry, agriculture, and local development.
             </p>
 
             <p className="text-gray-600 mb-8 leading-relaxed">
