@@ -75,11 +75,11 @@ export default function AboutSection() {
             <p className="text-gray-600 text-lg mb-6 leading-relaxed">
               A <strong className="text-dark-navy">Refugee-Led Organization</strong> created in 2023 in Kampala, Uganda.
 
-              It was founded in response to the increasing social, economic, and protection issues that refugees and host communities face. The organization works in areas where poverty, unemployment, juvenile delinquency, and inequality are prevalent, and vulnerable groups—particularly women and children—face increased risks of marginalization, violence, and financial difficulties.
+              It was founded in response to the increasing social, economic, and protection issues that refugees and host communities face. The organization works in areas where poverty, unemployment, juvenile delinquency, and inequality are prevalent, and vulnerable groups—particularly women,youth adolsent—face increased risks of marginalization, violence, and financial difficulties.
             </p>
 
             <p className="text-gray-600 mb-8 leading-relaxed">
-              is committed to improving people’s living conditions by promoting access to education, Mental health, Skills development , financial inclusion, urban refugee livelihood, sporting and artist, chicken poultry, agriculture, and local development.
+              is committed to improving people’s living conditions by promoting access to education, Mental health, Skills development , financial inclusion, Nutrition Program, sporting and artist, chicken poultry, agriculture, and local development.
             </p>
 
             <p className="text-gray-600 mb-8 leading-relaxed">
