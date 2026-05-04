@@ -45,7 +45,7 @@ const values = [
 ];
 
 const team = [
-  { name: "Okovunimali Mwinja Vasco", role: "Executive Director", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776962851/ceo-mwinja_nfvco9.jpg", bio: "Founded MDHF after her own refugee journey, dedicated to empowering displaced communities." },
+  { name: "Okovunimali Mwinja Vasco", role: "Executive Director", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776962851/ceo-mwinja_nfvco9.jpg", bio: "Founded MDHF after his own refugee journey, dedicated to empowering displaced communities." },
   { name: "Emile Amisi", role: "Program Manager", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880421/WhatsApp_Image_2026-04-18_at_13.42.31_zt86hj.jpg", bio: " experience in community development and humanitarian work." },
   { name: "Gracia Rutebuka", role: "Education Lead", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880419/2_v0ipvn.jpg", bio: "Passionate about education access for refugee children and youth." },
   { name: "Ombeni nyarugeta", role: "Livelihoods Coordinator", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880424/WhatsApp_Image_2026-04-18_at_18.16.22_rnwfvy.jpg", bio: "Expert in vocational training and small business development." },
