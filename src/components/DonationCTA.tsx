@@ -90,12 +90,11 @@ export default function DonationCTA() {
           }`}
         >
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
-            Strategic  Goal
+            Strategic planning
           </h2>
 
           <p className="text-white/80 text-lg max-w-3xl mx-auto leading-relaxed">
-            To promote social and economic empowerment of refugees and low-income host communities
-            through inclusive participation and sustainable livelihood initiatives.
+            Mwinja Divine help foundation works with utmost transparency and passion towards transforming lives orphans and vulnerable people in defferent sectors through provision of education,health care and other essental basic necesseties in life. Our mission is to provide a frameworks for enjoyement of rights and fulfillment of responsibilities to the womans youth adolescent, and others vulnerable children to change hteir lives for the perfection.
           </p>
         </div>
 
