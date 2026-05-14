@@ -21,8 +21,8 @@ export default function Footer() {
   const socialLinks = [
     { icon: <Youtube size={20} />, href: "https://www.youtube.com/@MwinjaDivineHelpFoundation", label: "YouTube" },
     { icon: <Facebook size={20} />, href: "https://facebook.com/mwinjadivinehelpfoundation", label: "Facebook" },
-    { icon: <Twitter size={20} />, href: "https://twitter.com/mwinjafoundation", label: "Twitter" },
-    { icon: <Instagram size={20} />, href: "https://instagram.com/mwinjadivinehelpfoundation", label: "Instagram" },
+    { icon: <Twitter size={20} />, href: "https://x.com/MwinjaDivine20", label: "Twitter" },
+    { icon: <Instagram size={20} />, href: "https://www.instagram.com/mwinjadivinehelpfoundation/", label: "Instagram" },
     { icon: <Linkedin size={20} />, href: "https://linkedin.com/company/mwinjadivinehelpfoundation", label: "LinkedIn" },
   ];
 
