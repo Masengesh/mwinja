@@ -1720,7 +1720,7 @@ function Footer() {
                 lineNumber: 24,
                 columnNumber: 13
             }, this),
-            href: "https://twitter.com/mwinjafoundation",
+            href: "https://x.com/MwinjaDivine20",
             label: "Twitter"
         },
         {
@@ -1731,7 +1731,7 @@ function Footer() {
                 lineNumber: 25,
                 columnNumber: 13
             }, this),
-            href: "https://instagram.com/mwinjadivinehelpfoundation",
+            href: "https://www.instagram.com/mwinjadivinehelpfoundation/",
             label: "Instagram"
         },
         {
@@ -2767,7 +2767,7 @@ function AboutSection() {
                                         lineNumber: 76,
                                         columnNumber: 17
                                     }, this),
-                                    " created in 2023 in Kampala, Uganda. It was founded in response to the increasing social, economic, and protection issues that refugees and host communities face. The organization works in areas where poverty, unemployment, juvenile delinquency, and inequality are prevalent, and vulnerable groups—particularly women and children—face increased risks of marginalization, violence, and financial difficulties."
+                                    " created in 2023 in Kampala, Uganda. It was founded in response to the increasing social, economic, and protection issues that refugees and host communities face. The organization works in areas where poverty, unemployment, juvenile delinquency, and inequality are prevalent, and vulnerable groups—particularly women, children and youth adolsent—face increased risks of marginalization, violence, and financial difficulties."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
@@ -2776,7 +2776,7 @@ function AboutSection() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-gray-600 mb-8 leading-relaxed",
-                                children: "is committed to improving people’s living conditions by promoting access to education, health, art, culture and local development."
+                                children: "is committed to improving people’s living conditions by promoting access to education, Mental health, Skills development , financial inclusion, livelihood Program, sporting and artist, chicken poultry, agriculture, and local development."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
                                 lineNumber: 81,
@@ -4307,7 +4307,7 @@ function DonationCTA() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-4xl lg:text-5xl font-bold text-white mb-6",
-                                children: "Strategic  Goal"
+                                children: "Strategic planning"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/DonationCTA.tsx",
                                 lineNumber: 92,
@@ -4315,7 +4315,7 @@ function DonationCTA() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-white/80 text-lg max-w-3xl mx-auto leading-relaxed",
-                                children: "To promote social and economic empowerment of refugees and low-income host communities through inclusive participation and sustainable livelihood initiatives."
+                                children: "Mwinja Divine help foundation works with utmost transparency and passion towards transforming lives orphans and vulnerable people in defferent sectors through provision of education,health care and other essental basic necesseties in life. Our mission is to provide a frameworks for enjoyement of rights and fulfillment of responsibilities to the womans youth adolescent, and others vulnerable children to change hteir lives for the perfection."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/DonationCTA.tsx",
                                 lineNumber: 96,
@@ -4339,7 +4339,7 @@ function DonationCTA() {
                                         children: "Target Population"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                        lineNumber: 112,
+                                        lineNumber: 111,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4352,21 +4352,21 @@ function DonationCTA() {
                                                 children: "70/30 approach"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                lineNumber: 118,
+                                                lineNumber: 117,
                                                 columnNumber: 15
                                             }, this),
                                             " to ensure inclusion and sustainability."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                        lineNumber: 116,
+                                        lineNumber: 115,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedBar, {
                                         value: 70
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                        lineNumber: 122,
+                                        lineNumber: 121,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4376,63 +4376,63 @@ function DonationCTA() {
                                                 children: "Refugees 70%"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                lineNumber: 124,
+                                                lineNumber: 123,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: "Hosts 30%"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                lineNumber: 125,
+                                                lineNumber: 124,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                        lineNumber: 123,
+                                        lineNumber: 122,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                         className: "text-white/80 space-y-2 text-sm",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: "• Women & adolescent girls (economic empowerment)"
+                                                children: "• Women & children and youth adolescent (economic empowerment)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                lineNumber: 129,
+                                                lineNumber: 128,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: "• Out-of-school youth (skills & livelihoods)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                lineNumber: 130,
+                                                lineNumber: 129,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: "• Adult learners (literacy, language, digital skills)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                lineNumber: 131,
+                                                lineNumber: 130,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: "• Vulnerable households (food security & protection)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                lineNumber: 132,
+                                                lineNumber: 131,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                        lineNumber: 128,
+                                        lineNumber: 127,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                lineNumber: 106,
+                                lineNumber: 105,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4444,7 +4444,7 @@ function DonationCTA() {
                                         children: "Refugee Demographics in Uganda"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                        lineNumber: 143,
+                                        lineNumber: 142,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4459,33 +4459,33 @@ function DonationCTA() {
                                                                 children: "South Sudan"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                                lineNumber: 151,
+                                                                lineNumber: 150,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: "55%"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                                lineNumber: 152,
+                                                                lineNumber: 151,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                                        lineNumber: 150,
+                                                        lineNumber: 149,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedBar, {
                                                         value: 55
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                                        lineNumber: 154,
+                                                        lineNumber: 153,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                lineNumber: 149,
+                                                lineNumber: 148,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4497,33 +4497,33 @@ function DonationCTA() {
                                                                 children: "DR Congo"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                                lineNumber: 159,
+                                                                lineNumber: 158,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: "31%"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                                lineNumber: 160,
+                                                                lineNumber: 159,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                                        lineNumber: 158,
+                                                        lineNumber: 157,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedBar, {
                                                         value: 31
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                                        lineNumber: 162,
+                                                        lineNumber: 161,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                lineNumber: 157,
+                                                lineNumber: 156,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4535,33 +4535,33 @@ function DonationCTA() {
                                                                 children: "Somalia"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                                lineNumber: 167,
+                                                                lineNumber: 166,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: "3%"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                                lineNumber: 168,
+                                                                lineNumber: 167,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                                        lineNumber: 166,
+                                                        lineNumber: 165,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedBar, {
                                                         value: 3
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                                        lineNumber: 170,
+                                                        lineNumber: 169,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                lineNumber: 165,
+                                                lineNumber: 164,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4573,33 +4573,33 @@ function DonationCTA() {
                                                                 children: "Burundi"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                                lineNumber: 175,
+                                                                lineNumber: 174,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: "3%"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                                lineNumber: 176,
+                                                                lineNumber: 175,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                                        lineNumber: 174,
+                                                        lineNumber: 173,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedBar, {
                                                         value: 3
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                                        lineNumber: 178,
+                                                        lineNumber: 177,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                lineNumber: 173,
+                                                lineNumber: 172,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4611,39 +4611,39 @@ function DonationCTA() {
                                                                 children: "Others"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                                lineNumber: 183,
+                                                                lineNumber: 182,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: "8%"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                                lineNumber: 184,
+                                                                lineNumber: 183,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                                        lineNumber: 182,
+                                                        lineNumber: 181,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedBar, {
                                                         value: 8
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                                        lineNumber: 186,
+                                                        lineNumber: 185,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                lineNumber: 181,
+                                                lineNumber: 180,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                        lineNumber: 147,
+                                        lineNumber: 146,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4651,19 +4651,19 @@ function DonationCTA() {
                                         children: "This approach promotes inclusion, cohesion, and aligns with Uganda’s CRRF framework."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                        lineNumber: 190,
+                                        lineNumber: 189,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                lineNumber: 137,
+                                lineNumber: 136,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/DonationCTA.tsx",
-                        lineNumber: 103,
+                        lineNumber: 102,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4675,12 +4675,12 @@ function DonationCTA() {
                                     className: "w-10 h-10 text-primary-blue animate-pulse"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/DonationCTA.tsx",
-                                    lineNumber: 199,
+                                    lineNumber: 198,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                lineNumber: 198,
+                                lineNumber: 197,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -4692,13 +4692,13 @@ function DonationCTA() {
                                         children: "Transforms Lives"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                        lineNumber: 203,
+                                        lineNumber: 202,
                                         columnNumber: 26
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                lineNumber: 202,
+                                lineNumber: 201,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4706,7 +4706,7 @@ function DonationCTA() {
                                 children: "Help us expand access to education, healthcare, and livelihoods."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                lineNumber: 206,
+                                lineNumber: 205,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4721,13 +4721,13 @@ function DonationCTA() {
                                                 className: "w-5 h-5"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                lineNumber: 215,
+                                                lineNumber: 214,
                                                 columnNumber: 26
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                        lineNumber: 211,
+                                        lineNumber: 210,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4739,25 +4739,25 @@ function DonationCTA() {
                                                 className: "w-5 h-5"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                                lineNumber: 222,
+                                                lineNumber: 221,
                                                 columnNumber: 28
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/DonationCTA.tsx",
-                                        lineNumber: 218,
+                                        lineNumber: 217,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/DonationCTA.tsx",
-                                lineNumber: 210,
+                                lineNumber: 209,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/DonationCTA.tsx",
-                        lineNumber: 197,
+                        lineNumber: 196,
                         columnNumber: 9
                     }, this)
                 ]
@@ -4820,6 +4820,10 @@ const partners = [
     {
         name: "Bomoko",
         logo: "https://res.cloudinary.com/dtbzixyuy/image/upload/v1776256101/hcp-mail-on_bhiexa.jpg"
+    },
+    {
+        name: "Achil Devine Foundation",
+        logo: "https://res.cloudinary.com/dtbzixyuy/image/upload/v1776262508/logo-divine_kq3ubu.png"
     }
 ];
 function PartnersSection() {
@@ -4857,7 +4861,7 @@ function PartnersSection() {
                             children: "Our Partners"
                         }, void 0, false, {
                             fileName: "[project]/src/components/PartnersSection.tsx",
-                            lineNumber: 38,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -4865,13 +4869,13 @@ function PartnersSection() {
                             children: "Trusted By Leading Organizations"
                         }, void 0, false, {
                             fileName: "[project]/src/components/PartnersSection.tsx",
-                            lineNumber: 41,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/PartnersSection.tsx",
-                    lineNumber: 37,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4893,33 +4897,33 @@ function PartnersSection() {
                                     unoptimized: true
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/PartnersSection.tsx",
-                                    lineNumber: 63,
+                                    lineNumber: 64,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/PartnersSection.tsx",
-                                lineNumber: 62,
+                                lineNumber: 63,
                                 columnNumber: 15
                             }, this)
                         }, partner.name, false, {
                             fileName: "[project]/src/components/PartnersSection.tsx",
-                            lineNumber: 52,
+                            lineNumber: 53,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/PartnersSection.tsx",
-                    lineNumber: 47,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/PartnersSection.tsx",
-            lineNumber: 34,
+            lineNumber: 35,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/PartnersSection.tsx",
-        lineNumber: 33,
+        lineNumber: 34,
         columnNumber: 5
     }, this);
 }
