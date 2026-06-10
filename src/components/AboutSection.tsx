@@ -75,17 +75,16 @@ export default function AboutSection() {
             <p className="text-gray-600 text-lg mb-6 leading-relaxed">
               A <strong className="text-dark-navy">Refugee-Led Organization</strong> created in 2023 in Kampala, Uganda.
 
-              It was founded in response to the increasing social, economic, and protection issues that refugees and host communities face. The organization works in areas where poverty, unemployment, juvenile delinquency, and inequality are prevalent, and vulnerable groups—particularly women, children and youth adolsent—face increased risks of marginalization, violence, and financial difficulties.
+              It was founded in response to the increasing social, economic, and protection issues that refugees and host communities face. The organization works in areas where poverty, unemployment, Early intervention, and inequality are prevalent, and vulnerable groups—particularly women, children and youth adolsent—face increased risks of marginalization, violence, and financial difficulties.
             </p>
 
             <p className="text-gray-600 mb-8 leading-relaxed">
-              is committed to improving people’s living conditions by promoting access to education, Mental health, Skills development , financial inclusion, livelihood Program, sporting and artist, chicken poultry, agriculture, and local development.
+              is committed to improving people’s living long conditions by promoting access to education, livelihood Program, Child Protection and women, agriculture, Mental health and Disability support, Skills development , financial inclusion, sporting and artistic, Right and Advocacy, chicken poultry, and local development.
             </p>
 
             <p className="text-gray-600 mb-8 leading-relaxed">
               is a non-profit organization dedicated to humanitarian causes and social development. It is characterized by charity, compassion and solidarity.<br/>
 
-              The organization does not limit itself to social work but also includes socio-cultural, economic and financial aspects, as well as development activities.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 mb-8">

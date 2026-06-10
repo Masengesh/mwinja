@@ -2717,7 +2717,7 @@ function AboutSection() {
                                         lineNumber: 76,
                                         columnNumber: 17
                                     }, this),
-                                    " created in 2023 in Kampala, Uganda. It was founded in response to the increasing social, economic, and protection issues that refugees and host communities face. The organization works in areas where poverty, unemployment, juvenile delinquency, and inequality are prevalent, and vulnerable groups—particularly women, children and youth adolsent—face increased risks of marginalization, violence, and financial difficulties."
+                                    " created in 2023 in Kampala, Uganda. It was founded in response to the increasing social, economic, and protection issues that refugees and host communities face. The organization works in areas where poverty, unemployment, Early intervention, and inequality are prevalent, and vulnerable groups—particularly women, children and youth adolsent—face increased risks of marginalization, violence, and financial difficulties."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
@@ -2726,7 +2726,7 @@ function AboutSection() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-gray-600 mb-8 leading-relaxed",
-                                children: "is committed to improving people’s living conditions by promoting access to education, Mental health, Skills development , financial inclusion, livelihood Program, sporting and artist, chicken poultry, agriculture, and local development."
+                                children: "is committed to improving people’s living long conditions by promoting access to education, livelihood Program, Child Protection and women, agriculture, Mental health and Disability support, Skills development , financial inclusion, sporting and artistic, Right and Advocacy, chicken poultry, and local development."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
                                 lineNumber: 81,
@@ -2740,8 +2740,7 @@ function AboutSection() {
                                         fileName: "[project]/src/components/AboutSection.tsx",
                                         lineNumber: 86,
                                         columnNumber: 159
-                                    }, this),
-                                    "The organization does not limit itself to social work but also includes socio-cultural, economic and financial aspects, as well as development activities."
+                                    }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
@@ -2760,12 +2759,12 @@ function AboutSection() {
                                                     className: "w-5 h-5 text-primary-blue"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AboutSection.tsx",
-                                                    lineNumber: 94,
+                                                    lineNumber: 93,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                                lineNumber: 93,
+                                                lineNumber: 92,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2775,7 +2774,7 @@ function AboutSection() {
                                                         children: "Our Vision"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                                        lineNumber: 97,
+                                                        lineNumber: 96,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2783,19 +2782,19 @@ function AboutSection() {
                                                         children: "Socially and economically empowered communities"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                                        lineNumber: 98,
+                                                        lineNumber: 97,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                                lineNumber: 96,
+                                                lineNumber: 95,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 91,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2807,12 +2806,12 @@ function AboutSection() {
                                                     className: "w-5 h-5 text-primary-blue"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AboutSection.tsx",
-                                                    lineNumber: 103,
+                                                    lineNumber: 102,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                                lineNumber: 102,
+                                                lineNumber: 101,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2822,7 +2821,7 @@ function AboutSection() {
                                                         children: "Our Mission"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                                        lineNumber: 106,
+                                                        lineNumber: 105,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2830,25 +2829,25 @@ function AboutSection() {
                                                         children: "Sustainable livelihoods for all"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                                        lineNumber: 107,
+                                                        lineNumber: 106,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                                lineNumber: 105,
+                                                lineNumber: 104,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                        lineNumber: 101,
+                                        lineNumber: 100,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                lineNumber: 91,
+                                lineNumber: 90,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2860,13 +2859,13 @@ function AboutSection() {
                                         className: "w-5 h-5 group-hover:translate-x-1 transition-transform"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                        lineNumber: 117,
+                                        lineNumber: 116,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                lineNumber: 112,
+                                lineNumber: 111,
                                 columnNumber: 13
                             }, this)
                         ]
