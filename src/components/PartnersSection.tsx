@@ -4,11 +4,15 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 const partners = [
-  { name: "HCP", logo: "https://res.cloudinary.com/diisccxqg/image/upload/v1772350573/loogo_kls4ve.jpg" },
+  { name: "HCP", logo: "https://res.cloudinary.com/dmekiq8b/image/upload/v1784168276/loogo_fghlq6_xbgnab.jpg" },
   { name: "EL-Hai Ministries", logo: "https://res.cloudinary.com/dtbzixyuy/image/upload/v1776262597/el-ai_fazz6w.jpg" },
   { name: "Tuinuwane", logo: "https://res.cloudinary.com/dtbzixyuy/image/upload/v1776262496/tuinuwane-project-logo_rbswbw.png" },
   { name: "Bomoko", logo: "https://res.cloudinary.com/dtbzixyuy/image/upload/v1776256101/hcp-mail-on_bhiexa.jpg" },
     { name: "Achil Devine Foundation", logo: "https://res.cloudinary.com/dtbzixyuy/image/upload/v1776262508/logo-divine_kq3ubu.png" },
+    { name: "AOU", logo: "https://res.cloudinary.com/darliwxtt/image/upload/v1780142516/WhatsApp_Image_2026-05-30_at_04.59.34_x3nzi7.jpg" },
+    { name: "KOWED", logo: "https://res.cloudinary.com/darliwxtt/image/upload/v1780142503/cropped-KOWED-LOGO-FINAL-png-1_k01fbw.webp" },
+    { name: "BONDEKO", logo: "https://res.cloudinary.com/darliwxtt/image/upload/v1780142470/bondeko_paia8l.jpg" },
+    { name: "BEI", logo: "https://res.cloudinary.com/dxit9ltm4/image/upload/v1775578414/BridgeCore_Empowerment_Initiative_logo_jtmbqx.png" },
 ];
 
 export default function PartnersSection() {
