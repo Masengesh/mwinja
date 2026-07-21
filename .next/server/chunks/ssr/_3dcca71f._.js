@@ -25,6 +25,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/book-open.js [app-rsc] (ecmascript) <export default as BookOpen>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/trending-up.js [app-rsc] (ecmascript) <export default as TrendingUp>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/users.js [app-rsc] (ecmascript) <export default as Users>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/heart.js [app-rsc] (ecmascript) <export default as Heart>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$leaf$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Leaf$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/leaf.js [app-rsc] (ecmascript) <export default as Leaf>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$scale$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Scale$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/scale.js [app-rsc] (ecmascript) <export default as Scale>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/graduation-cap.js [app-rsc] (ecmascript) <export default as GraduationCap>");
@@ -48,6 +49,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$hand$2d$heart$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__HandHeart$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/hand-heart.js [app-rsc] (ecmascript) <export default as HandHeart>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trees$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Trees$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/trees.js [app-rsc] (ecmascript) <export default as Trees>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$salad$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Salad$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/salad.js [app-rsc] (ecmascript) <export default as Salad>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/shield.js [app-rsc] (ecmascript) <export default as Shield>");
 ;
 ;
 function slugify(text) {
@@ -64,11 +66,11 @@ const programs = [
             lineNumber: 63,
             columnNumber: 11
         }, this),
-        image: "https://ext.same-assets.com/922964245/84962539.jpeg",
+        image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618822/WhatsApp_Image_2026-07-20_at_14.51.14_wsqfsf.jpg",
         gallery: [
-            "https://ext.same-assets.com/922964245/84962539.jpeg",
-            "https://ext.same-assets.com/922964245/2606823118.jpeg",
-            "https://ext.same-assets.com/922964245/3347159728.jpeg",
+            "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618822/WhatsApp_Image_2026-07-20_at_14.51.13_2_ptgiqs.jpg",
+            "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618822/WhatsApp_Image_2026-07-20_at_14.51.13_r74hsg.jpg",
+            "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618822/WhatsApp_Image_2026-07-20_at_14.51.13_2_ptgiqs.jpg",
             "https://ext.same-assets.com/922964245/496075394.jpeg"
         ],
         title: "Education Programs",
@@ -156,6 +158,23 @@ We strengthen individuals and organizations through leadership and management tr
                     lineNumber: 123,
                     columnNumber: 15
                 }, this)
+            },
+            {
+                title: "Child Protection ",
+                description: "Ensuring safe and supportive environments for children",
+                items: [
+                    "Child-friendly spaces",
+                    "Psychosocial support",
+                    "Education access",
+                    "Community awareness"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__["Shield"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 129,
+                    columnNumber: 15
+                }, this)
             }
         ],
         objectives: [
@@ -200,7 +219,7 @@ We strengthen individuals and organizations through leadership and management tr
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 154,
+            lineNumber: 160,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/2606823118.jpeg",
@@ -255,7 +274,7 @@ We provide continuous support to ensure long-term success.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 200,
+                    lineNumber: 206,
                     columnNumber: 15
                 }, this)
             },
@@ -272,7 +291,7 @@ We provide continuous support to ensure long-term success.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 206,
+                    lineNumber: 212,
                     columnNumber: 15
                 }, this)
             },
@@ -289,7 +308,7 @@ We provide continuous support to ensure long-term success.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 212,
+                    lineNumber: 218,
                     columnNumber: 15
                 }, this)
             }
@@ -336,7 +355,7 @@ We provide continuous support to ensure long-term success.
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 243,
+            lineNumber: 249,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/496075394.jpeg",
@@ -402,7 +421,7 @@ Urban Refugee Livelihoods
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 288,
+                    lineNumber: 294,
                     columnNumber: 15
                 }, this)
             },
@@ -419,7 +438,7 @@ Urban Refugee Livelihoods
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 294,
+                    lineNumber: 300,
                     columnNumber: 15
                 }, this)
             },
@@ -436,7 +455,7 @@ Urban Refugee Livelihoods
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 300,
+                    lineNumber: 306,
                     columnNumber: 15
                 }, this)
             }
@@ -451,7 +470,7 @@ Urban Refugee Livelihoods
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 311,
+            lineNumber: 317,
             columnNumber: 11
         }, this),
         image: "https://ext.same-assets.com/922964245/3347159728.jpeg",
@@ -497,7 +516,7 @@ We help graduates transition into work.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 344,
+                    lineNumber: 350,
                     columnNumber: 15
                 }, this)
             },
@@ -514,7 +533,7 @@ We help graduates transition into work.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 350,
+                    lineNumber: 356,
                     columnNumber: 15
                 }, this)
             }
@@ -529,7 +548,7 @@ We help graduates transition into work.
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 361,
+            lineNumber: 367,
             columnNumber: 11
         }, this),
         image: "",
@@ -575,7 +594,7 @@ We teach money management skills.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 394,
+                    lineNumber: 400,
                     columnNumber: 15
                 }, this)
             },
@@ -592,7 +611,7 @@ We teach money management skills.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 400,
+                    lineNumber: 406,
                     columnNumber: 15
                 }, this)
             }
@@ -607,7 +626,7 @@ We teach money management skills.
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 411,
+            lineNumber: 417,
             columnNumber: 11
         }, this),
         image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776548109/7_cs9yi6.jpg",
@@ -660,7 +679,7 @@ We amplify community voices.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 452,
+                    lineNumber: 458,
                     columnNumber: 15
                 }, this)
             },
@@ -676,7 +695,7 @@ We amplify community voices.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 458,
+                    lineNumber: 464,
                     columnNumber: 15
                 }, this)
             }
@@ -691,7 +710,7 @@ We amplify community voices.
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 469,
+            lineNumber: 475,
             columnNumber: 9
         }, this),
         image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1777224200/WhatsApp_Image_2026-04-24_at_11.30.05_g6bpii.jpg",
@@ -754,7 +773,7 @@ We use sports and arts to strengthen unity and inclusion.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 529,
+                    lineNumber: 535,
                     columnNumber: 13
                 }, this)
             },
@@ -771,7 +790,7 @@ We use sports and arts to strengthen unity and inclusion.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 540,
+                    lineNumber: 546,
                     columnNumber: 13
                 }, this)
             },
@@ -788,7 +807,7 @@ We use sports and arts to strengthen unity and inclusion.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 551,
+                    lineNumber: 557,
                     columnNumber: 13
                 }, this)
             }
@@ -803,7 +822,7 @@ We use sports and arts to strengthen unity and inclusion.
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 562,
+            lineNumber: 568,
             columnNumber: 9
         }, this),
         image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1777224201/WhatsApp_Image_2026-04-24_at_11.04.28_lh6bq3.jpg",
@@ -859,7 +878,7 @@ We reduce stigma and promote understanding in communities.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 616,
+                    lineNumber: 622,
                     columnNumber: 13
                 }, this)
             },
@@ -876,7 +895,7 @@ We reduce stigma and promote understanding in communities.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 627,
+                    lineNumber: 633,
                     columnNumber: 13
                 }, this)
             },
@@ -893,7 +912,7 @@ We reduce stigma and promote understanding in communities.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 638,
+                    lineNumber: 644,
                     columnNumber: 13
                 }, this)
             }
@@ -908,7 +927,7 @@ We reduce stigma and promote understanding in communities.
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 649,
+            lineNumber: 655,
             columnNumber: 9
         }, this),
         image: "https://ext.same-assets.com/922964245/3980788437.jpeg",
@@ -967,7 +986,7 @@ We preserve and promote traditional food knowledge.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 705,
+                    lineNumber: 711,
                     columnNumber: 13
                 }, this)
             },
@@ -984,7 +1003,7 @@ We preserve and promote traditional food knowledge.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 716,
+                    lineNumber: 722,
                     columnNumber: 13
                 }, this)
             },
@@ -1001,7 +1020,7 @@ We preserve and promote traditional food knowledge.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 727,
+                    lineNumber: 733,
                     columnNumber: 13
                 }, this)
             }
@@ -1016,7 +1035,7 @@ We preserve and promote traditional food knowledge.
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 738,
+            lineNumber: 744,
             columnNumber: 9
         }, this),
         image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776560303/team_lr9k0j.jpg",
@@ -1077,7 +1096,7 @@ We help farmers connect to markets and income opportunities.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 795,
+                    lineNumber: 801,
                     columnNumber: 13
                 }, this)
             },
@@ -1094,7 +1113,7 @@ We help farmers connect to markets and income opportunities.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 806,
+                    lineNumber: 812,
                     columnNumber: 13
                 }, this)
             },
@@ -1111,7 +1130,7 @@ We help farmers connect to markets and income opportunities.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 817,
+                    lineNumber: 823,
                     columnNumber: 13
                 }, this)
             }
@@ -1126,7 +1145,7 @@ We help farmers connect to markets and income opportunities.
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 827,
+            lineNumber: 833,
             columnNumber: 9
         }, this),
         image: "",
@@ -1179,7 +1198,7 @@ These activities aim to reduce pressure on natural fish stocks while providing r
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 868,
+                    lineNumber: 874,
                     columnNumber: 13
                 }, this)
             },
@@ -1197,7 +1216,7 @@ These activities aim to reduce pressure on natural fish stocks while providing r
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 874,
+                    lineNumber: 880,
                     columnNumber: 13
                 }, this)
             },
@@ -1214,7 +1233,7 @@ These activities aim to reduce pressure on natural fish stocks while providing r
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 880,
+                    lineNumber: 886,
                     columnNumber: 13
                 }, this)
             }
@@ -1260,6 +1279,203 @@ These activities aim to reduce pressure on natural fish stocks while providing r
         },
         color: "bg-cyan-600",
         secondaryColor: "text-cyan-600"
+    },
+    {
+        id: "child-protection",
+        slug: slugify("Child Protection Program"),
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__["Shield"], {
+            className: "w-8 h-8"
+        }, void 0, false, {
+            fileName: "[project]/src/lib/programs.tsx",
+            lineNumber: 914,
+            columnNumber: 9
+        }, this),
+        image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618822/WhatsApp_Image_2026-07-20_at_14.49.19_nsjtsd.jpg",
+        gallery: [
+            "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618822/WhatsApp_Image_2026-07-20_at_14.49.19_nsjtsd.jpg",
+            "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618822/WhatsApp_Image_2026-07-20_at_14.51.52_mml7oz.jpg"
+        ],
+        title: "Child Protection Program",
+        shortDescription: "Ensuring safe and supportive environments for children through protection, rights awareness, and family support.",
+        fullDescription: `Our Child Protection Program is dedicated to safeguarding children from abuse, exploitation, and violence. We work with families, communities, and local leaders to create protective environments where every child can thrive.
+
+Child Safety and Protection
+We implement direct interventions to protect children from harm and ensure their safety in homes, schools, and communities.
+
+• Safe spaces for children in crisis situations
+• Child protection case management and referral systems
+• Community-based child protection committees
+• Psychosocial support and trauma counseling
+• Safe shelter and temporary care for at-risk children
+
+Child Rights Awareness
+We educate children, families, and communities about children's rights and how to uphold them.
+
+• Rights education in schools and community centers
+• Child participation and voice programs
+• Legal aid and advocacy for child rights violations
+• Birth registration and documentation support
+• Youth leadership and empowerment initiatives
+
+Prevention of Abuse and Exploitation
+We actively work to prevent all forms of child abuse, exploitation, and harmful practices.
+
+• Community awareness campaigns against child labor
+• Prevention of child marriage and harmful traditional practices
+• Online safety and digital literacy programs
+• Reporting mechanisms for abuse and exploitation
+• Training for teachers, caregivers, and community workers
+
+Family Support and Strengthening
+We support families to provide safe, nurturing environments for their children.
+
+• Parenting skills training and family counseling
+• Economic support and cash transfer programs for vulnerable families
+• Alternative care arrangements for children without parental care
+• Community-based family support networks
+• Linkages to social services and government assistance
+
+Community Protection Systems
+We build community-level systems that protect children collectively.
+
+• Training community leaders and volunteers in child protection
+• Establishing community child protection networks
+• Strengthening child protection laws and policies
+• Collaboration with local authorities and law enforcement
+• Community monitoring and early warning systems`,
+        sections: [
+            {
+                title: "Child Safety",
+                description: "Creating safe environments for children",
+                items: [
+                    "Safe spaces",
+                    "Case management",
+                    "Protection committees",
+                    "Psychosocial support",
+                    "Emergency shelter"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__["Shield"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 973,
+                    columnNumber: 13
+                }, this)
+            },
+            {
+                title: "Child Rights Awareness",
+                description: "Educating communities on children's rights",
+                items: [
+                    "Rights education",
+                    "Child participation",
+                    "Legal aid",
+                    "Birth registration",
+                    "Youth leadership"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2d$check$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpenCheck$3e$__["BookOpenCheck"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 979,
+                    columnNumber: 13
+                }, this)
+            },
+            {
+                title: "Abuse Prevention",
+                description: "Preventing exploitation and harmful practices",
+                items: [
+                    "Anti-child labor campaigns",
+                    "Anti-child marriage",
+                    "Online safety",
+                    "Reporting mechanisms",
+                    "Caregiver training"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 985,
+                    columnNumber: 13
+                }, this)
+            },
+            {
+                title: "Family Support",
+                description: "Strengthening families to protect children",
+                items: [
+                    "Parenting training",
+                    "Economic support",
+                    "Alternative care",
+                    "Family networks",
+                    "Social services"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 991,
+                    columnNumber: 13
+                }, this)
+            },
+            {
+                title: "Community Protection",
+                description: "Building community-wide child protection systems",
+                items: [
+                    "Leader training",
+                    "Protection networks",
+                    "Policy advocacy",
+                    "Authority collaboration",
+                    "Early warning systems"
+                ],
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$scale$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Scale$3e$__["Scale"], {
+                    className: "w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/lib/programs.tsx",
+                    lineNumber: 997,
+                    columnNumber: 13
+                }, this)
+            }
+        ],
+        objectives: [
+            "Protect children from all forms of abuse, exploitation, and violence",
+            "Raise awareness of child rights across communities",
+            "Strengthen family and community child protection systems",
+            "Provide direct support and safe spaces for at-risk children",
+            "Advocate for stronger child protection laws and policies"
+        ],
+        activities: [
+            {
+                icon: "Shield",
+                title: "Child Safety Workshops",
+                description: "Teaching children about personal safety",
+                frequency: "Weekly"
+            },
+            {
+                icon: "Heart",
+                title: "Family Counseling",
+                description: "Supporting families to create safe homes",
+                frequency: "Bi-weekly"
+            },
+            {
+                icon: "Users",
+                title: "Community Child Committees",
+                description: "Local volunteers protecting children",
+                frequency: "Ongoing"
+            },
+            {
+                icon: "BookOpenCheck",
+                title: "Rights Awareness Campaigns",
+                description: "Educating communities on child rights",
+                frequency: "Monthly"
+            }
+        ],
+        impact: {
+            peopleHelped: "1,500+",
+            beneficiaries: "2,500+",
+            projects: "12",
+            communities: "20+"
+        },
+        color: "bg-red-600",
+        secondaryColor: "text-red-600"
     }
 ];
 function getProgramBySlug(slug) {

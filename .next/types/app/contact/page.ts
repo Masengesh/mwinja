@@ -1,4 +1,4 @@
-// File: /Users/extremesales/Desktop/Desktop/projects/mwinja-updte/src/app/contact/page.tsx
+// File: C:\Users\Miguel\Documents\bientomart\proj\mwinja\src\app\contact\page.tsx
 import * as entry from '../../../../src/app/contact/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

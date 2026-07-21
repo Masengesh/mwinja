@@ -2,7 +2,7 @@
 
 import { Program } from "@/lib/programs";
 import { useEffect, useState } from "react";
-import { Calendar, Clock, Users, CheckCircle2, ArrowRight, Sparkles, Heart, Star, BookOpenCheck, GraduationCap, TrendingUp, Briefcase, PiggyBank, HandHeart, LandPlot, Scissors, Wrench, BookOpen, Scale, Tractor, Trees, Droplets, ChefHat, Salad, Dumbbell, Music, Palette, Theater, Brain, Eye, Shirt, Factory } from "lucide-react";
+import { Calendar, Clock, Users, CheckCircle2, ArrowRight, Sparkles, Heart, Star, BookOpenCheck, GraduationCap, TrendingUp, Briefcase, PiggyBank, HandHeart, LandPlot, Scissors, Wrench, BookOpen, Scale, Tractor, Trees, Droplets, ChefHat, Salad, Dumbbell, Music, Palette, Theater, Brain, Eye, Shirt, Factory, Shield } from "lucide-react";
 import { Activity } from "@/lib/programs";
 
 interface ProgramActivitiesSidebarProps {
@@ -38,6 +38,7 @@ const iconMap: Record<string, React.ReactNode> = {
   Heart: <Heart className="w-5 h-5 text-pink-500" />,
   Shirt: <Shirt className="w-5 h-5 text-indigo-600" />,
   Factory: <Factory className="w-5 h-5 text-indigo-600" />,
+  Shield: <Shield className="w-5 h-5 text-red-600" />,
 };
 
 const UPCOMING = [

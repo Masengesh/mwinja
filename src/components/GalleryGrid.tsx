@@ -4,6 +4,11 @@ import Image from "next/image";
 import { useState } from "react";
 
 const galleryImages = [
+  { src: "https://res.cloudinary.com/darliwxtt/image/upload/q_auto/f_auto/v1781822368/WhatsApp_Image_2026-06-08_at_18.50.16_up22c1.jpg", alt: "Partnership meeting", title: "Partnership" },
+  { src: "https://res.cloudinary.com/darliwxtt/image/upload/q_auto/f_auto/v1781822367/WhatsApp_Image_2026-06-08_at_18.50.15_jfkkcu.jpg", alt: "Partnership meeting", title: "Partnership" },
+  { src: "https://res.cloudinary.com/darliwxtt/image/upload/q_auto/f_auto/v1781822368/WhatsApp_Image_2026-06-08_at_18.50.16_1_q4nerp.jpg", alt: "Partnership meeting", title: "Partnership" },
+  { src: "https://res.cloudinary.com/darliwxtt/image/upload/q_auto/f_auto/v1781822367/WhatsApp_Image_2026-06-08_at_18.49.27_eqfoad.jpg", alt: "Partnership meeting", title: "Partnership" },
+  { src: "https://res.cloudinary.com/darliwxtt/image/upload/q_auto/f_auto/v1781822353/3893045342_q9wjbi.jpg", alt: "Partnership meeting", title: "Partnership" },
   { src: "https://ext.same-assets.com/922964245/3478060187.jpeg", alt: "Our team at work", title: "Community Outreach" },
   { src: "https://ext.same-assets.com/922964245/2075537136.jpeg", alt: "Making a difference", title: "Education Support" },
   { src: "https://ext.same-assets.com/922964245/3893045342.jpeg", alt: "Our team meeting", title: "Team Collaboration" },

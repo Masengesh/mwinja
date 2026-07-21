@@ -1,4 +1,4 @@
-import { BookOpen, TrendingUp, Users, Heart, Leaf, Scale, GraduationCap, DollarSign, Utensils, Droplets, Sparkles, Target, CheckCircle, HeartHandshake, Award, Scissors, Briefcase, LandPlot, PiggyBank, Gavel, Tractor, ChefHat, Music, Dumbbell, Brain, Eye, Shirt, Wrench, BookOpenCheck, HandHeart, Trees, Factory, Theater, Palette, Salad } from "lucide-react";
+import { BookOpen, TrendingUp, Users, Heart, Leaf, Scale, GraduationCap , DollarSign, Utensils, Droplets, Sparkles, Target, CheckCircle, HeartHandshake, Award, Scissors, Briefcase, LandPlot, PiggyBank, Gavel, Tractor, ChefHat, Music, Dumbbell, Brain, Eye, Shirt, Wrench, BookOpenCheck, HandHeart, Trees, Factory, Theater, Palette, Salad, Shield } from "lucide-react";
 
 export interface Activity {
   icon: string; // 🔥 allows real icons instead of string mapping
@@ -61,11 +61,11 @@ export const programs: Program[] = [
     id: "education",
     slug: slugify("Education Programs"),
     icon: <GraduationCap className="w-8 h-8" />,
-    image: "https://ext.same-assets.com/922964245/84962539.jpeg",
+    image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618822/WhatsApp_Image_2026-07-20_at_14.51.14_wsqfsf.jpg",
     gallery: [
-      "https://ext.same-assets.com/922964245/84962539.jpeg",
-      "https://ext.same-assets.com/922964245/2606823118.jpeg",
-      "https://ext.same-assets.com/922964245/3347159728.jpeg",
+      "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618822/WhatsApp_Image_2026-07-20_at_14.51.13_2_ptgiqs.jpg",
+      "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618822/WhatsApp_Image_2026-07-20_at_14.51.13_r74hsg.jpg",
+      "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618822/WhatsApp_Image_2026-07-20_at_14.51.13_2_ptgiqs.jpg",
       "https://ext.same-assets.com/922964245/496075394.jpeg",
     ],
     title: "Education Programs",
@@ -121,6 +121,12 @@ We strengthen individuals and organizations through leadership and management tr
         description: "Leadership and management training",
         items: ["Project management", "Financial reporting", "Fundraising", "Governance & leadership", "M&E"],
         icon: <Award className="w-6 h-6" />,
+      },
+            {
+        title: "Child Protection ",
+        description: "Ensuring safe and supportive environments for children",
+        items: ["Child-friendly spaces", "Psychosocial support", "Education access", "Community awareness"],
+        icon: <Shield className="w-6 h-6" />,
       },
     ],
 
@@ -901,6 +907,117 @@ These activities aim to reduce pressure on natural fish stocks while providing r
   },
   color: "bg-cyan-600",
   secondaryColor: "text-cyan-600",
+},
+{
+  id: "child-protection",
+  slug: slugify("Child Protection Program"),
+  icon: <Shield className="w-8 h-8" />,
+  image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618822/WhatsApp_Image_2026-07-20_at_14.49.19_nsjtsd.jpg",
+  gallery: [
+    "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618822/WhatsApp_Image_2026-07-20_at_14.49.19_nsjtsd.jpg",
+    "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618822/WhatsApp_Image_2026-07-20_at_14.51.52_mml7oz.jpg",
+  ],
+  title: "Child Protection Program",
+  shortDescription: "Ensuring safe and supportive environments for children through protection, rights awareness, and family support.",
+  fullDescription: `Our Child Protection Program is dedicated to safeguarding children from abuse, exploitation, and violence. We work with families, communities, and local leaders to create protective environments where every child can thrive.
+
+Child Safety and Protection
+We implement direct interventions to protect children from harm and ensure their safety in homes, schools, and communities.
+
+• Safe spaces for children in crisis situations
+• Child protection case management and referral systems
+• Community-based child protection committees
+• Psychosocial support and trauma counseling
+• Safe shelter and temporary care for at-risk children
+
+Child Rights Awareness
+We educate children, families, and communities about children's rights and how to uphold them.
+
+• Rights education in schools and community centers
+• Child participation and voice programs
+• Legal aid and advocacy for child rights violations
+• Birth registration and documentation support
+• Youth leadership and empowerment initiatives
+
+Prevention of Abuse and Exploitation
+We actively work to prevent all forms of child abuse, exploitation, and harmful practices.
+
+• Community awareness campaigns against child labor
+• Prevention of child marriage and harmful traditional practices
+• Online safety and digital literacy programs
+• Reporting mechanisms for abuse and exploitation
+• Training for teachers, caregivers, and community workers
+
+Family Support and Strengthening
+We support families to provide safe, nurturing environments for their children.
+
+• Parenting skills training and family counseling
+• Economic support and cash transfer programs for vulnerable families
+• Alternative care arrangements for children without parental care
+• Community-based family support networks
+• Linkages to social services and government assistance
+
+Community Protection Systems
+We build community-level systems that protect children collectively.
+
+• Training community leaders and volunteers in child protection
+• Establishing community child protection networks
+• Strengthening child protection laws and policies
+• Collaboration with local authorities and law enforcement
+• Community monitoring and early warning systems`,
+  sections: [
+    {
+      title: "Child Safety",
+      description: "Creating safe environments for children",
+      items: ["Safe spaces", "Case management", "Protection committees", "Psychosocial support", "Emergency shelter"],
+      icon: <Shield className="w-6 h-6" />,
+    },
+    {
+      title: "Child Rights Awareness",
+      description: "Educating communities on children's rights",
+      items: ["Rights education", "Child participation", "Legal aid", "Birth registration", "Youth leadership"],
+      icon: <BookOpenCheck className="w-6 h-6" />,
+    },
+    {
+      title: "Abuse Prevention",
+      description: "Preventing exploitation and harmful practices",
+      items: ["Anti-child labor campaigns", "Anti-child marriage", "Online safety", "Reporting mechanisms", "Caregiver training"],
+      icon: <Heart className="w-6 h-6" />,
+    },
+    {
+      title: "Family Support",
+      description: "Strengthening families to protect children",
+      items: ["Parenting training", "Economic support", "Alternative care", "Family networks", "Social services"],
+      icon: <Users className="w-6 h-6" />,
+    },
+    {
+      title: "Community Protection",
+      description: "Building community-wide child protection systems",
+      items: ["Leader training", "Protection networks", "Policy advocacy", "Authority collaboration", "Early warning systems"],
+      icon: <Scale className="w-6 h-6" />,
+    },
+  ],
+  objectives: [
+    "Protect children from all forms of abuse, exploitation, and violence",
+    "Raise awareness of child rights across communities",
+    "Strengthen family and community child protection systems",
+    "Provide direct support and safe spaces for at-risk children",
+    "Advocate for stronger child protection laws and policies",
+  ],
+  activities: [
+    { icon: "Shield", title: "Child Safety Workshops", description: "Teaching children about personal safety", frequency: "Weekly" },
+    { icon: "Heart", title: "Family Counseling", description: "Supporting families to create safe homes", frequency: "Bi-weekly" },
+    { icon: "Users", title: "Community Child Committees", description: "Local volunteers protecting children", frequency: "Ongoing" },
+    { icon: "BookOpenCheck", title: "Rights Awareness Campaigns", description: "Educating communities on child rights", frequency: "Monthly" },
+  ],
+  impact: {
+    peopleHelped: "1,500+",
+    beneficiaries: "2,500+",
+    projects: "12",
+    communities: "20+",
+  },
+  color: "bg-red-600",
+  secondaryColor: "text-red-600",
 }
 ];
 

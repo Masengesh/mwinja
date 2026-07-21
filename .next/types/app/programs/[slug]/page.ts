@@ -1,4 +1,4 @@
-// File: /Users/extremesales/Desktop/Desktop/projects/mwinja-updte/src/app/programs/[slug]/page.tsx
+// File: C:\Users\Miguel\Documents\bientomart\proj\mwinja\src\app\programs\[slug]\page.tsx
 import * as entry from '../../../../../src/app/programs/[slug]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
