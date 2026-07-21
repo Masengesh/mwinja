@@ -365,8 +365,11 @@ We help graduates transition into work.
     id: "financial programs",
     slug: slugify("Financial Inclusion"),
     icon: <BookOpen className="w-8 h-8" />,
-    image: "",
-    gallery: [],
+    image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1784632830/WhatsApp_Image_2026-07-21_at_14.05.52_1_yuhr9n.jpg",
+    gallery: [
+      "https://res.cloudinary.com/dbllxptl8/image/upload/v1784632964/WhatsApp_Image_2026-07-21_at_14.05.53_bqdibb.jpg",
+      "https://res.cloudinary.com/dbllxptl8/image/upload/v1784632830/WhatsApp_Image_2026-07-21_at_14.05.52_1_yuhr9n.jpg",
+    ],
     title: "Financial Inclusion",
     shortDescription: "Savings, credit and financial literacy.",
 

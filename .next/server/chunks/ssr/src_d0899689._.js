@@ -540,8 +540,11 @@ We help graduates transition into work.
             lineNumber: 367,
             columnNumber: 11
         }, this),
-        image: "",
-        gallery: [],
+        image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1784632830/WhatsApp_Image_2026-07-21_at_14.05.52_1_yuhr9n.jpg",
+        gallery: [
+            "https://res.cloudinary.com/dbllxptl8/image/upload/v1784632964/WhatsApp_Image_2026-07-21_at_14.05.53_bqdibb.jpg",
+            "https://res.cloudinary.com/dbllxptl8/image/upload/v1784632830/WhatsApp_Image_2026-07-21_at_14.05.52_1_yuhr9n.jpg"
+        ],
         title: "Financial Inclusion",
         shortDescription: "Savings, credit and financial literacy.",
         fullDescription: `Our Financial Inclusion program helps communities access savings, credit, and financial education.
@@ -583,7 +586,7 @@ We teach money management skills.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 400,
+                    lineNumber: 403,
                     columnNumber: 15
                 }, this)
             },
@@ -600,7 +603,7 @@ We teach money management skills.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 406,
+                    lineNumber: 409,
                     columnNumber: 15
                 }, this)
             }
@@ -615,7 +618,7 @@ We teach money management skills.
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 417,
+            lineNumber: 420,
             columnNumber: 11
         }, this),
         image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776548109/7_cs9yi6.jpg",
@@ -668,7 +671,7 @@ We amplify community voices.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 458,
+                    lineNumber: 461,
                     columnNumber: 15
                 }, this)
             },
@@ -684,7 +687,7 @@ We amplify community voices.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 464,
+                    lineNumber: 467,
                     columnNumber: 15
                 }, this)
             }
@@ -699,7 +702,7 @@ We amplify community voices.
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 475,
+            lineNumber: 478,
             columnNumber: 9
         }, this),
         image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1777224200/WhatsApp_Image_2026-04-24_at_11.30.05_g6bpii.jpg",
@@ -762,7 +765,7 @@ We use sports and arts to strengthen unity and inclusion.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 535,
+                    lineNumber: 538,
                     columnNumber: 13
                 }, this)
             },
@@ -779,7 +782,7 @@ We use sports and arts to strengthen unity and inclusion.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 546,
+                    lineNumber: 549,
                     columnNumber: 13
                 }, this)
             },
@@ -796,7 +799,7 @@ We use sports and arts to strengthen unity and inclusion.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 557,
+                    lineNumber: 560,
                     columnNumber: 13
                 }, this)
             }
@@ -811,7 +814,7 @@ We use sports and arts to strengthen unity and inclusion.
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 568,
+            lineNumber: 571,
             columnNumber: 9
         }, this),
         image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1777224201/WhatsApp_Image_2026-04-24_at_11.04.28_lh6bq3.jpg",
@@ -867,7 +870,7 @@ We reduce stigma and promote understanding in communities.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 622,
+                    lineNumber: 625,
                     columnNumber: 13
                 }, this)
             },
@@ -884,7 +887,7 @@ We reduce stigma and promote understanding in communities.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 633,
+                    lineNumber: 636,
                     columnNumber: 13
                 }, this)
             },
@@ -901,7 +904,7 @@ We reduce stigma and promote understanding in communities.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 644,
+                    lineNumber: 647,
                     columnNumber: 13
                 }, this)
             }
@@ -916,7 +919,7 @@ We reduce stigma and promote understanding in communities.
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 655,
+            lineNumber: 658,
             columnNumber: 9
         }, this),
         image: "https://ext.same-assets.com/922964245/3980788437.jpeg",
@@ -975,7 +978,7 @@ We preserve and promote traditional food knowledge.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 711,
+                    lineNumber: 714,
                     columnNumber: 13
                 }, this)
             },
@@ -992,7 +995,7 @@ We preserve and promote traditional food knowledge.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 722,
+                    lineNumber: 725,
                     columnNumber: 13
                 }, this)
             },
@@ -1009,7 +1012,7 @@ We preserve and promote traditional food knowledge.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 733,
+                    lineNumber: 736,
                     columnNumber: 13
                 }, this)
             }
@@ -1024,7 +1027,7 @@ We preserve and promote traditional food knowledge.
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 744,
+            lineNumber: 747,
             columnNumber: 9
         }, this),
         image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776560303/team_lr9k0j.jpg",
@@ -1085,7 +1088,7 @@ We help farmers connect to markets and income opportunities.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 801,
+                    lineNumber: 804,
                     columnNumber: 13
                 }, this)
             },
@@ -1102,7 +1105,7 @@ We help farmers connect to markets and income opportunities.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 812,
+                    lineNumber: 815,
                     columnNumber: 13
                 }, this)
             },
@@ -1119,7 +1122,7 @@ We help farmers connect to markets and income opportunities.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 823,
+                    lineNumber: 826,
                     columnNumber: 13
                 }, this)
             }
@@ -1134,7 +1137,7 @@ We help farmers connect to markets and income opportunities.
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 833,
+            lineNumber: 836,
             columnNumber: 9
         }, this),
         image: "",
@@ -1187,7 +1190,7 @@ These activities aim to reduce pressure on natural fish stocks while providing r
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 874,
+                    lineNumber: 877,
                     columnNumber: 13
                 }, this)
             },
@@ -1205,7 +1208,7 @@ These activities aim to reduce pressure on natural fish stocks while providing r
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 880,
+                    lineNumber: 883,
                     columnNumber: 13
                 }, this)
             },
@@ -1222,7 +1225,7 @@ These activities aim to reduce pressure on natural fish stocks while providing r
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 886,
+                    lineNumber: 889,
                     columnNumber: 13
                 }, this)
             }
@@ -1276,7 +1279,7 @@ These activities aim to reduce pressure on natural fish stocks while providing r
             className: "w-8 h-8"
         }, void 0, false, {
             fileName: "[project]/src/lib/programs.tsx",
-            lineNumber: 914,
+            lineNumber: 917,
             columnNumber: 9
         }, this),
         image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618822/WhatsApp_Image_2026-07-20_at_14.49.19_nsjtsd.jpg",
@@ -1347,7 +1350,7 @@ We build community-level systems that protect children collectively.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 973,
+                    lineNumber: 976,
                     columnNumber: 13
                 }, this)
             },
@@ -1365,7 +1368,7 @@ We build community-level systems that protect children collectively.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 979,
+                    lineNumber: 982,
                     columnNumber: 13
                 }, this)
             },
@@ -1383,7 +1386,7 @@ We build community-level systems that protect children collectively.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 985,
+                    lineNumber: 988,
                     columnNumber: 13
                 }, this)
             },
@@ -1401,7 +1404,7 @@ We build community-level systems that protect children collectively.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 991,
+                    lineNumber: 994,
                     columnNumber: 13
                 }, this)
             },
@@ -1419,7 +1422,7 @@ We build community-level systems that protect children collectively.
                     className: "w-6 h-6"
                 }, void 0, false, {
                     fileName: "[project]/src/lib/programs.tsx",
-                    lineNumber: 997,
+                    lineNumber: 1000,
                     columnNumber: 13
                 }, this)
             }
