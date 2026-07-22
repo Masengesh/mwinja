@@ -5025,7 +5025,7 @@ var _s = __turbopack_context__.k.signature();
 const partners = [
     {
         name: "HCP",
-        logo: "https://res.cloudinary.com/diisccxqg/image/upload/v1772350573/loogo_kls4ve.jpg"
+        logo: "https://res.cloudinary.com/dmekiq8b/image/upload/v1784168276/loogo_fghlq6_xbgnab.jpg"
     },
     {
         name: "EL-Hai Ministries",
@@ -5042,6 +5042,22 @@ const partners = [
     {
         name: "Achil Devine Foundation",
         logo: "https://res.cloudinary.com/dtbzixyuy/image/upload/v1776262508/logo-divine_kq3ubu.png"
+    },
+    {
+        name: "AOU",
+        logo: "https://res.cloudinary.com/darliwxtt/image/upload/v1780142516/WhatsApp_Image_2026-05-30_at_04.59.34_x3nzi7.jpg"
+    },
+    {
+        name: "KOWED",
+        logo: "https://res.cloudinary.com/darliwxtt/image/upload/v1780142503/cropped-KOWED-LOGO-FINAL-png-1_k01fbw.webp"
+    },
+    {
+        name: "BONDEKO",
+        logo: "https://res.cloudinary.com/darliwxtt/image/upload/v1780142470/bondeko_paia8l.jpg"
+    },
+    {
+        name: "BEI",
+        logo: "https://res.cloudinary.com/dxit9ltm4/image/upload/v1775578414/BridgeCore_Empowerment_Initiative_logo_jtmbqx.png"
     }
 ];
 function PartnersSection() {
@@ -5079,7 +5095,7 @@ function PartnersSection() {
                             children: "Our Partners"
                         }, void 0, false, {
                             fileName: "[project]/src/components/PartnersSection.tsx",
-                            lineNumber: 39,
+                            lineNumber: 43,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5087,13 +5103,13 @@ function PartnersSection() {
                             children: "Trusted By Leading Organizations"
                         }, void 0, false, {
                             fileName: "[project]/src/components/PartnersSection.tsx",
-                            lineNumber: 42,
+                            lineNumber: 46,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/PartnersSection.tsx",
-                    lineNumber: 38,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5115,33 +5131,33 @@ function PartnersSection() {
                                     unoptimized: true
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/PartnersSection.tsx",
-                                    lineNumber: 64,
+                                    lineNumber: 68,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/PartnersSection.tsx",
-                                lineNumber: 63,
+                                lineNumber: 67,
                                 columnNumber: 15
                             }, this)
                         }, partner.name, false, {
                             fileName: "[project]/src/components/PartnersSection.tsx",
-                            lineNumber: 53,
+                            lineNumber: 57,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/PartnersSection.tsx",
-                    lineNumber: 48,
+                    lineNumber: 52,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/PartnersSection.tsx",
-            lineNumber: 35,
+            lineNumber: 39,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/PartnersSection.tsx",
-        lineNumber: 34,
+        lineNumber: 38,
         columnNumber: 5
     }, this);
 }

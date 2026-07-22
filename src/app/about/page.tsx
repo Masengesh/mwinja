@@ -46,13 +46,15 @@ const values = [
 
 const team = [
   { name: "Okovunimali Mwinja Vasco", role: "Executive Director", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776962851/ceo-mwinja_nfvco9.jpg", bio: "Founded MDHF after his own refugee journey, dedicated to empowering displaced communities." },
-  { name: "Emile Amisi", role: "Program Manager", image: "https://res.cloudinary.com/dgarxwgxo/image/upload/v1779115997/program_bnjson.jpg", bio: " experience in community development and humanitarian work." },
-    { name: "Joyce Azam", role: "Financial manager", image: "https://res.cloudinary.com/dgarxwgxo/image/upload/v1777962578/HCP1_ofwzuo.jpg" },
+  { name: "Emile Amisi", role: "Advisor", image: "https://res.cloudinary.com/dgarxwgxo/image/upload/v1779115997/program_bnjson.jpg", bio: " experience in community development and humanitarian work." },
+  { name: "", role: "Program Manager", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1784618823/WhatsApp_Image_2026-07-21_at_00.24.28_flwig2.jpg" },
+  { name: "Joyce Azam", role: "Financial manager", image: "https://res.cloudinary.com/dgarxwgxo/image/upload/v1777962578/HCP1_ofwzuo.jpg" },
   { name: "Gracia Rutebuka", role: "Education Lead", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880419/2_v0ipvn.jpg", bio: "Passionate about education access for refugee children and youth." },
   { name: "Ombeni nyarugeta", role: "Livelihoods Coordinator", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880424/WhatsApp_Image_2026-04-18_at_18.16.22_rnwfvy.jpg", bio: "Expert in vocational training and small business development." },
-  { name: "Jullien kitsa Bauma", role: "outrich manager", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1776880423/WhatsApp_Image_2026-04-18_at_15.51.08_stysxd.jpg" },
-  { name: "Divine Manegabe", role: "Accountant manger", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1777001573/acountt_k0bqqs.jpg" },
-  { name: "Therese kabangu", role: "Media manager", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1777001573/axxxxxx_hmzg4f.jpg" },
+  { name: "Djalali Moussa", role: "Outreach Manager", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1784623463/ChatGPT_Image_Jul_21_2026_10_44_12_AM_vjexyd.png" },
+  { name: "Divine Manegabe", role: "Accountant Manager", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1777001573/acountt_k0bqqs.jpg" },
+  { name: "Therese kabangu", role: "Media Manager", image: "https://res.cloudinary.com/dbllxptl8/image/upload/v1777001573/axxxxxx_hmzg4f.jpg" },
+  
 
 ];
 
@@ -220,7 +222,7 @@ export default function AboutPage() {
                 Our Mission
               </h3>
               <p className="text-white/90 text-lg leading-relaxed">
-                1. Promote emotional healing and mental well-being by creating safe and supportive spaces for individuals experiencing trauma and depression, encouraging reflection, exploring diverse paths to healing, and fostering personal growth, resilience, and hope.
+                1. work with ulmost transparency and and passion to words transforming the lives of orphans and varunable people in different sector low-income through provision of education, healthcare, and other essental basic necesseties in life. our mission is to provide a frame works for enjoyment of right and fullfillment of responsiblities to the womans youth , adolescent, and others valunable children to change their lives for the perfection.
               </p>
               <p className="text-white/90 text-lg leading-relaxed">
                 2. Educate and guide vulnerable people to access humanitarian services for their psychosocial, legal and judicial wellbeing.
@@ -229,7 +231,7 @@ export default function AboutPage() {
                 3. Bring vulnerable individuals together and encourage them to engage socially and participle in community initiatives.
               </p>
               <p className="text-white/90 text-lg leading-relaxed">
-                4. Create a world where every individual can cultivate harmony, peace and love, especially toward vulnerable person.
+                4. Promote emotional healing and mental well-being by creating safe and supportive spaces for individuals experiencing trauma and depression, encouraging reflection, exploring diverse paths to healing, and fostering personal growth, resilience, and hope.
               </p>
             </div>
           </div>
