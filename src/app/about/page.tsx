@@ -213,7 +213,7 @@ export default function AboutPage() {
                 Our Vision
               </h3>
               <p className="text-white/80 text-lg leading-relaxed">
-               We are committed To create a world where refugees and low-income host communities are socially and economically empowered with sustainable pathway out of poverty through education , Livelyhood and  community development Ensuring that every individual has the opportunity to thrive for their change
+                a world where refugees and low-income host communities are socially and economically empowered with sustainable pathway out of poverty through education , Livelyhood and  community development Ensuring that every individual has the opportunity to thrive for their change
               </p>
             </div>
             <div className="bg-primary-blue text-white p-8 rounded-2xl">
