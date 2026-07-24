@@ -222,7 +222,7 @@ export default function AboutPage() {
                 Our Mission
               </h3>
               <p className="text-white/90 text-lg leading-relaxed">
-                1. work with ulmost transparency and and passion to words transforming the lives of orphans and varunable people in different sector low-income through provision of education, healthcare, and other essental basic necesseties in life. our mission is to provide a frame works for enjoyment of right and fullfillment of responsiblities to the womans youth , adolescent, and others valunable children to change their lives for the perfection.
+                1. work with utmost transparency and passion to words transforming the lives of orphans and varunable people in different sector low-income through provision of education, healthcare, and other essental basic necesseties in life. our to provide a frame works for enjoyment of right and fullfillment of responsiblities to the womans youth , adolescent, and others valunable children to change their lives for the perfection.
               </p>
               <p className="text-white/90 text-lg leading-relaxed">
                 2. Educate and guide vulnerable people to access humanitarian services for their psychosocial, legal and judicial wellbeing.
