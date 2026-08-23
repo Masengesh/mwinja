@@ -797,7 +797,7 @@ function AboutPage() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-white/80 text-lg leading-relaxed",
-                                            children: "We are committed To create a world where refugees and low-income host communities are socially and economically empowered with sustainable pathway out of poverty through education , Livelyhood and  community development Ensuring that every individual has the opportunity to thrive for their change"
+                                            children: "a world where refugees and low-income host communities are socially and economically empowered with sustainable pathway out of poverty through education , Livelyhood and  community development Ensuring that every individual has the opportunity to thrive for their change"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/page.tsx",
                                             lineNumber: 215,

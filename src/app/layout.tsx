@@ -46,7 +46,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <ClientBody>{children}</ClientBody>
+      <ClientBody>{}</ClientBody>
     </html>
   );
 }
